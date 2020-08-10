@@ -9,4 +9,4 @@ Zoe Ang, Benjamin S. Noble, Andrew Reeves. "Public Opinion and Public Support in
 [PDF](/files/papers/crisis.pdf){: .btn--research}
 
 Benjamin S. Noble. "Energy Versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability."  
-[PDF](/files/papers/EnergySafety_website.pdf){: .btn--research}
+[PDF](/files/papers/EnergySafety_website.pdf){: .btn--research} 

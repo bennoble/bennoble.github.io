@@ -6,4 +6,4 @@ redirect_from:
   - /resume
 ---
 
-You can view my CV [here]()
+You can view my CV [here](/files/cv.pdf)
