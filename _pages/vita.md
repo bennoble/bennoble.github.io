@@ -1,6 +1,6 @@
 ---
-title: "CV"
-permalink: /cv/
+title: "Curriculum Vitae"
+permalink: /vita/
 author_profile: true
 redirect_from:
   - /resume
