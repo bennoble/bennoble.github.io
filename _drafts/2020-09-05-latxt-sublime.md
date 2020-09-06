@@ -1,12 +1,7 @@
 ---
-layout: single
 title:  "How to Use Sublime Text 3 as Your LaTeX Editor"
-date: 2020-08-29
-permalink: /sublime-latex/
-header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
-categories: 
-  - Tools
+date: 2020-09-05
+permalink: /posts/sublime-latex/
 tags:
   - LaTeX
   - tools
