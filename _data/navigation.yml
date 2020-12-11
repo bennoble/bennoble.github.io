@@ -8,7 +8,9 @@ main:
     
 #  - title: "Talks"
 #    url: /talks/
-
+  - title: "CV"
+    url: /vita/
+    
   - title: "Teaching"
     url: /teaching/
 
@@ -17,9 +19,6 @@ main:
 
 #  - title: "Blog"
 #    url: /blog/
-
-  - title: "CV"
-    url: /vita/
 
 #  - title: "Guide"
 #    url: /markdown/
