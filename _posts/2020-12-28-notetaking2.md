@@ -1,0 +1,74 @@
+---
+title: Don't Take Shortcuts When It Comes to Course Readings
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
+    pandoc_args: 
+      - "--wrap=preserve"
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile, 
+#   encoding = encoding)})
+date: 2020-12-28
+permalink: /blog/reading
+excerpt: You don't have to read every word on every page, but you should spend time on each book or article and answer these questions.
+---
+
+During my second semester of graduate school, I took a class on legislative politics. The syllabus was on par with those of other substantive courses offered in the department. For fun, I just went back and counted—we were expected to read roughly 57 journal articles and nine books spread out over 12 meetings. Of course, all that was on top of three essay assignments plus the reading, writing, and problem sets for my three other classes.
+
+I don’t think I’m an outlier. Any graduate student in the social science will be doing a lot of reading in their first few years.[^1] Given the impossible amount of reading assigned, you will be tempted to take shortcuts. After all, class is only so long and only so many students can talk. If you just read half of the articles or just read the introductions or just skim quickly, you’ll probably get away with it—and then you can reallocate that time toward one of the other 100 things you have to do.
+
+[^1]: I imagine the same is true for humanities grads, although, perhaps, doubly so.
+
+While you can get by using such a strategy, I am here from the future to caution you against it. The bottom line is that while taking shortcuts on the course readings will save you time today, it is going to come back to bite you in the future—when, if you can believe it—you will be even more pressed for time. My basic argument is that you should spend the time in the first two years doing what I call “academic reading” (NB: this does not mean reading every word; more on that below), which will enable you to write faster in the future.
+
+Why do I have to do so much reading?
+------------------------------------
+
+Why do the faculty teaching these courses assign so much reading in the first place? Because knowledge is cumulative—it begins with general principles and becomes increasingly esoteric as new discoveries are made and as scientists continue to work in the field. Put another way,
+
+> “When the individual scientist can take a paradigm for granted, he need no longer, in his major works, attempt to build his field anew, starting from first principles and justifying the use of each concept introduced. That can be left to the writer of textbooks. Given a textbook, however, the creative scientist can begin his research where it leaves off and thus concentrate exclusively upon the subtlest and most esoteric aspects of the natural phenomena that concern his group.” (Thomas Kuhn, *The Structure of Scientific Revolutions*, 19-20)
+
+If you, a newcomer, want to read academic articles and conduct research at the forefront of the discipline, you are going to have to go back to the start to even be able to understand the theoretical and methodological arguments your contemporaries are making.
+
+One could a spend decades catching up, but you don’t have a decades—you have about two years. So your faculty assign all these readings to turn two decades into two years.
+
+Do I actually have to read it all?
+----------------------------------
+
+How can anyone expect you to read so much in such a short time? While I cannot read anyone’s mind and am not a course instructor myself, my intuition is that, in fact, your faculty *do not* actually expect you to read every word of everything they assign. Rather, the goal is to expose you to the classics as well as several subfields and sub-subfields in the discipline with the expectation that you will (1) be exposed to a lot of ideas and (2) figure out how to do academic reading.
+
+On the first point…
+
+### Should I really take the time when these readings are so \[old/irrelevant/boring/outside my area of interest/technical/dealer’s choice\]?
+
+Yes (unfortunately).
+
+If you’re early in your academic career (aka a first or second year graduate student) you may not know what you’re interested in, you may not know what is available to you, or your interests might change. It is only by reading widely that you can discover what others have done, what subfields might interest you, and what kinds of research you can conduct. Your faculty know this, which is why they’ve given you so much read.
+
+### Do I have to read every word on every page and understand every substantive and analytical point?
+
+No (fortunately).
+
+If you think you’re pressed for time now, it’s only going to get worse. When you’re a junior faculty member one day teaching classes, producing original research, mentoring undergraduate and graduate students, sitting on committees, you’re not going to have *more* time to put your feet up on your desk and read that old classic you’ve meaning to check out. Now, when you actually have a little time, is when you want to figure out how to do **academic reading**.
+
+Contemporary academic books and articles (at least in the social sciences) have a standard format. The introduction is basically a short version of the manuscript—it presents the theoretical argument, data used, and findings all in one place. The remaining sections and chapters expand on the introduction—further elucidating the theory, more fully describing the data, providing evidence for the findings, etc.
+
+You should always read the introduction, pretty much word for word. But after that, your goal is to look for answers to the following questions—quickly, and without reading every word.[^2]
+
+[^2]: These questions are drawn from the advice of my own faculty—Andrew Reeves, Betsy Sinclair and Brian Crisp—as well as my experience.
+
+-   **Theory:** What is the current state of the literature? What is the argument being addressed? Who is the author responding to? What is their original contribution?
+-   **Data:** What data are they using? What is an observation in the dataset? What are the key dependent and independent variables? What are the limitations of this data?
+-   **Results:** What are the findings? (You can save time by learning to quickly read tables and figures).
+-   **Conclusion:** How did this paper advance our knowledge of the topic? What were the limitations of the study? What is the next step?
+
+Although these questions may seem daunting to a newcomer, as you gain more knowledge, these questions will be easier and quicker to answer.
+
+I will also note that older works will not necessarily follow this format. They will probably be written more conversationally. It will take you longer to find the answers to these questions, but they will all be there.
+
+### So I’ve been convinced. How do I make the most of my course readings?
+
+Read every book or article you’ve been assigned and answer the questions from the previous section. But don’t just answer them in your head or in the margins or on a sheet of loose leaf paper that will get lost. Write down and save the answers to these questions along with the citation.
+
+Eventually, your coursework will end and it will be time to write your own academic articles. In so doing, you’ll need to engage with the existing work in your discipline by arguing with those same people you just read. If you don’t do the reading and don’t take good notes, when it comes time to write, you’ll have to do the reading then anyway—when you have less time and when you should be writing. By keeping a record of the arguments, data, findings, and limitations in each source, you’ll be able to quickly refresh your memory and write quickly in the future.
