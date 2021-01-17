@@ -1,5 +1,5 @@
 ---
-title: 5 Things I Wish I'd Known Before Starting Grad School
+title: Five Things I Wish I'd Known Before Starting Grad School
 output:
   md_document:
     variant: gfm
