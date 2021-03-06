@@ -10,7 +10,7 @@ output:
 #   rmarkdown::render(inputFile, 
 #   encoding = encoding)})
 date: 2021-01-25
-permalink: /blog/get-feeback
+permalink: /blog/get-feedback
 excerpt: Feedback is a gift, but in this case, it truly is better to give than to receive. I discuss some strategies for dealing with the initial sting and making the most of constructive criticism.
 ---
 

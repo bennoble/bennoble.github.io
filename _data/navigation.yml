@@ -18,8 +18,11 @@ main:
 #  - title: "Portfolio"
 #    url: /portfolio/
 
-  - title: "Blog"
-    url: /blog/
+ # - title: "Blog"
+ #   url: /blog/
+
+  - title: "Advice for Grads"
+    url: /grad-advice/
 
 #  - title: "Guide"
 #    url: /markdown/

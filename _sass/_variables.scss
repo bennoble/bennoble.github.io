@@ -13,7 +13,7 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Lora, Georgia, Times, serif;
+$serif                      : Domine, Lora, Georgia, Times, serif;
 $sans-serif                 : Roboto-Light, "Helvetica Neue", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
@@ -30,7 +30,7 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $serif;
+$header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
 /* type scale */
