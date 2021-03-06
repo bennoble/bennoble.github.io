@@ -6,6 +6,8 @@ author_profile: true
 
 I'll help you make the most of graduate school and give you tips to survive this competative and stressful period—without working all day (and night, and weekend).
 
+Have a question about grad school or being a grad student? [Submit it here](https://docs.google.com/forms/d/e/1FAIpQLSd2gL9KXBbaUswrocGP7BeBDyCcGiuKNRtVVLOmtzXKOqa3NQ/viewform?usp=sf_link), and I will answer it in a future post.
+
 ## Getting Started
 
 ### [5 Things I Wish I Knew Before Starting Grad School](/blog/wish-i-knew-before-grad-school)
