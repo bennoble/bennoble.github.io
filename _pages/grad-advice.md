@@ -43,3 +43,9 @@ There is no formula for coming up with a great research idea. But there is a for
 ### [How to Productively Process Feedback and Criticism](/blog/get-feedback)
 
 Feedback is a gift, but in this case, it truly is better to give than to receive. I discuss some strategies for dealing with the initial sting and making the most of constructive criticism.
+
+## Other
+
+### [How to Get Started with Public Scholarship](/blog/public-scholarship)
+
+Notes and reflections from a panel with Julia Azari, Hakeem Jefferson, and Matt Yglesias.
