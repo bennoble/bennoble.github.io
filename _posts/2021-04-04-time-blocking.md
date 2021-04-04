@@ -48,7 +48,7 @@ If you believe, as I do, that you need long blocks of time to do your best acade
 
 [^3]: If you want to get serious about time blocking, the linked article is a great resource.
 
-![](images/timeblock_full_cal.png)
+![](/images/timeblock_full_cal.png)
 
 But, I am being a bit cheeky. “Simply” blocking out your time is not so simple in practice.
 
@@ -74,11 +74,11 @@ The benefits here should be clear. First, you don’t waste any time in the morn
 
 Now, how does one go about shifting from reactive mode to proactive time blocking? Here is how I actually implement this system:
 
-Although unconventional, the first day of my week is Wednesday (not Sunday or Monday). That is the day I meet with my advisor to [get feedback](blog/feedback) on my solo projects, discuss the projects we’re working on together, and plan ahead. I block out time (45 minutes) immediately following that meeting for a [weekly review](https://todoist.com/productivity-methods/weekly-review). I’ll save the specific details for another day, but the gist is that during this time, I review my to do list and begin assigning tasks to blocks.
+Although unconventional, the first day of my week is Wednesday (not Sunday or Monday). That is the day I meet with my advisor to [get feedback](/blog/get-feedback) on my solo projects, discuss the projects we’re working on together, and plan ahead. I block out time (45 minutes) immediately following that meeting for a [weekly review](https://todoist.com/productivity-methods/weekly-review). I’ll save the specific details for another day, but the gist is that during this time, I review my to do list and begin assigning tasks to blocks.
 
 I start with a “blank” calendar, which already includes blocks for non-negotiables: working out, reading news, lunch, seminars and meetings, etc.
 
-![](images/timeblock_empty_cal.png)
+![](/images/timeblock_empty_cal.png)
 
 Note that “coffee and reading” is *not* academic reading, but rather, reading the news and catching up on blogs. Time blocking *does not mean* that I work like an unfeeling automation from 8AM to 5PM. I schedule regular time to read the news, check social media, and take walks. Scheduling these breaks wards off the temptation to tab over to Twitter during a work block and also ensures that I actually take them.
 
@@ -112,4 +112,4 @@ If you have other questions, feel free to [email me](mailto:bsnoble@wustl.edu) a
 
 –
 
-Although I have always tried to set aside time for deep work, this year [with the pandemic](blog/pandemic-productivity), I’ve gotten more intentional about time blocking. It probably won’t work for everyone, but if it sounds appealing, try it out for a month. It will be difficult at first, but stick with it. I bet it will pay off.
+Although I have always tried to set aside time for deep work, this year [with the pandemic](/blog/pandemic-productivity), I’ve gotten more intentional about time blocking. It probably won’t work for everyone, but if it sounds appealing, try it out for a month. It will be difficult at first, but stick with it. I bet it will pay off.
