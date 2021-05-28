@@ -16,8 +16,8 @@ Benjamin S. Noble. "Energy Versus Safety: Unilateral Action, Voter Welfare, and 
 Benjamin S. Noble, Andrew Reeves, and Steven W. Webster. "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership."  *(Revise and Resubmit)*.
 [PDF](/files/papers/crime_noble_reeves_webster.pdf){: .btn--research} 
 
+Benjamin S. Noble and Taylor N. Carlson. "All the Right Enemies: Elite Conspiracy Endorsement and the Lamestream Media Heuristic."
+
 ## Working Papers
 
 Benjamin S. Noble. "Not Our President: Congressional Representation, the President, and Negative Partisanship."
-
-Benjamin S. Noble and Taylor N. Carlson. "All the Right Enemies: Elite Conspiracy Endorsement and the Lamestream Media Heuristic"
