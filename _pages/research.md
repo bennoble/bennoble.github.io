@@ -20,4 +20,4 @@ Benjamin S. Noble and Taylor N. Carlson. "All the Right Enemies: Elite Conspirac
 
 ## Working Papers
 
-Benjamin S. Noble. "Not Our President: Congressional Representation, the President, and Negative Partisanship."
+Benjamin S. Noble. "Quiet Proponents, Loud Opponents: Congressional Rhetoric, the President, and Negative Partisanship."
