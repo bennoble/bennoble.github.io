@@ -48,6 +48,10 @@ There is no formula for coming up with a great research idea. But there is a for
 
 Feedback is a gift, but in this case, it truly is better to give than to receive. I discuss some strategies for dealing with the initial sting and making the most of constructive criticism.
 
+### [A Long Guide to Giving a Short Academic Talk](/blog/short-talk)
+
+Giving a talk is a lot like selling a car. Take them for a test drive, don't read them the owner's manual.
+
 ## Other
 
 ### [How to Get Started with Public Scholarship](/blog/public-scholarship)
