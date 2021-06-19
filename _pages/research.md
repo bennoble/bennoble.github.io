@@ -11,7 +11,8 @@ Zoe Ang, Benjamin S. Noble, and Andrew Reeves. "Public Opinion and Public Suppor
 
 ## Under Review
 Benjamin S. Noble. "Energy Versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability." *(Revise and Resubmit)*.
-[PDF](/files/papers/EnergySafety_website.pdf){: .btn--research} 
+[PDF](/files/papers/EnergySafety_Paper.pdf){: .btn--research} 
+[Appendix](/files/papers/EnergySafety_Appendix.pdf){: .btn--research} 
 
 Benjamin S. Noble, Andrew Reeves, and Steven W. Webster. "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership."  *(Revise and Resubmit)*.
 [PDF](/files/papers/crime_noble_reeves_webster.pdf){: .btn--research} 
