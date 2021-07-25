@@ -136,6 +136,25 @@
   }
 }
 
+&--icon_btn {
+  display: inline-block;
+  font-size: 1em;
+  margin-bottom: 0.25em;
+  padding: 0.125em 0.25em;
+  color: none;
+  text-align: center;
+  text-decoration: none !important;
+  border: 1px solid;
+  border-color: none;
+  border-radius: .2rem;
+  cursor: pointer;
+
+  &:hover {
+    color: #000;
+    background-color: #fff !important;
+  }
+}
+
   /* social buttons */
 
   $social:
