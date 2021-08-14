@@ -1,6 +1,7 @@
 /* ==========================================================================
    Variables
    ========================================================================== */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /*
    Typography
@@ -20,6 +21,8 @@ $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$bebas                      : Bebas Neue, sans-serif;
+
 
 /* serif typefaces */
 $lora                       : Lora, serif;
