@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I study American political institutions with a focus on the presidency, Congress, and the separation of powers. My research leverages formal models and text-as-data methods to understand how the president—as a political actor and partisan symbol—shapes the ways in which members of Congress communicate with and represent their constituents. 
+I study American political institutions, specifically the presidency, Congress, and the separation of powers. My research leverages formal modeling and text-as-data methods to understand strategic interactions between the president, Congress, and the public. My dissertation focuses on presidential agenda-setting and congressional response. 
+
+<!-- My published research has appeared in *Political Science Research and Methods* and *Public Opinion Quarterly.* -->
 
 I am a fourth-year Ph.D. candidate in Political Science at Washington University in St. Louis. You can get in touch with me at [bsnoble@wustl.edu](mailto:bsnoble@wustl.edu).
