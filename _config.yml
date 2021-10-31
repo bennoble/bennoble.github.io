@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : #&twitter
+  username               : benjaminsnoble
 facebook:
   username               :
   app_id                 :
@@ -86,7 +86,7 @@ author:
   employer         : 'Washington University in St. Louis'
   location         : "St. Louis, MO"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=1S_rV5AAAAAJ
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : benjaminsnoble
   vine             :
   weibo            :
   xing             :
