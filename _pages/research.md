@@ -14,11 +14,12 @@ author_profile: true
 Does increasing executive power necessarily decrease accountability? To answer this question, I develop a two-period signaling model comparing voter welfare in two separation-of-powers settings. In one, the executive works with a median legislator to change policy; in the other, the executive chooses between legislation or unilateral action. Both politicians may have preferences that diverge from the voter's, yet I find that increasing executive power may increase accountability and welfare, even in some cases when the legislator is more likely to share the voter's preferences. Unilateral power allows a congruent executive to overcome gridlock, implement the voter's preferred policy, and reveal information about the politicians' types—which can outweigh the risks of a divergent executive wielding power for partisan ends.
 </details>  
 
-[[publisher site]](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284A36CE4FA4) [[ungated version]](/files/papers/EnergySafety_Paper.pdf) [[supplemental appendix]](/files/papers/EnergySafety_Appendix.pdf)
+[[publisher site]](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284A36CE4FA4) [[ungated version]](/files/papers/EnergySafety_Paper.pdf) [[appendix]](/files/papers/EnergySafety_Appendix.pdf)
+[[blog post summary]](/blog/energy-safety-blog) [[twitter version]](https://twitter.com/benjaminsnoble/status/1450147826160349191?s=20)
 
 ---
 
-**Benjamin S. Noble**, Andrew Reeves, and Steven W. Webster. "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership." *(Conditionally Accepted)*  
+**Benjamin S. Noble**, Andrew Reeves, and Steven W. Webster. Forthcoming. "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership."
 
 <details>
   <summary><b>Abstract</b></summary>
