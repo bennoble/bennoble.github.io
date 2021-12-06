@@ -8,7 +8,7 @@ output:
     preserve_yaml: true
     variant: gfm+footnotes
 permalink: /blog/energy-safety-blog
-title: Stronger Presidential Powers Might Be Worth The Risks
+title: When Stronger Presidential Powers Could Be Worth The Risks
 header-img: images/fig1-ua.png
 ---
 
