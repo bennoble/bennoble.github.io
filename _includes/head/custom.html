@@ -35,4 +35,10 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+{% endif %}
+
+<meta property="og:description" content="{{ page.subtitle }}" />
+
 <!-- end custom head snippets -->
