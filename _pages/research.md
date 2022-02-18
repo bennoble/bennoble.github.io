@@ -5,6 +5,18 @@ author_profile: true
 ---
 
 ## Published
+**Benjamin S. Noble**, Andrew Reeves, and Steven W. Webster. 2022. "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership." *Political Opinion Quarterly*. 
+
+<details>
+  <summary><b>Abstract</b></summary>
+
+Americans are anxious about crime regardless of their actual exposure or risk. Given this pervasive concern, US presidents frequently talk about crime, take actions to address it, and list crime prevention efforts among their top accomplishments. We argue that presidents act this way, in part, because fear of crime translates into lowered presidential approval. However, this penalty is not applied evenly. Given the parties' stances toward crime and the criminal justice system, White Americans punish Democratic presidents (i.e., Clinton and Obama) more severely when they are anxious about crime, while Black Americans are more punitive toward Republican presidents (i.e., Bush and Trump). We examine twenty years of survey data and find evidence consistent with our theory. Our results suggest that the relationship between fear of crime and presidential accountability is conditioned by an individual’s race and the president’s party.
+
+</details>  
+
+[[publisher site/ungated](https://academic.oup.com/poq/advance-article/doi/10.1093/poq/nfab074/6530176?login=true)] [[twitter version](https://twitter.com/benjaminsnoble/status/1494681066845655041?s=20&t=HcmcecRBcMjVmtvceLBTGw)]  
+
+---
 
 **Noble, Benjamin S**. 2021. “Energy versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability.” *Political Science Research and Methods*. 
 
@@ -19,18 +31,6 @@ Does increasing executive power necessarily decrease accountability? To answer t
 
 [[publisher site]](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284A36CE4FA4) [[ungated version]](/files/papers/EnergySafety_Paper.pdf) [[appendix]](/files/papers/EnergySafety_Appendix.pdf)
 [[blog post summary]](/blog/energy-safety-blog) [[twitter version]](https://twitter.com/benjaminsnoble/status/1450147826160349191?s=20)
-
----
-
-**Benjamin S. Noble**, Andrew Reeves, and Steven W. Webster. Forthcoming. "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership."
-
-<details>
-  <summary><b>Abstract</b></summary>
-
-Americans are anxious about crime regardless of their actual exposure or risk. Given this pervasive concern, US presidents frequently talk about crime, take actions to address it, and list crime prevention efforts among their top accomplishments. We argue that presidents act this way, in part, because fear of crime translates into lowered presidential approval. However, this penalty is not applied evenly. Given the parties' stances toward crime and the criminal justice system, Whites will only punish Democratic presidents (i.e., Clinton and Obama) when they are anxious about crime, while Blacks will only punish Republican presidents (i.e., Bush and Trump). We examine twenty years of survey data and find evidence consistent with our theory. Our results suggest that the relationship between fear of crime and presidential accountability is conditioned by an individual's race and the president's party.
-</details>  
-
-[[ungated version]](/files/papers/crime_noble_reeves_webster.pdf)  
 
 ---
 
