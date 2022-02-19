@@ -14,7 +14,7 @@ Americans are anxious about crime regardless of their actual exposure or risk. G
 
 </details>  
 
-[[publisher site/ungated](https://academic.oup.com/poq/advance-article/doi/10.1093/poq/nfab074/6530176?login=true)] [[twitter version](https://twitter.com/benjaminsnoble/status/1494681066845655041?s=20&t=HcmcecRBcMjVmtvceLBTGw)]  
+[[publisher site/ungated](https://academic.oup.com/poq/advance-article/doi/10.1093/poq/nfab074/6530176?guestAccessKey=fbab726b-6f74-4bc6-ae40-3f4625a25add)] [[twitter version](https://twitter.com/benjaminsnoble/status/1494681066845655041?s=20&t=HcmcecRBcMjVmtvceLBTGw)]  
 
 ---
 
