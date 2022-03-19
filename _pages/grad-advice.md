@@ -25,7 +25,7 @@ You don't have to read every word on every page, but you should spend time on ea
 
 ## Productivity
 
-###  [How To Stay Productive During a Pandemic](/blog/pandemic-productivity)
+### [How To Stay Productive During a Pandemic](/blog/pandemic-productivity)
 
 As we get ready to start another (hopefully, the last) remote semester, here are four ideas for staying productive at home during a pandemic. 
 
@@ -51,6 +51,10 @@ Feedback is a gift, but in this case, it truly is better to give than to receive
 ### [A Long Guide to Giving a Short Academic Talk](/blog/short-talk)
 
 Giving a talk is a lot like selling a car. Take them for a test drive, don't read them the owner's manual.
+
+### [How to Learn Statistical Methods By Yourself](/blog/teach-yourself-methods)
+
+My 4-to-N step process for teaching myself statistical methods. And you can too.
 
 ## Other
 

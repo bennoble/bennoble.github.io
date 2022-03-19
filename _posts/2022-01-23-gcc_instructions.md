@@ -245,6 +245,16 @@ on this size, this might take a little while, and you *will* need to
 keep the browser window open and ensure you stay connected to the
 internet while it’s downloading.
 
+If your file ends up being too large (you'll know because the window will crash), you can also try a few things. One option is to compress the file with the `zip` command. You can install `zip` with:
+
+```
+sudo apt install zip
+```
+
+and then zip the file with the following syntax: `zip outputname.zip inputname.zip` and then trying downloading that file (see more [here](https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/)).
+
+Another option is to try splitting the file into pieces first. A linux command called `split` can help you do that. Here's an example: `split -b 1G filename.zip filename.csv`. To break that down, `split` calls the command, `-b` stands for bytes I believe, `1G` is telling linux to break the file into 1 GB chunks (but you can easily change the size). Then you need to name the output as a zip file and call the original file you're trying to split. You should then be able to download the resuling zipfile (see more [here](https://www.howtoforge.com/tutorial/how-to-split-a-large-tar-file-into-multiple-small-files-using-split-command-in-linux/)).
+
 ## Stopping or Deleting the instance
 
 If you’re done with the VM and aren’t about to start a new scraping
@@ -270,8 +280,7 @@ the way. While I regret that I did not keep track of every single one, I
 want to cite a few sources here that were particularly helpful as I was
 getting started:
 
--   [JayMartMedia on
-    YouTube](https://www.youtube.com/watch?v=5OL7fu2R4M8)
+-   [JayMartMedia on YouTube](https://www.youtube.com/watch?v=5OL7fu2R4M8)
 -   [sentdex on YouTube](https://www.youtube.com/watch?v=chk2rRjSn5o)
 
 ------------------------------------------------------------------------
