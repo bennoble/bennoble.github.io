@@ -38,6 +38,15 @@ Does increasing executive power necessarily decrease accountability? To answer t
 
 ## Working Papers
 
+**Benjamin S. Noble**. "The Power to Polarize: The President as a Cue in Congressional Rhetoric"  
+<details>
+  <summary><b>Abstract</b></summary>
+
+The president occupies a unique position as the head of the executive branch and the de-facto leader of one of the congressional parties. He is both powerful and partisan, serving as a potent cue lawmakers can strategically reference to polarize opinion. Given the polarizing power of out-party cues relative to the persuasive power of in-party cues and rising negative partisanship, I theorize that out-partisans will more frequently invoke the president in public statements than in-partisans. However, this pattern will be conditioned by constituency partisanship and time. I provide evidence for this theory leveraging a within-legislator panel and text data from over 2 million floor speeches given by 3,000 lawmakers between 1953–2016. I further support the behavioral micro-foundations of the theory through a survey experiment. This research has implications for our understanding of blame-game politics and the separation of powers, especially under polarization and nationalization.
+</details>
+
+---
+
 **Benjamin S. Noble** and Taylor N. Carlson. "CueAnon: The (not so) Strategic Endorsement of Political Conspiracy Theories."
 
 <details>
@@ -47,15 +56,6 @@ Why do politicians endorse conspiracy theories? Where existing research has focu
 </details>
 
 [[ungated version]](/files/papers/cueanon_noble_carlson.pdf)  
-
----
-
-**Benjamin S. Noble**. "Quiet Proponents, Loud Opponents: Congressional Rhetoric, the President, and Negative Partisanship."  
-<details>
-  <summary><b>Abstract</b></summary>
-
-Why do members of Congress talk about the president, and when are they more likely to do so? I argue that legislators invoke the president strategically to expand the scope of conflict and take advantage of negative partisanship, increasing their own support among co-partisan constituents. I hypothesize that lawmakers in the presidential out-party, and especially those who represent homogeneous constituencies comprised of presidential out-partisans, will be more likely to engage in this behavior, leading to a pattern of asymmetric presidentialization. To support my  theory, I present evidence of these patterns in 1.5 million floor speeches given by 1,900 lawmakers between 1981-2016. I also provide behavioral evidence of the polarizing power of presidentialized rhetoric with data from a pilot experiment. I suggest that much of what we think of as nationalization may be better understood as a preoccupation with presidential politics at the mass and elite levels.
-</details>
 
 ---
 
