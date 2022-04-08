@@ -45,6 +45,8 @@ Does increasing executive power necessarily decrease accountability? To answer t
 The president occupies a unique position as the head of the executive branch and the de-facto leader of one of the congressional parties. He is both powerful and partisan, serving as a potent cue lawmakers can strategically reference to polarize opinion. Given the polarizing power of out-party cues relative to the persuasive power of in-party cues and rising negative partisanship, I theorize that out-partisans will more frequently invoke the president in public statements than in-partisans. However, this pattern will be conditioned by constituency partisanship and time. I provide evidence for this theory leveraging a within-legislator panel and text data from over 2 million floor speeches given by 3,000 lawmakers between 1953–2016. I further support the behavioral micro-foundations of the theory through a survey experiment. This research has implications for our understanding of blame-game politics and the separation of powers, especially under polarization and nationalization.
 </details>
 
+[[working paper]](/files/papers/noble_presidentialcue.pdf)
+
 ---
 
 **Benjamin S. Noble** and Taylor N. Carlson. "CueAnon: The (not so) Strategic Endorsement of Political Conspiracy Theories."
@@ -55,7 +57,7 @@ The president occupies a unique position as the head of the executive branch and
 Why do politicians endorse conspiracy theories? Where existing research has focused on conspiracy theory belief among the mass public, there is little research into the costs and benefits to candidates who support them. We test two theories: that candidate conspiracy endorsement could provoke negative media coverage and support among voters with low trust in media or that such behavior is counterproductive to candidates’ electoral prospects. Our observational and experimental studies, which focus on candidate support for QAnon, find no positive effects of endorsement. This holds for several subpopulations of interest such as Republicans, conservatives, those with low trust in media, and those with anti-establishment beliefs. Ultimately, we find that if voters support candidates who endorse QAnon, they do so despite the endorsement. Our research complicates popular narratives about conspiracy theories and candidate choice and indicates the importance of causally testing theories about public support for conspiracy theories.
 </details>
 
-[[ungated version]](/files/papers/cueanon_noble_carlson.pdf)  
+[[working paper]](/files/papers/cueanon_noble_carlson.pdf)  
 
 ---
 
