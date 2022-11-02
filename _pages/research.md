@@ -30,13 +30,9 @@ Does increasing executive power necessarily decrease accountability? To answer t
  -->
 ---
 
-## APSA 2022 Working Paper
+## Working Papers
 
-**Benjamin S. Noble**. "The Hour to Persuade: The Strategic Use of Persuasion and Mobilization in Presidential Rhetoric."
-
-Presidential power is, famously, the power to persuade, and modern presidents attempt to exercise this power through popular speechmaking. However, I argue that political conditions do not always favor persuasion as a rhetorical strategy. Congressional polarization and divided government limit the president's power to persuade, whereas high approval renders persuasion unnecessary. In response, strategic presidents adopt a different rhetorical strategy: mobilizing existing supporters. To demonstrate support for this theory, I collect 18,000 presidential speeches and use word embeddings to develop a novel measure of the use of persuasive and mobilizing rhetoric in each spoken paragraph between 1981-2022. I find that presidents have long used a mix of persuasive and mobilizing appeals that predictably vary with political and institutional conditions. This theory contributes to our understanding of the rhetorical presidency, going public, and political persuasion more broadly while my measure can be applied to the study of other elite actors and institutional contexts.
-
-## Other Working Papers
+**Benjamin S. Noble**. "How Presidents Persuade: Facts, Feelings, and the Language of Presidential Power."
 
 **Benjamin S. Noble**. "The Power to Polarize: The President as a Cue in Congressional Rhetoric." [[working paper](/files/papers/noble_presidentialcue.pdf)]
 
