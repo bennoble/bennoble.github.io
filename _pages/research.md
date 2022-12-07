@@ -6,7 +6,7 @@ author_profile: true
 
 ## Published
 **Benjamin S. Noble**, Andrew Reeves, and Steven W. Webster. 2022. "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership." *Public Opinion Quarterly*. 
-[[publisher site, ungated](https://academic.oup.com/poq/advance-article/doi/10.1093/poq/nfab074/6530176?guestAccessKey=fbab726b-6f74-4bc6-ae40-3f4625a25add)] [[replication files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0D89WX)] [[twitter summary](https://twitter.com/benjaminsnoble/status/1494681066845655041?s=20&t=HcmcecRBcMjVmtvceLBTGw)]  
+[[publisher site — ungated](https://academic.oup.com/poq/advance-article/doi/10.1093/poq/nfab074/6530176?guestAccessKey=fbab726b-6f74-4bc6-ae40-3f4625a25add)] [[replication files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0D89WX)] [[twitter summary](https://twitter.com/benjaminsnoble/status/1494681066845655041?s=20&t=HcmcecRBcMjVmtvceLBTGw)]  
 
 <!-- <details>
   <summary><b>Abstract</b></summary>
@@ -30,11 +30,22 @@ Does increasing executive power necessarily decrease accountability? To answer t
  -->
 ---
 
+## Under Review
+
+**Benjamin S. Noble**. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016"
+<!-- [[working paper](/files/papers/noble_presidentialcue.pdf)] -->
+
 ## Working Papers
+
+<!-- ## Job Market Paper (Fall 2023) -->
 
 **Benjamin S. Noble**. "How Presidents Persuade: Facts, Feelings, and the Language of Presidential Power."
 
-**Benjamin S. Noble**. "The Power to Polarize: The President as a Cue in Congressional Rhetoric." [[working paper](/files/papers/noble_presidentialcue.pdf)]
+<!-- **Abstract:** Do presidents change minds with facts or mobilize supporters with appeals to feelings? Existing research focuses on which policies presidents promote, but we know less about how presidents promote them. I argue presidents use factual rhetoric to build support but appeal to emotion and identity to mobilize existing supporters.  This theory of coalition management generates hypotheses about when presidents appeal to feelings over facts: when government is unified, Congress is polarized, the president is popular, and as elections approach. I collect all presidential speeches delivered between 1981-2021 and use word embedding methods to create a new measure of fact and feeling language in text. I support my hypotheses and further test the theoretical mechanism using a regression discontinuity approach focused on President Obama's 2009 filibuster-proof Senate majority. This research contributes to our understanding of going public and has implications for the study of elite rhetoric and political persuasion broadly.
+
+## Other Working Papers
+ -->
+
 
 <!-- <details>
   <summary><b>Abstract</b></summary>
