@@ -32,7 +32,9 @@ Does increasing executive power necessarily decrease accountability? To answer t
 
 ## Under Review
 
-**Benjamin S. Noble**. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016" [[working paper](/files/papers/presidentialcues_web.pdf)]
+**Benjamin S. Noble**. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016" [[working paper](/files/papers/presidentialcues_web.pdf)] **(R&R)**
+
+**Benjamin S. Noble** and Taylor N. Carlson. "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them."
 
 ## Working Papers
 
@@ -51,9 +53,6 @@ Does increasing executive power necessarily decrease accountability? To answer t
 
 The president occupies a unique position as the head of the executive branch and the de-facto leader of one of the congressional parties. He is both powerful and partisan, serving as a potent cue lawmakers can strategically reference to polarize opinion. Given the polarizing power of out-party cues relative to the persuasive power of in-party cues and rising negative partisanship, I theorize that out-partisans will more frequently invoke the president in public statements than in-partisans. However, this pattern will be conditioned by constituency partisanship and time. I provide evidence for this theory leveraging a within-legislator panel and text data from over 2 million floor speeches given by 3,000 lawmakers between 1953–2016. I further support the behavioral micro-foundations of the theory through a survey experiment. This research has implications for our understanding of blame-game politics and the separation of powers, especially under polarization and nationalization.
 </details> -->
-
-
-**Benjamin S. Noble** and Taylor N. Carlson. "CueAnon: The (not so) Strategic Endorsement of QAnon." [[working paper](/files/papers/cueanon_noble_carlson.pdf)]
 
 <!-- 
 <details>
