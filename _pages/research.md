@@ -32,7 +32,7 @@ Does increasing executive power necessarily decrease accountability? To answer t
 
 ## Under Review
 
-**Benjamin S. Noble**. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016" [[working paper](/files/papers/presidentialcues_web.pdf)] **(R&R)**
+**Benjamin S. Noble**. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016" [[working paper](/files/papers/noble_presidentialcues.pdf)] **(R&R)**
 
 **Benjamin S. Noble** and Taylor N. Carlson. "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them."
 
