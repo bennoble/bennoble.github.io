@@ -17,7 +17,7 @@ author_profile: true
 
 - [**How to stay productive during a pandemic**](/blog/pandemic-productivity). As we get ready to start another (hopefully, the last) remote semester, here are four ideas for staying productive at home during a pandemic. 
 
-- [**Seven habits of highly effective grad students]**(/blog/seven-habits).  The academic market is tough, and you need to start thinking about it early. To be competitive, you'll have to develop some habits that ensure you stay productive and sane. Here are mine.
+- [**Seven habits of highly effective grad students**](/blog/seven-habits).  The academic market is tough, and you need to start thinking about it early. To be competitive, you'll have to develop some habits that ensure you stay productive and sane. Here are mine.
 
 - [**Power Through Your To-Do List with Time Blocking**](/blog/time-blocking). Stop working in reaction mode. Be more proactive about tackling big, complicated projects by making time for deep work.
 
