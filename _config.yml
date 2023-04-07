@@ -87,7 +87,7 @@ author:
   location         : "St. Louis, MO"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=1S_rV5AAAAAJ
-  email            :
+  email            :  bsnoble@wustl.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"academicpages"
+  github           : "bennoble"
   google_plus      :
   keybase          :
   instagram        :
