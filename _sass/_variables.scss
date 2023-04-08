@@ -1,7 +1,8 @@
 /* ==========================================================================
    Variables
    ========================================================================== */
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap');
 
 /*
    Typography
@@ -21,8 +22,6 @@ $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
-$bebas                      : Bebas Neue, sans-serif;
-
 
 /* serif typefaces */
 $lora                       : Lora, serif;
@@ -33,7 +32,8 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$header-font-family         : Roboto;
+$header-font-weight         : 900; // bold
 $caption-font-family        : $serif;
 
 /* type scale */
