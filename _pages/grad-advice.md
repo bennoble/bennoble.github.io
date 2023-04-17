@@ -38,4 +38,5 @@ author_profile: true
 
 ## Links to Advice from Others
 
-- [>> Building an Academic Website by Rob Williams](https://jayrobwilliams.com/posts/2020/06/academic-website/). A fantastic guide to creating a simple, free academic website (just like this one!) using GitHub pages. 
+- [>> Building an Academic Website by Rob Williams](https://jayrobwilliams.com/posts/2020/06/academic-website/). 
+- [>> Navigating the Job Market by Seo-young Silvia Kim](https://tinyurl.com/y3wcrzsg)
