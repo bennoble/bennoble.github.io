@@ -26,6 +26,8 @@ author_profile: true
 
 - [**How to have more research ideas**](/blog/more-ideas). There is no formula for coming up with a great research idea. But there is a formula for coming up with more research ideas...some which might be good.
 
+- [**Write Your First Draft Faster by Writing the "Minimum Viable Paper"**](/blog/minumum-viable-paper). Don't spend valuable time coming up with an amazing research idea. Come up with many ideas, try the best ones quickly, and choose the one that works.  
+
 - [**How to productively process feedback and criticism**](/blog/get-feedback). Feedback is a gift, but in this case, it truly is better to give than to receive. I discuss some strategies for dealing with the initial sting and making the most of constructive criticism.
 
 - [**A long guide to giving a short academic talk**](/blog/short-talk).  Giving a talk is a lot like selling a car. Take them for a test drive, don't read them the owner's manual.
