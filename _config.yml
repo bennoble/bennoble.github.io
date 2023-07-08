@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Benjamin Noble"
-  avatar           : "profile.png"
+  avatar           : "noble_headshot2_2023.jpg"
   bio              : "Ph.D. Candidate, Political Science"
+  email            :  bsnoble@wustl.edu
   employer         : 'Washington University <br> in St. Louis'
   location         : "St. Louis, MO"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=1S_rV5AAAAAJ
-  email            :  bsnoble@wustl.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
