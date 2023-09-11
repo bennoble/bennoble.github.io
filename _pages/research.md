@@ -20,7 +20,7 @@ author_profile: true
 
 ## Working Papers
 
-**Benjamin S. Noble**. "How Presidents Persuade: Facts, Feelings, and the Language of Presidential Power." [[working paper](/files/papers/noble_how_presidents_persuade.pdf)]
+**Benjamin S. Noble**. "How Presidents Persuade: Facts, Feelings, and the Language of Presidential Power."
 
 **Benjamin S. Noble** and Ian R. Turner. "Presidential Leadership and Strategic Legislative Polarization."
 
