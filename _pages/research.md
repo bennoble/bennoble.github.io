@@ -6,7 +6,7 @@ author_profile: true
 
 ## Published
 
-**Benjamin S. Noble**. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016" (Accepted, *American Journal of Political Science*). [[current version](/files/papers/noble_presidentialcues.pdf)] 
+**Benjamin S. Noble**. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016." *American Journal of Political Science*. [[publisher site](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12822)] [[ungated](/files/papers/noble_presidentialcues.pdf)] [[data/code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TJAISA)] [[twitter summary](https://twitter.com/benjaminsnoble/status/1704140388309585937)]
 
 **Benjamin S. Noble**. 2023. "Energy versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability." *Political Science Research and Methods*. [[publisher site](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284A36CE4FA4)] [[ungated](/files/papers/EnergySafety_Paper.pdf)] [[appendix](/files/papers/EnergySafety_Appendix.pdf)]
 [[blog post summary](/blog/energy-safety-blog)] [[twitter summary](https://twitter.com/benjaminsnoble/status/1450147826160349191?s=20)]
