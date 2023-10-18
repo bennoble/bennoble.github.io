@@ -19,20 +19,24 @@ author_profile: true
 
 - [**Seven habits of highly effective grad students**](/blog/seven-habits).  The academic market is tough, and you need to start thinking about it early. To be competitive, you'll have to develop some habits that ensure you stay productive and sane. Here are mine.
 
-- [**Power Through Your To-Do List with Time Blocking**](/blog/time-blocking). Stop working in reaction mode. Be more proactive about tackling big, complicated projects by making time for deep work.
+- [**Power through your to-do list with time blocking**](/blog/time-blocking). Stop working in reaction mode. Be more proactive about tackling big, complicated projects by making time for deep work.
 
 
 ## Research
 
 - [**How to have more research ideas**](/blog/more-ideas). There is no formula for coming up with a great research idea. But there is a formula for coming up with more research ideas...some which might be good.
 
-- [**Write Your First Draft Faster by Writing the "Minimum Viable Paper"**](/blog/minumum-viable-paper). Don't spend valuable time coming up with an amazing research idea. Come up with many ideas, try the best ones quickly, and choose the one that works.  
+- [**Write your first draft faster by writing the "Minimum Viable Paper"**](/blog/minumum-viable-paper). Don't spend valuable time coming up with an amazing research idea. Come up with many ideas, try the best ones quickly, and choose the one that works.  
 
 - [**How to productively process feedback and criticism**](/blog/get-feedback). Feedback is a gift, but in this case, it truly is better to give than to receive. I discuss some strategies for dealing with the initial sting and making the most of constructive criticism.
 
 - [**A long guide to giving a short academic talk**](/blog/short-talk).  Giving a talk is a lot like selling a car. Take them for a test drive, don't read them the owner's manual.
 
 - [**How to learn statistical methods by yourself**](/blog/teach-yourself-methods). My 4-to-N step process for teaching myself statistical methods. And you can too.
+
+## Networking
+
+- [**An Introvert's Guide to Navigating Academic Conferences**](/blog/conferences). Here's what to do before, during, and after conferences if the idea of shaking hands with strangers in a hotel lobby makes you sweat.
 
 ## Other
 
@@ -42,3 +46,4 @@ author_profile: true
 
 - [>> Building an Academic Website by Rob Williams](https://jayrobwilliams.com/posts/2020/06/academic-website/). 
 - [>> Navigating the Job Market by Seo-young Silvia Kim](https://tinyurl.com/y3wcrzsg)
+- [>> Three Steps to Success by Mirya Holman](https://miryaholman.substack.com/p/three-steps-to-success)
