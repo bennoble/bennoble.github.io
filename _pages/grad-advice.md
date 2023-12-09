@@ -1,4 +1,4 @@
-	---
+---
 title: "Advice for Grad Students"
 permalink: /grad-advice/
 author_profile: true
