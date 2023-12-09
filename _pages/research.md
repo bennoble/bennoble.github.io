@@ -17,18 +17,16 @@ author_profile: true
 ## Working Papers
 
 **Benjamin S. Noble** and Taylor N. Carlson. "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them."
+[[working paper](/files/papers/cueanon_web.pdf)] [[appendix](/files/papers/cueanon_appendix.pdf)]
 
-<details>
+<!-- <details>
 <summary><b>Abstract</b></summary>
 
 Most research investigates why the public embraces conspiracy theories, but few studies empirically examine how Americans evaluate the politicians who do. We argued that politicians endorsing QAnon would garner negative mainstream media attention, but this coverage could increase their name recognition and signal positive attributes to voters with low trust in media who would feel warmer toward those candidates. Although we confirm that endorsing candidates receive more negative media coverage, our nationally-representative vignette experiment reveals that QAnon endorsement decreases favorability toward candidates, even among seemingly-sympathetic sub-populations. A follow-up conjoint experiment, varying whether candidates support QAnon, replicates these findings. This paper is one of the first to highlight the potential costs of conspiracy theory endorsement and complicates popular narratives about QAnon.
 
-</details>
+</details> -->
 
-
-
-
-**Benjamin S. Noble**. "War and Words: How Presidents Go Public in War and Peace."
+**Benjamin S. Noble**. "Fighting Words: How Presidents Go Public in War and Peace."
 
 <details>
 <summary><b>Abstract</b></summary>
