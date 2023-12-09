@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 ## University of California, San Diego
-- **Introduction to American Politics** (Undergraduate) 
+- **Introduction to American Politics** (Undergraduate) \| [syllabus](/files/syl/intro_ap_syl.pdf)
 - **U.S. Presidency and Executive Politics** (Graduate) 
 
 ## Washington University in St. Louis
