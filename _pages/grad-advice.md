@@ -1,4 +1,4 @@
----
+	---
 title: "Advice for Grad Students"
 permalink: /grad-advice/
 author_profile: true
@@ -36,11 +36,13 @@ author_profile: true
 
 ## Networking
 
-- [**An Introvert's Guide to Navigating Academic Conferences**](/blog/conferences). Here's what to do before, during, and after conferences if the idea of shaking hands with strangers in a hotel lobby makes you sweat.
+- [**An introvert's guide to navigating academic conferences**](/blog/conferences). Here's what to do before, during, and after conferences if the idea of shaking hands with strangers in a hotel lobby makes you sweat.
 
 ## Other
 
 - [**How to get started with public scholarship**](/blog/public-scholarship). Notes and reflections from a panel with Julia Azari, Hakeem Jefferson, and Matt Yglesias.
+
+- [**How to Be a Better Reviewer (JAWS Event Recap)**](/blog/reviewing). Avoid being Reviewer 2 (and stop writing the summary paragraph!).
 
 ## Links to Advice from Others
 
