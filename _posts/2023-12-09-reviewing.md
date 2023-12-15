@@ -9,7 +9,7 @@ output:
     variant: gfm+footnotes
 permalink: /blog/reviewing
 title: How to Be a Better Reviewer (JAWS Event Recap)
-header-img: images/review_header.jpeg
+header-img: /images/review_header.jpeg
 ---
 
 ![Bing Search's interpretation of reviewing a manuscript.](/images/review_header.jpeg)
