@@ -27,13 +27,14 @@ Most research investigates why the public embraces conspiracy theories, but few 
 </details> -->
 
 **Benjamin S. Noble**. "Fighting Words: How Presidents Go Public in War and Peace."
+[[working paper](/files/papers/war_rhetoric.pdf)]
 
-<details>
+<!-- <details>
 <summary><b>Abstract</b></summary>
 
 How does war affect presidential rhetoric and leadership? Theories of going public, which emphasize the limits of presidential persuasion, primarily apply to peacetime politics. Yet presidential power expands in war, which I argue, powerfully shapes how presidents go public. Anticipating accommodation from elites and the public, presidents eschew persuasion, exploiting the moral, emotional, and mobilizing rhetoric of war to push their domestic priorities---even after controlling for changes in the agenda. I collect all presidential statements delivered since 1933, code their topics, and use word embedding methods to measure the amount of moral-emotional (relative to analytical) language in over 478,000 spoken paragraphs. I support my hypotheses leveraging the post-September 11th wars as a semi-natural experiment and using correlational evidence from major wars since 1933. This research contributes to our understanding of the two-presidencies thesis and going public. It raises normative concerns about how presidents exacerbate informational asymmetries in war. 
 
-</details>
+</details> -->
 
 **Benjamin S. Noble** and Ian R. Turner. "Presidential Leadership and Strategic Legislative Polarization."
 
