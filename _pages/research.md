@@ -36,14 +36,14 @@ How does war affect presidential rhetoric and leadership? Theories of going publ
 
 </details> -->
 
-**Benjamin S. Noble** and Ian R. Turner. "Presidential Leadership and Strategic Legislative Polarization."
+**Benjamin S. Noble** and Ian R. Turner. "Presidential Leadership and Strategic Legislative Polarization." [[working paper](https://osf.io/preprints/socarxiv/sa9ke)]
 
-<details>
+<!-- <details>
 <summary><b>Abstract</b></summary>
 
 Presidents go public to raise issue salience, but when does this choice increase their odds of policy success versus polarize lawmakers? To consider this tradeoff, we develop a two-period model of policymaking where two pivotal legislators must agree to change policy. Their choice today becomes tomorrow's status quo. Before the vote, a president can appeal in favor of an outcome, bringing pressure from the parties' bases and tying her electoral prospects to legislative success. We find going public always expands the gridlock region, but this can help the president. When the out-party base weakly supports the president's position, both legislators move toward the president, but the co-partisan pivot moves farther, increasing polarization and success. We also introduce the logic of "defensive appeals:" going public on an aligned status quo can enforce constraint among co-partisans even while alienating the out-party. Our framework illustrates how legislative and public polarization constrain presidential appeals.
 
-</details>
+</details> -->
 
 ## Other Publications
 
