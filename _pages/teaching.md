@@ -5,11 +5,12 @@ author_profile: true
 ---
 
 ## University of California, San Diego
-- **Introduction to American Politics** (Undergraduate) \| [syllabus](/files/syl/intro_ap_syl.pdf)
-- **U.S. Presidency and Executive Politics** (Graduate) \| [syllabus](/files/syl/grad_pres_syl.pdf)
+- **Applied Data Analysis/Causal Inference** (Undergraduate) ▹ [syllabus](/files/syl/ug_causal_syl.pdf)
+- **Introduction to American Politics** (Undergraduate) ▹ [syllabus](/files/syl/intro_ap_syl.pdf)
+- **U.S. Presidency and Executive Politics** (Graduate) ▹ [syllabus](/files/syl/grad_pres_syl.pdf)
 
 ## Washington University in St. Louis
-- **Introduction to Python** (Graduate) \| [syllabus, course materials](https://github.com/bennoble/python_summer2021)
+- **Introduction to Python** (Graduate) ▹ [syllabus, course materials](https://github.com/bennoble/python_summer2021)
 	
 <!-- ## Teaching Assistant
 - Causal Inference (Christopher Lucas, Graduate Level), Spring 2022
