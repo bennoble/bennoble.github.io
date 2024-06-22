@@ -11,6 +11,12 @@ author_profile: true
 
 ## Washington University in St. Louis
 - **Introduction to Python** (Graduate) ▹ [syllabus, course materials](https://github.com/bennoble/python_summer2021)
+
+## Other
+### Institute for Qualitative and Multi-Method Research
+- **Computational Text Analysis** (Graduate, Faculty) ▹ [syllabus, course materials](https://github.com/bennoble/iqrm2024-text-analysis)
+
+
 	
 <!-- ## Teaching Assistant
 - Causal Inference (Christopher Lucas, Graduate Level), Spring 2022
