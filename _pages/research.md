@@ -7,8 +7,8 @@ author_profile: true
 ## Published
 
 
-**Benjamin S. Noble** and Taylor N. Carlson. Forthcoming. "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them." *Political Behavior.*
-[[ungated](/files/papers/cueanon_web.pdf)] [[appendix](/files/papers/cueanon_appendix.pdf)]
+**Benjamin S. Noble** and Taylor N. Carlson. 2024. "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them." *Political Behavior.*
+[[publisher site](https://link.springer.com/article/10.1007/s11109-024-09957-3)] [[ungated](/files/papers/cueanon_web.pdf)] [[appendix](/files/papers/cueanon_appendix.pdf)] [[data/code](https://doi.org/10.7910/DVN/UVVSIR)] [[twitter summary](https://twitter.com/benjaminsnoble/status/1810335036883059197)]
 
 **Benjamin S. Noble**. 2023. "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016." *American Journal of Political Science*. [[publisher site](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12822)] [[ungated](/files/papers/noble_presidentialcues.pdf)] [[data/code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TJAISA)] [[twitter summary](https://twitter.com/benjaminsnoble/status/1704140388309585937)] [[blog summary](/blog/presidential-cues-congress-blog)]
 
@@ -27,8 +27,11 @@ Most research investigates why the public embraces conspiracy theories, but few 
 
 </details> -->
 
-**Benjamin S. Noble**. "Fighting Words: How Presidents Go Public in War and Peace."
-[[working paper](/files/papers/war_rhetoric.pdf)]
+**Benjamin S. Noble**. "Presidential Negative Partisanship: Going Public for Partisan Gain and Policy Failure."
+[[working paper](/files/papers/pres-ref-party.pdf)]
+
+<!-- **Benjamin S. Noble**. "Fighting Words: How Presidents Go Public in War and Peace."
+[[working paper](/files/papers/war_rhetoric.pdf)] -->
 
 <!-- <details>
 <summary><b>Abstract</b></summary>
