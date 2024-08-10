@@ -27,8 +27,8 @@ Most research investigates why the public embraces conspiracy theories, but few 
 
 </details> -->
 
-**Benjamin S. Noble**. "Presidential Negative Partisanship: Going Public for Partisan Gain and Policy Failure."
-[[working paper](/files/papers/pres-ref-party.pdf)]
+**Benjamin S. Noble**. "Presidential Negative Partisanship: Going Public for Partisan Gain, Not Policy Success."
+[[working paper](/files/papers/pres-ref-parties.pdf)]
 
 <!-- **Benjamin S. Noble**. "Fighting Words: How Presidents Go Public in War and Peace."
 [[working paper](/files/papers/war_rhetoric.pdf)] -->
