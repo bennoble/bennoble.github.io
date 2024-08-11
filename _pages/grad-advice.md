@@ -12,6 +12,8 @@ author_profile: true
 
 - [**Don't take shortcuts when it comes to course readings**](/blog/reading). You don't have to read every word on every page, but you should spend time on each book or article and answer these questions.
 
+- [**Why you need an academic website**](/blog/website). And some practical advice for how to make one and what to put on it.
+
 
 ## Productivity
 
@@ -42,7 +44,7 @@ author_profile: true
 
 - [**How to get started with public scholarship**](/blog/public-scholarship). Notes and reflections from a panel with Julia Azari, Hakeem Jefferson, and Matt Yglesias.
 
-- [**How to Be a Better Reviewer (JAWS Event Recap)**](/blog/reviewing). Avoid being Reviewer 2 (and stop writing the summary paragraph!).
+- [**How to be a better reviewer (JAWS event recap)**](/blog/reviewing). Avoid being Reviewer 2 (and stop writing the summary paragraph!).
 
 ## Links to Advice from Others
 
