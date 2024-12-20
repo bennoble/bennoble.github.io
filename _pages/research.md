@@ -27,10 +27,10 @@ Most research investigates why the public embraces conspiracy theories, but few 
 
 </details> -->
 
-Gechun Lin and **Benjamin S. Noble**. "In Control but Incoherent: Institutional Power, Electoral Politics, and Message Discipline in Congress"
+Gechun Lin and **Benjamin S. Noble**. "In Control but Incoherent: Institutional Power, Electoral Politics, and Message Discipline in Congress."
 [[working paper](/files/papers/cong-message.pdf)]
 
-**Benjamin S. Noble**. "Presidential Negative Partisanship"
+**Benjamin S. Noble**. "Presidential Negative Partisanship."
 [[working paper](/files/papers/pres-ref-parties.pdf)]
 
 <!-- **Benjamin S. Noble**. "Fighting Words: How Presidents Go Public in War and Peace."
