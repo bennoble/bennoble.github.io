@@ -27,30 +27,15 @@ Most research investigates why the public embraces conspiracy theories, but few 
 
 </details> -->
 
+Daniel M. Butler and **Benjamin S. Noble**. "Are Voters' Preferences Being Ignored by Governor's Agendas?" [[working paper](/files/papers/partisanship-sots.pdf)]
+
 Gechun Lin and **Benjamin S. Noble**. "In Control but Incoherent: Institutional Power, Electoral Politics, and Message Discipline in Congress."
 [[working paper](/files/papers/cong-message.pdf)]
 
 **Benjamin S. Noble**. "Presidential Negative Partisanship."
 [[working paper](/files/papers/pres-ref-parties.pdf)]
 
-<!-- **Benjamin S. Noble**. "Fighting Words: How Presidents Go Public in War and Peace."
-[[working paper](/files/papers/war_rhetoric.pdf)] -->
-
-<!-- <details>
-<summary><b>Abstract</b></summary>
-
-How does war affect presidential rhetoric and leadership? Theories of going public, which emphasize the limits of presidential persuasion, primarily apply to peacetime politics. Yet presidential power expands in war, which I argue, powerfully shapes how presidents go public. Anticipating accommodation from elites and the public, presidents eschew persuasion, exploiting the moral, emotional, and mobilizing rhetoric of war to push their domestic priorities---even after controlling for changes in the agenda. I collect all presidential statements delivered since 1933, code their topics, and use word embedding methods to measure the amount of moral-emotional (relative to analytical) language in over 478,000 spoken paragraphs. I support my hypotheses leveraging the post-September 11th wars as a semi-natural experiment and using correlational evidence from major wars since 1933. This research contributes to our understanding of the two-presidencies thesis and going public. It raises normative concerns about how presidents exacerbate informational asymmetries in war. 
-
-</details> -->
-
 **Benjamin S. Noble** and Ian R. Turner. "Presidential Leadership and Strategic Legislative Polarization." [[working paper](https://osf.io/preprints/socarxiv/sa9ke)]
-
-<!-- <details>
-<summary><b>Abstract</b></summary>
-
-Presidents go public to raise issue salience, but when does this choice increase their odds of policy success versus polarize lawmakers? To consider this tradeoff, we develop a two-period model of policymaking where two pivotal legislators must agree to change policy. Their choice today becomes tomorrow's status quo. Before the vote, a president can appeal in favor of an outcome, bringing pressure from the parties' bases and tying her electoral prospects to legislative success. We find going public always expands the gridlock region, but this can help the president. When the out-party base weakly supports the president's position, both legislators move toward the president, but the co-partisan pivot moves farther, increasing polarization and success. We also introduce the logic of "defensive appeals:" going public on an aligned status quo can enforce constraint among co-partisans even while alienating the out-party. Our framework illustrates how legislative and public polarization constrain presidential appeals.
-
-</details> -->
 
 ## Other Publications
 
