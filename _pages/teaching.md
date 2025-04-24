@@ -7,6 +7,7 @@ author_profile: true
 ## University of California, San Diego
 - **Applied Data Analysis/Causal Inference** (Undergraduate) ▹ [syllabus](/files/syl/ug_causal_syl.pdf)
 - **Introduction to American Politics** (Undergraduate) ▹ [syllabus](/files/syl/intro_ap_syl.pdf)
+	- [Understanding American Politics:](https://understandingamericanpolitics.substack.com) my free, online companion text for an Introduction to American Politics course.
 - **U.S. Presidency and Executive Politics** (Graduate) ▹ [syllabus](/files/syl/grad_pres_syl.pdf)
 
 ## Washington University in St. Louis
