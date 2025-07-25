@@ -23,6 +23,8 @@ author_profile: true
 
 - [**Just treat it like a 9 to 5 job and everything else will (probably) follow**](/blog/9to5). How trading a little autonomy for structure conserves mental energy for what really matters.
 
+- [**Six AI Applications Every Academic Should Try**](/blog/six-ai-applications) From debugging code to synthesizing literature to creating a custom textbook, these applications complement rather than substitute for critical thinking.
+
 - [**How to stay productive during a pandemic**](/blog/pandemic-productivity). As we get ready to start another (hopefully, the last) remote semester, here are four ideas for staying productive at home during a pandemic. 
 
 ## Research
