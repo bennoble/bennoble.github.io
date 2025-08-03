@@ -149,7 +149,9 @@ Python should be installed by default, but to verify, type `python3 -V`.
 You should see something like Python 3.8.10. However, pip will not be
 installed. Do that with:
 
-    sudo apt-get install python3-pip
+```bash
+sudo apt-get install python3-pip
+```
 
 At this point, you can install any modules you’ll need for your scraping
 script (like bs4) the usual way.
@@ -160,7 +162,9 @@ want! To fix that, you’ll need install tmux, which allows you to open
 multiple sessions that run even when the browser is closed. Install tmux
 with
 
-    sudo apt-get install tmux
+```bash
+sudo apt-get install tmux
+```
 
 ## Running your script
 

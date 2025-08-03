@@ -9,3 +9,6 @@ _site/
 ehthumbs.db
 Thumbs.db
 
+# Personal notes (not for publication)
+personal-notes/
+
