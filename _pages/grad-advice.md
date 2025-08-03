@@ -52,7 +52,6 @@ author_profile: true
 ## Links to Advice from Others
 
 - [>> "Building an Academic Website" by Rob Williams](https://jayrobwilliams.com/posts/2020/06/academic-website/). 
-- [>> "Navigating the Job Market" by Seo-young Silvia Kim](https://tinyurl.com/y3wcrzsg)
 - [>> "Three Steps to Success" by Mirya Holman](https://miryaholman.substack.com/p/three-steps-to-success)
 - [>> "Hey! Here's how to rewrite and improve the title and abstract of a scientific paper" by Andrew Gelman](https://statmodeling.stat.columbia.edu/2023/11/27/rewriting-a-title-and-abstract-to-a-scientific-paper/)
 - [>> "Some random practical PhD advice in no particular order" by Matt Blackwell](https://twitter.com/matt_blackwell/status/1748512347331727488)
