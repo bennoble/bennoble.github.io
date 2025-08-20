@@ -6,8 +6,8 @@ author_profile: true
 
 ## Published
 
-**Benjamin S. Noble**. "Presidential Negative Partisanship." *Political Science Research and Methods (Accepted)*
-[[ungated](/files/papers/pres-neg-part.pdf)] [[appendix](/files/papers/pres-neg-part-appendix.pdf)] [[data/code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FPPDKN)] 
+**Benjamin S. Noble**. "Presidential Negative Partisanship." *Political Science Research and Methods*
+[[ungated](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/presidential-negative-partisanship/1697BEDDAAA4D0252E2FBA5AC78C7651)] [[appendix](/files/papers/pres-neg-part-appendix.pdf)] [[data/code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FPPDKN)] [[twitter summary](https://x.com/benjaminsnoble/status/1958194728471859497)]
 
 **Benjamin S. Noble** and Taylor N. Carlson. 2025. "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them." *Political Behavior.*
 [[publisher site](https://link.springer.com/article/10.1007/s11109-024-09957-3)] [[ungated](/files/papers/cueanon_web.pdf)] [[appendix](/files/papers/cueanon_appendix.pdf)] [[data/code](https://doi.org/10.7910/DVN/UVVSIR)] [[twitter summary](https://twitter.com/benjaminsnoble/status/1810335036883059197)]. **Awarded best paper published in *Political Behavior* (2024)**.
