@@ -29,6 +29,8 @@ Most research investigates why the public embraces conspiracy theories, but few 
 
 </details> -->
 
+David Ryan Miller, **Benjamin S. Noble**, and Erin L. Rosstier. "From the Briefing Room to Your Living Room: How the President Sets the Media’s Agenda."
+
 Daniel M. Butler and **Benjamin S. Noble**. "Are Voters' Preferences Being Ignored by Governor's Agendas?" [[working paper](/files/papers/partisanship-sots.pdf)]
 
 Gechun Lin and **Benjamin S. Noble**. "In Control but Incoherent: Institutional Power, Electoral Politics, and Message Discipline in Congress."
