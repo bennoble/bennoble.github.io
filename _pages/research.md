@@ -33,8 +33,8 @@ David Ryan Miller, **Benjamin S. Noble**, and Erin L. Rosstier. "From the Briefi
 
 Daniel M. Butler and **Benjamin S. Noble**. "Are Voters' Preferences Being Ignored by Governor's Agendas?" [[working paper](/files/papers/partisanship-sots.pdf)]
 
-Gechun Lin and **Benjamin S. Noble**. "In Control but Incoherent: Institutional Power, Electoral Politics, and Message Discipline in Congress."
-[[working paper](/files/papers/cong-message.pdf)]
+Gechun Lin and **Benjamin S. Noble**. "A More Coherent Measure of Party Cohesion Using Topic Models and Contextual Embeddings."
+[[working paper](/files/papers/cohesion.pdf)]
 
 **Benjamin S. Noble** and Ian R. Turner. "Presidential Leadership and Strategic Legislative Polarization." [[working paper](https://osf.io/preprints/socarxiv/sa9ke)]
 
