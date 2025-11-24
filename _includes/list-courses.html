@@ -1,0 +1,16 @@
+{% assign teaching = site.data.teaching %}
+
+{% for section in teaching -%}
+<h2>{{ section.institution }}</h2>
+{% for course in section.courses -%}
+<div class="course-item">
+<h3 class="course-title">{{ course.title }}</h3>
+<p class="course-meta">
+{{ course.level }}{% if course.syllabus_url %} • <a href="{{ course.syllabus_url }}">{{ course.syllabus_label | default: "Syllabus" }}</a>{% endif %}
+</p>
+{% if course.callout %}
+<p class="course-callout">{{ course.callout | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+{% endif %}
+</div>
+{%- endfor %}
+{%- endfor %}

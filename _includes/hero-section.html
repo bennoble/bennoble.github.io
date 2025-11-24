@@ -1,0 +1,39 @@
+<section class="hero" aria-labelledby="hero-name">
+  <div class="hero__container">
+
+    {% if page.hero_image %}
+    <div class="hero__portrait">
+      <img src="{{ page.hero_image | prepend: base_path }}" alt="{{ site.author.name }}" class="hero__img">
+    </div>
+    {% elsif site.author.avatar %}
+    <div class="hero__portrait">
+      <img src="{{ site.author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ site.author.name }}" class="hero__img">
+    </div>
+    {% endif %}
+
+    <div class="hero__content">
+      {% assign role = site.author.bio | default: "Political scientist" %}
+      {% assign employer = site.author.employer | default: "UC San Diego" %}
+      <p class="hero__eyebrow">{{ role }} at {{ employer }}</p>
+
+      <h1 id="hero-name" class="hero__name">{{ site.author.name }}</h1>
+
+      {% if page.hero_bio %}
+      <p class="hero__bio">{{ page.hero_bio }}</p>
+      {% else %}
+      <p class="hero__bio">I study how presidents and members of Congress use rhetoric to shape political conflict in the United States.</p>
+      {% endif %}
+
+      {% if page.hero_tagline %}
+      <p class="hero__tagline">{{ page.hero_tagline }}</p>
+      {% endif %}
+
+      {% if page.hero_cta %}
+      <div class="hero__cta">
+        {{ page.hero_cta }}
+      </div>
+      {% endif %}
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,106 @@
+published:
+  - title: "Presidential Negative Partisanship"
+    authors: "Benjamin S. Noble"
+    year: 2025
+    venue: "Political Science Research and Methods"
+    links:
+      - label: "Publisher Site (Open Access)"
+        url: "https://www.cambridge.org/core/journals/political-science-research-and-methods/article/presidential-negative-partisanship/1697BEDDAAA4D0252E2FBA5AC78C7651"
+      - label: "Appendix"
+        url: "/files/papers/pres-neg-part-appendix.pdf"
+      - label: "Data/Code"
+        url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FPPDKN"
+      - label: "Summary"
+        url: "https://x.com/benjaminsnoble/status/1958194728471859497"
+
+  - title: "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them"
+    authors: "Benjamin S. Noble and Taylor N. Carlson"
+    year: 2025
+    venue: "Political Behavior"
+    links:
+      - label: "Publisher Site"
+        url: "https://link.springer.com/article/10.1007/s11109-024-09957-3"
+      - label: "Paper"
+        url: "/files/papers/cueanon_web.pdf"
+      - label: "Appendix"
+        url: "/files/papers/cueanon_appendix.pdf"
+      - label: "Data/Code"
+        url: "https://doi.org/10.7910/DVN/UVVSIR"
+      - label: "Summary"
+        url: "https://twitter.com/benjaminsnoble/status/1810335036883059197"
+    award: "★ Awarded best paper published in Political Behavior (2024)"
+
+  - title: "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016"
+    authors: "Benjamin S. Noble"
+    year: 2024
+    venue: "American Journal of Political Science"
+    links:
+      - label: "Publisher Site"
+        url: "https://onlinelibrary.wiley.com/doi/10.1111/ajps.12822"
+      - label: "Paper"
+        url: "/files/papers/noble_presidentialcues.pdf"
+      - label: "Data/Code"
+        url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TJAISA"
+      - label: "Summary"
+        url: "https://twitter.com/benjaminsnoble/status/1704140388309585937"
+      - label: "Blog"
+        url: "/blog/presidential-cues-congress-blog"
+
+  - title: "Energy versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability"
+    authors: "Benjamin S. Noble"
+    year: 2023
+    venue: "Political Science Research and Methods"
+    links:
+      - label: "Publisher Site"
+        url: "https://www.cambridge.org/core/journals/political-science-research-and-methods/article/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284A36CE4FA4"
+      - label: "Paper"
+        url: "/files/papers/EnergySafety_Paper.pdf"
+      - label: "Appendix"
+        url: "/files/papers/EnergySafety_Appendix.pdf"
+      - label: "Blog"
+        url: "/blog/energy-safety-blog"
+      - label: "Summary"
+        url: "https://twitter.com/benjaminsnoble/status/1450147826160349191?s=20"
+
+  - title: "Crime and Presidential Accountability: A Case of Racially Conditioned Issue Ownership"
+    authors: "Benjamin S. Noble, Andrew Reeves, and Steven W. Webster"
+    year: 2022
+    venue: "Public Opinion Quarterly"
+    links:
+      - label: "Publisher Site (Open Access)"
+        url: "https://academic.oup.com/poq/advance-article/doi/10.1093/poq/nfab074/6530176?guestAccessKey=fbab726b-6f74-4bc6-ae40-3f4625a25add"
+      - label: "Data/Code"
+        url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0D89WX"
+      - label: "Summary"
+        url: "https://twitter.com/benjaminsnoble/status/1494681066845655041?s=20&t=HcmcecRBcMjVmtvceLBTGw"
+
+working_papers:
+  - title: "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda"
+    authors: "David Ryan Miller, Benjamin S. Noble, and Erin L. Rosstier"
+
+  - title: "Are Voters' Preferences Being Ignored by Governor's Agendas?"
+    authors: "Daniel M. Butler and Benjamin S. Noble"
+    links:
+      - label: "Paper"
+        url: "/files/papers/partisanship-sots.pdf"
+
+  - title: "A More Coherent Measure of Party Cohesion Using Topic Models and Contextual Embeddings"
+    authors: "Gechun Lin and Benjamin S. Noble"
+    links:
+      - label: "Paper"
+        url: "/files/papers/cohesion.pdf"
+
+  - title: "Presidential Leadership and Strategic Legislative Polarization"
+    authors: "Benjamin S. Noble and Ian R. Turner"
+    links:
+      - label: "Paper"
+        url: "https://osf.io/preprints/socarxiv/sa9ke"
+
+other_publications:
+  - title: "Public Opinion and Public Support in Crisis Management"
+    authors: "Zoe Ang, Benjamin S. Noble, and Andrew Reeves"
+    year: 2021
+    venue: "Oxford Research Encyclopedia of Politics"
+    links:
+      - label: "Publisher Site"
+        url: "https://oxfordre.com/politics/view/10.1093/acrefore/9780190228637.001.0001/acrefore-9780190228637-e-1544"

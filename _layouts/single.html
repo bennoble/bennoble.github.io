@@ -15,7 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% if page.collection != 'posts' %}
+  {% if page.collection != 'posts' and page.sidebar and page.sidebar != empty %}
     {% include sidebar.html %}
   {% endif %}
 

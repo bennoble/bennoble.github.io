@@ -1,0 +1,66 @@
+{% assign pubs = site.data.publications %}
+
+{% if pubs.published %}
+<h2>Published</h2>
+{% for item in pubs.published -%}
+<div class="publication-item">
+<h3 class="pub-title">{{ item.title }}</h3>
+<p class="pub-meta">
+{{ item.authors }}{% if item.year %} • {{ item.year }}{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
+</p>
+{% if item.links %}
+<p class="pub-links-inline">
+{% for link in item.links -%}
+{% unless forloop.first %}&nbsp;•&nbsp;{% endunless %}<a href="{{ link.url }}">{{ link.label }}</a>
+{%- endfor %}
+</p>
+{% endif %}
+{% if item.award %}
+<p class="pub-award">{{ item.award }}</p>
+{% endif %}
+</div>
+{%- endfor %}
+{% endif %}
+
+{% if pubs.working_papers %}
+<h2>Working Papers</h2>
+{% for item in pubs.working_papers -%}
+<div class="publication-item">
+<h3 class="pub-title">
+{% if item.links and item.links[0] -%}
+<a href="{{ item.links[0].url }}">{{ item.title }}</a>
+{% else -%}
+{{ item.title }}
+{% endif -%}
+{% if item.links and item.links[0] %} ↗{% endif %}
+</h3>
+<p class="pub-meta">{{ item.authors }}</p>
+{% if item.links and item.links.size > 1 %}
+<p class="pub-links-inline">
+{% for link in item.links offset:1 -%}
+{% unless forloop.first %}&nbsp;•&nbsp;{% endunless %}<a href="{{ link.url }}">{{ link.label | default: "Link" }}</a>
+{%- endfor %}
+</p>
+{% endif %}
+</div>
+{%- endfor %}
+{% endif %}
+
+{% if pubs.other_publications %}
+<h2>Other Publications</h2>
+{% for item in pubs.other_publications -%}
+<div class="publication-item">
+<h3 class="pub-title">{{ item.title }}</h3>
+<p class="pub-meta">
+{{ item.authors }}{% if item.year %} • {{ item.year }}{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
+</p>
+{% if item.links %}
+<p class="pub-links-inline">
+{% for link in item.links -%}
+{% unless forloop.first %}&nbsp;•&nbsp;{% endunless %}<a href="{{ link.url }}">{{ link.label }}</a>
+{%- endfor %}
+</p>
+{% endif %}
+</div>
+{%- endfor %}
+{% endif %}

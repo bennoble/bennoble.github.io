@@ -1,0 +1,26 @@
+- institution: "University of California, San Diego"
+  courses:
+    - title: "Applied Data Analysis & Causal Inference"
+      level: "Undergraduate"
+      syllabus_url: "/files/syl/ug_causal_syl.pdf"
+    - title: "Introduction to American Politics"
+      level: "Undergraduate"
+      syllabus_url: "/files/syl/intro_ap_syl.pdf"
+      callout: "✦ My free, online companion text: <a href=\"https://understandingamericanpolitics.substack.com\">Understanding American Politics</a>"
+    - title: "U.S. Presidency and Executive Politics"
+      level: "Graduate"
+      syllabus_url: "/files/syl/grad_pres_syl.pdf"
+
+- institution: "Washington University in St. Louis"
+  courses:
+    - title: "Introduction to Python"
+      level: "Graduate"
+      syllabus_url: "https://github.com/bennoble/python_summer2021"
+      syllabus_label: "Syllabus & Materials"
+
+- institution: "Institute for Qualitative and Multi-Method Research"
+  courses:
+    - title: "Computational Text Analysis"
+      level: "Graduate & Faculty"
+      syllabus_url: "https://github.com/bennoble/iqrm2024-text-analysis"
+      syllabus_label: "Syllabus & Materials"

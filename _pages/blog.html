@@ -1,21 +1,42 @@
 ---
-layout: archive
+layout: notes
 permalink: /blog/
-title: "How To Grad School"
-author_profile: true
+title: "Notes"
+author_profile: false
 redirect_from:
   - /wordpress/blog-posts/
 ---
 
-I'll help you make the most of graduate school and give you tips to survive this competative and stressful period—without working all day (and night, and weekend).
+<div class="section-intro">
+  <p class="section-intro__eyebrow">Notes & Updates</p>
+  <p class="section-intro__lede">Occasional reflections on the research process, teaching, AI in academia, and whatever else is on my mind. These may be hopelessly out of date...</p>
+  <div class="section-intro__cta">
+    <a href="/advice-for-students/">Explore advice for students</a>
+    <span aria-hidden="true">•</span>
+    <a href="/research/">See current research</a>
+  </div>
+</div>
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  <!-- {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %} -->
-  {% include archive-single.html %}
+{% assign curated_slugs = "/blog/reading,/blog/9to5,/blog/six-ai-applications,/blog/pandemic-productivity,/blog/teach-yourself-methods,/blog/public-scholarship" | split: "," %}
+{% assign curated_posts = site.posts | where_exp: "post", "curated_slugs contains post.url" | sort: "date" | reverse %}
+
+{% capture current_year %}{% endcapture %}
+{% for post in curated_posts %}
+  {% assign year = post.date | date: '%Y' %}
+  {% if year != current_year %}
+    {% if current_year != '' %}
+      </ul>
+    {% endif %}
+    <h2 class="archive__subtitle">{{ year }}</h2>
+    <ul class="notes-list">
+    {% capture current_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  <li>
+    <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong>
+    <p class="note-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+    <p class="note-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
+  </li>
 {% endfor %}
+{% if current_year != '' %}
+</ul>
+{% endif %}

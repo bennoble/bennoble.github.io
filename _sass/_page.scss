@@ -3,42 +3,26 @@
    ========================================================================== */
 
 #main {
-  @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  max-width: 68ch;
+  margin: 2.5rem auto;
+  padding: 0 1.25rem;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  @include breakpoint($x-large) {
-    max-width: $x-large;
-  }
 }
 
 .page {
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
-  }
-
   .page__inner-wrap {
-    @include full();
-
-    .page__content,
-    .page__meta,
-    .page__share {
-      @include full();
-      max-width: 600px;
-    }
+    width: 100%;
   }
 }
 
 .page__title {
   margin-top: 0;
   line-height: 1.4;
-  max-width: 600px;
+  max-width: 68ch;
+  letter-spacing: -0.01em;
+  font-weight: 600;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -55,13 +39,13 @@
   h1, h2, h3 {
     padding-bottom: 0em;
     border-bottom: 0px solid $border-color;
-    max-width: 600;
+    max-width: 68ch;
   }
 
   p, li, dl {
     font-size: 1em;
     width: 100%;
-    hyphens: auto;
+    hyphens: none;
   }
 
   /* paragraph indents */
@@ -78,14 +62,12 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
 
     &:hover {
-      text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
+      color: $link-color-hover;
+      border-bottom-color: currentColor;
     }
   }
 
@@ -109,6 +91,42 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+}
+
+// Teaching page refinements
+.teaching-page {
+  .page__title {
+    margin-bottom: 1.1rem;
+  }
+
+  .page__content {
+    h2 {
+      margin: 1.4rem 0 0.55rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      margin: 1.05rem 0 0.45rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: $warm-gray;
+    }
+
+    ul {
+      margin: 0 0 1rem 1.15rem;
+    }
+
+    li {
+      margin: 0.2rem 0;
+      line-height: 1.55;
+
+      strong {
+        font-weight: 600;
+      }
+    }
   }
 }
 

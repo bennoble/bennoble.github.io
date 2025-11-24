@@ -1,32 +1,22 @@
-# main links links
+# main links
 main:
-#  - title: "Publications"
-#    url: /publications/
-
   - title: "Research"
     url: /research/
-    
-#  - title: "Talks"
-#    url: /talks/
 
   - title: "CV"
     url: /vita/
-    
+
   - title: "Teaching"
     url: /teaching/
 
-#  - title: "Portfolio"
-#    url: /portfolio/
+  - title: "Advice for Students"
+    url: /advice-for-students/
 
- # - title: "Blog"
- #   url: /blog/
+  - title: "Notes"
+    url: /blog/
 
-  - title: "Advice for Grads"
-    url: /grad-advice/
-
-#  - title: "Guide"
-#    url: /markdown/
-
-  - title: "Intro AP Textbook"
+  - title: "Textbook"
     url: https://understandingamericanpolitics.substack.com
 
+  - title: "About"
+    url: /about/
