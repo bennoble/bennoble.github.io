@@ -4,7 +4,7 @@ excerpt: Americans are both skeptical of executive power yet desirous of a stron
 output:
   md_document:
     pandoc_args:
-    - –wrap=preserve
+    - "--wrap=preserve"
     preserve_yaml: true
     variant: gfm+footnotes
 permalink: /blog/energy-safety-blog

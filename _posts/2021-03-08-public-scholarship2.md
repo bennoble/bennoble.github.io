@@ -4,7 +4,7 @@ output:
   md_document:
     variant: gfm
     preserve_yaml: TRUE
-    pandoc_args: 
+    pandoc_args:
       - "--wrap=preserve"
 date: 2021-03-08
 permalink: /blog/public-scholarship

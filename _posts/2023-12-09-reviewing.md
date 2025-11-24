@@ -4,7 +4,7 @@ excerpt: Avoid being Reviewer 2 (and stop writing the summary paragraph!).
 output:
   md_document:
     pandoc_args:
-    - –wrap=preserve
+    - "--wrap=preserve"
     preserve_yaml: true
     variant: gfm+footnotes
 permalink: /blog/reviewing

@@ -108,7 +108,7 @@ I feel for you. That is no way to work. And I agree, time blocking might not be 
 
 Even if your advisor doesn’t expect you to drop everything and respond to their requests, it might still be a good idea to proactively schedule “reactive time” or “flex time.” Best case scenario, nothing comes up, and you can use that block however you want—even if that means checking social media.
 
-If you have other questions, feel free to [email me](mailto:bsnoble@wustl.edu) and I can respond to you/update this post.
+If you have other questions, feel free to [email me](mailto:b2noble@ucsd.edu) and I can respond to you/update this post.
 
 –
 

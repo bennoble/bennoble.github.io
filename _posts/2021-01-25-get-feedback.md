@@ -31,7 +31,7 @@ Denial
 
 [^1]: The opening quote in each subsection comes from the five stages of grief\](<a href="https://en.wikipedia.org/wiki/Five_stages_of_grief" class="uri">https://en.wikipedia.org/wiki/Five_stages_of_grief</a>) Wikipedia page.
 
-When you first receive feedback, you may feel tempted to argue with your reviewer.[^1] Perhaps not in-person, but back in your office with your fellow grad students. You’ll say that they didn’t understand, or they didn’t read carefully. Resit this impulse. Instead, **shut up and take the note**.
+When you first receive feedback, you may feel tempted to argue with your reviewer.[^1] Perhaps not in-person, but back in your office with your fellow grad students. You'll say that they didn't understand, or they didn't read carefully. Resist this impulse. Instead, **shut up and take the note**.
 
 [^1]: I use reviewer here in the general sense to mean anyone providing feedback on your work. That could be an advisor, a course instructor, or an actual anonymous reviewer.
 

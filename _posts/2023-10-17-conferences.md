@@ -4,7 +4,7 @@ excerpt: Here's what to do before, during, and after conferences if the idea of 
 output:
   md_document:
     pandoc_args:
-    - –wrap=preserve
+    - "--wrap=preserve"
     preserve_yaml: true
     variant: gfm+footnotes
 permalink: /blog/conferences

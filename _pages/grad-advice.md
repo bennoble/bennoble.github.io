@@ -1,57 +1,91 @@
 ---
-title: "Advice for Grad Students"
-permalink: /grad-advice/
+title: "Advice for Students"
+permalink: /advice-for-students/
 author_profile: true
+classes: guides-page
+redirect_from:
+  - /grad-advice/
+  - /guides-resources/
 ---
 
-## Getting Started
+<div class="guides-page">
 
-- [**Five things I wish I knew before starting grad school**](/blog/wish-i-knew-before-grad-school). Is grad school really that hard? How many hours will I have to work? Will I get a job? 
+<div class="section-intro">
+  <p class="section-intro__eyebrow">Advice for Students</p>
+  <p class="section-intro__lede">Resources for (mostly graduate) students on academic writing, productivity, and professional development.</p>
+  <div class="section-intro__cta">
+    <a href="/blog/">Browse my latest notes</a>
+    <span aria-hidden="true">•</span>
+    <a href="/teaching/">Jump to teaching materials</a>
+  </div>
+</div>
 
-- [**How to choose an academic advisor**](/blog/advisors). Five qualities to consider beyond their research agenda and subfield expertise.
+<h2 class="archive__subtitle">Getting Started</h2>
+<ul class="guide-list">
+  <li>
+    <strong><a href="/blog/wish-i-knew-before-grad-school/">Five things I wish I knew before starting grad school</a></strong>
+    <p>Is grad school really that hard? How many hours will I have to work? Will I get a job?</p>
+  </li>
+  <li>
+    <strong><a href="/blog/advisors">How to choose an academic advisor</a></strong>
+    <p>Five qualities to consider beyond their research agenda and subfield expertise.</p>
+  </li>
+  <li>
+    <strong><a href="/blog/website">Why you need an academic website</a></strong>
+    <p>Practical advice for how to make one and what to put on it.</p>
+  </li>
+</ul>
 
-- [**Don't take shortcuts when it comes to course readings**](/blog/reading). You don't have to read every word on every page, but you should spend time on each book or article and answer these questions.
+<h2 class="archive__subtitle">Productivity</h2>
+<ul class="guide-list">
+  <li>
+    <strong><a href="/blog/seven-habits">Seven habits of highly effective grad students</a></strong>
+    <p>The academic market is tough; here are habits to stay productive and sane.</p>
+  </li>
+  <li>
+    <strong><a href="/blog/time-blocking">Power through your to-do list with time blocking</a></strong>
+    <p>Stop working in reaction mode and carve out deep work for big, complicated projects.</p>
+  </li>
+</ul>
 
-- [**Why you need an academic website**](/blog/website). And some practical advice for how to make one and what to put on it.
+<h2 class="archive__subtitle">Research</h2>
+<ul class="guide-list">
+  <li>
+    <strong><a href="/blog/more-ideas">How to have more research ideas</a></strong>
+    <p>A repeatable approach to generating many ideas so some of them are great.</p>
+  </li>
+  <li>
+    <strong><a href="/blog/minimum-viable-paper">Write your first draft faster by writing the "Minimum Viable Paper"</a></strong>
+    <p>Try many ideas quickly and pick the one that works instead of chasing perfection.</p>
+  </li>
+  <li>
+    <strong><a href="/blog/get-feedback">How to productively process feedback and criticism</a></strong>
+    <p>Strategies for handling the sting and making the most of constructive criticism.</p>
+  </li>
+  <li>
+    <strong><a href="/blog/short-talk">A long guide to giving a short academic talk</a></strong>
+    <p>Take your audience for a test drive—don’t read them the owner’s manual.</p>
+  </li>
+  <li>
+    <strong><a href="/blog/reviewing">How to be a better reviewer (JAWS event recap)</a></strong>
+    <p>Avoid being Reviewer 2 (and stop writing the summary paragraph).</p>
+  </li>
+</ul>
 
+<h2 class="archive__subtitle">Networking</h2>
+<ul class="guide-list">
+  <li>
+    <strong><a href="/blog/conferences">An introvert's guide to navigating academic conferences</a></strong>
+    <p>What to do before, during, and after conferences—especially if mingling makes you sweat.</p>
+  </li>
+</ul>
 
-## Productivity
+<h2 class="archive__subtitle">Links to Advice from Others</h2>
+<ul class="guide-list">
+  <li><strong><a href="https://jayrobwilliams.com/posts/2020/06/academic-website/">"Building an Academic Website" by Rob Williams</a></strong></li>
+  <li><strong><a href="https://miryaholman.substack.com/p/three-steps-to-success">"Three Steps to Success" by Mirya Holman</a></strong></li>
+  <li><strong><a href="https://statmodeling.stat.columbia.edu/2023/11/27/rewriting-a-title-and-abstract-to-a-scientific-paper/">"Hey! Here's how to rewrite and improve the title and abstract of a scientific paper" by Andrew Gelman</a></strong></li>
+  <li><strong><a href="https://twitter.com/matt_blackwell/status/1748512347331727488">"Some random practical PhD advice in no particular order" by Matt Blackwell</a></strong></li>
+</ul>
 
-- [**Seven habits of highly effective grad students**](/blog/seven-habits).  The academic market is tough, and you need to start thinking about it early. To be competitive, you'll have to develop some habits that ensure you stay productive and sane. Here are mine.
-
-- [**Power through your to-do list with time blocking**](/blog/time-blocking). Stop working in reaction mode. Be more proactive about tackling big, complicated projects by making time for deep work.
-
-- [**Just treat it like a 9 to 5 job and everything else will (probably) follow**](/blog/9to5). How trading a little autonomy for structure conserves mental energy for what really matters.
-
-- [**Six AI Applications Every Academic Should Try**](/blog/six-ai-applications) From debugging code to synthesizing literature to creating a custom textbook, these applications complement rather than substitute for critical thinking.
-
-- [**How to stay productive during a pandemic**](/blog/pandemic-productivity). As we get ready to start another (hopefully, the last) remote semester, here are four ideas for staying productive at home during a pandemic. 
-
-## Research
-
-- [**How to have more research ideas**](/blog/more-ideas). There is no formula for coming up with a great research idea. But there is a formula for coming up with more research ideas...some which might be good.
-
-- [**Write your first draft faster by writing the "Minimum Viable Paper"**](/blog/minumum-viable-paper). Don't spend valuable time coming up with an amazing research idea. Come up with many ideas, try the best ones quickly, and choose the one that works.  
-
-- [**How to productively process feedback and criticism**](/blog/get-feedback). Feedback is a gift, but in this case, it truly is better to give than to receive. I discuss some strategies for dealing with the initial sting and making the most of constructive criticism.
-
-- [**A long guide to giving a short academic talk**](/blog/short-talk).  Giving a talk is a lot like selling a car. Take them for a test drive, don't read them the owner's manual.
-
-- [**How to learn statistical methods by yourself**](/blog/teach-yourself-methods). My 4-to-N step process for teaching myself statistical methods. And you can too.
-
-## Networking
-
-- [**An introvert's guide to navigating academic conferences**](/blog/conferences). Here's what to do before, during, and after conferences if the idea of shaking hands with strangers in a hotel lobby makes you sweat.
-
-## Other
-
-- [**How to get started with public scholarship**](/blog/public-scholarship). Notes and reflections from a panel with Julia Azari, Hakeem Jefferson, and Matt Yglesias.
-
-- [**How to be a better reviewer (JAWS event recap)**](/blog/reviewing). Avoid being Reviewer 2 (and stop writing the summary paragraph!).
-
-## Links to Advice from Others
-
-- [>> "Building an Academic Website" by Rob Williams](https://jayrobwilliams.com/posts/2020/06/academic-website/). 
-- [>> "Three Steps to Success" by Mirya Holman](https://miryaholman.substack.com/p/three-steps-to-success)
-- [>> "Hey! Here's how to rewrite and improve the title and abstract of a scientific paper" by Andrew Gelman](https://statmodeling.stat.columbia.edu/2023/11/27/rewriting-a-title-and-abstract-to-a-scientific-paper/)
-- [>> "Some random practical PhD advice in no particular order" by Matt Blackwell](https://twitter.com/matt_blackwell/status/1748512347331727488)
+</div>
