@@ -77,6 +77,9 @@ published:
 working_papers:
   - title: "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda"
     authors: "David Ryan Miller, Benjamin S. Noble, and Erin L. Rosstier"
+    links:  
+      - label: "Paper"
+        url: "/files/papers/presidents_pressbriefings.pdf"
 
   - title: "Are Voters' Preferences Being Ignored by Governor's Agendas?"
     authors: "Daniel M. Butler and Benjamin S. Noble"
