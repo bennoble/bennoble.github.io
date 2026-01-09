@@ -1,4 +1,14 @@
 published:
+  - title: "Presidential Leadership and Legislative Polarization"
+    authors: "Benjamin S. Noble and Ian R. Turner"
+    year: 2026
+    venue: "Presidential Studies Quarterly"
+    links:
+      - label: "Publisher Site"
+        url: "https://onlinelibrary.wiley.com/doi/10.1111/psq.70025"
+      - label: "Paper (Ungated)"
+        url: "/files/papers/pres-leadership-formal.pdf"
+
   - title: "Presidential Negative Partisanship"
     authors: "Benjamin S. Noble"
     year: 2025
@@ -92,12 +102,6 @@ working_papers:
     links:
       - label: "Paper"
         url: "/files/papers/cohesion.pdf"
-
-  - title: "Presidential Leadership and Strategic Legislative Polarization"
-    authors: "Benjamin S. Noble and Ian R. Turner"
-    links:
-      - label: "Paper"
-        url: "https://osf.io/preprints/socarxiv/sa9ke"
 
 other_publications:
   - title: "Public Opinion and Public Support in Crisis Management"
