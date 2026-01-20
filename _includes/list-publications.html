@@ -6,7 +6,7 @@
 <div class="publication-item">
 <h3 class="pub-title">{{ item.title }}</h3>
 <p class="pub-meta">
-{{ item.authors }}{% if item.year %} • {{ item.year }}{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
+{{ item.authors }}{% if item.year %} • <span class="pub-year">{{ item.year }}</span>{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
 </p>
 {% if item.links %}
 <p class="pub-links-inline">
@@ -52,7 +52,7 @@
 <div class="publication-item">
 <h3 class="pub-title">{{ item.title }}</h3>
 <p class="pub-meta">
-{{ item.authors }}{% if item.year %} • {{ item.year }}{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
+{{ item.authors }}{% if item.year %} • <span class="pub-year">{{ item.year }}</span>{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
 </p>
 {% if item.links %}
 <p class="pub-links-inline">

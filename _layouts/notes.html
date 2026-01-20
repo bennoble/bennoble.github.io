@@ -13,10 +13,6 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% if page.sidebar and page.sidebar != empty %}
-    {% include sidebar.html %}
-  {% endif %}
-
   <div class="archive notes-page">
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}

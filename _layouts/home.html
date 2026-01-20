@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" class="home">
+  <section class="home-hero">
+    <div class="home-hero__media">
+      {% if site.author.avatar %}
+        {% if site.author.avatar contains "://" %}
+          <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" />
+        {% else %}
+          <img src="{{ site.author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ site.author.name }}" />
+        {% endif %}
+      {% endif %}
+      <p class="home-hero__caption">
+        {{ site.author.location }}
+      </p>
+    </div>
+    <div class="home-hero__content">
+      <p class="home-hero__kicker">{{ site.author.employer }}</p>
+      <h1 class="home-hero__title">{{ site.title }}</h1>
+      <p class="home-hero__scope">{{ site.author.bio }}</p>
+      <div class="home-hero__intro">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section home-archive">
+    <div class="home-section__header">
+      <span class="home-section__num">Index</span>
+      <h2>Browse</h2>
+    </div>
+    <div class="home-archive__list">
+      {% for item in site.data.home.directory %}
+        <a class="home-archive__item" href="{{ item.url | prepend: base_path }}">
+          <span class="home-archive__title">{{ item.title }}</span>
+          <span class="home-archive__desc">{{ item.description }}</span>
+        </a>
+      {% endfor %}
+      <a class="home-archive__item" href="https://understandingamericanpolitics.substack.com">
+        <span class="home-archive__title">Textbook</span>
+        <span class="home-archive__desc">Understanding American Politics — my free, online text for Intro to American Politics courses.</span>
+      </a>
+    </div>
+  </section>
+
+</div>
