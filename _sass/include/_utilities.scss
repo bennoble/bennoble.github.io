@@ -54,7 +54,7 @@ body:hover .visually-hidden button {
   font-size: 1em;
   font-weight: bold;
   padding: 15px 23px 14px;
-  background: #fff;
+  background: var(--global-text-color);
   z-index: 100000;
   text-decoration: none;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
@@ -117,6 +117,14 @@ body:hover .visually-hidden button {
   @include container();
 }
 
+/* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+.wordwrap { 
+  white-space: pre-wrap;      /* CSS3 */   
+  white-space: -moz-pre-wrap; /* Firefox */    
+  white-space: -pre-wrap;     /* Opera <7 */   
+  white-space: -o-pre-wrap;   /* Opera 7 */    
+  word-wrap: break-word;      /* IE */
+}
 
 /*
    Images
@@ -179,11 +187,22 @@ body:hover .visually-hidden button {
   vertical-align: middle;
 }
 
+/* Adjust this setting to control the space between an icon and text in the sidebar */
+.icon-pad-right {
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+}
+
 /* social icons*/
 
 .social-icons {
   .fa {
     color: #000;
+  }
+
+  .fa-bluesky,
+  .fa-bluesky-square {
+    color: $bluesky-color;
   }
 
   .fa-behance,
@@ -208,12 +227,6 @@ body:hover .visually-hidden button {
     color: $foursquare-color;
   }
 
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
-    color: $github-color;
-  }
-
   .fa-google-plus,
   .fa-google-plus-square {
     color: $google-plus-color;
@@ -221,6 +234,11 @@ body:hover .visually-hidden button {
 
   .fa-instagram {
     color: $instagram-color;
+  }
+
+  .fa-kaggle,
+  .fa-kaggle-square {
+    color: $kaggle-color;
   }
 
   .fa-lastfm,
@@ -231,6 +249,16 @@ body:hover .visually-hidden button {
   .fa-linkedin,
   .fa-linkedin-square {
     color: $linkedin-color;
+  }
+
+  .fa-mastodon,
+  .fa-mastodon-square {
+    color: $mastodon-color;
+  }
+
+  .ai-orcid,
+  .ai-orcid-square {
+    color: $orcid-color;
   }
 
   .fa-pinterest,
@@ -260,7 +288,7 @@ body:hover .visually-hidden button {
 
   .fa-twitter,
   .fa-twitter-square {
-    color: #000;
+    color: $twitter-color;
   }
 
   .fa-vimeo,
@@ -291,9 +319,11 @@ body:hover .visually-hidden button {
 
 .navicon {
   position: relative;
+  display: inline-block;
+  vertical-align: middle;
   width: $navicon-width;
   height: $navicon-height;
-  background: #fff;
+  background: var(--global-masthead-link-color);
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -305,7 +335,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: #fff;
+    background: var(--global-masthead-link-color);
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -411,8 +441,8 @@ body:hover .visually-hidden button {
   margin-top: -150px;
   min-height: 0;
   z-index: 9999;
-  background: #fff;
-  border: 1px solid $border-color;
+  background: var(--global-text-color);
+  border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
@@ -427,7 +457,7 @@ body:hover .visually-hidden button {
 
   &__actions {
     padding: 0.5em 1em;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid var(--global-border-color);
   }
 }
 
@@ -437,12 +467,12 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
+  color: var(--global-text-color-light);
   text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
+  color: var(--global-text-color-light);
 
   ol, li, p {
     margin-bottom: 0;
@@ -451,7 +481,7 @@ body:hover .visually-hidden button {
 }
 
 a.reversefootnote {
-  color: $gray;
+  color: var(--global-text-color-light);
   text-decoration: none;
 
   &:hover {

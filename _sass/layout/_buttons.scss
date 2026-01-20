@@ -17,7 +17,7 @@
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: $primary-color;
+  background-color: var(--global-base-color);
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
@@ -48,13 +48,13 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: $gray !important;
-    border: 1px solid $light-gray !important; /* override*/
-    background-color: #fff;
+    color: var(--global-text-color-light) !important;
+    border: 1px solid var(--global-border-color) !important; /* override*/
+    background-color: var(--global-bg-color);
 
     &:hover {
       color: #fff !important;
-      border-color: $gray;
+      border-color: var(--global-text-color-light);
     }
   }
 
@@ -115,53 +115,15 @@
     opacity: 0.65;
   }
 
-/* research */
-
-&--research {
-  display: inline-block;
-  font-size: .75em;
-  margin-bottom: 0.25em;
-  padding: 0.125em 0.25em;
-  color: $link-color;
-  text-align: center;
-  text-decoration: none !important;
-  border: 1px solid;
-  border-color: $link-color;
-  border-radius: .2rem;
-  cursor: pointer;
-
-  &:hover {
-    color: #fff;
-    background-color: $link-color !important;
-  }
-}
-
-&--icon_btn {
-  display: inline-block;
-  font-size: 1em;
-  margin-bottom: 0.25em;
-  padding: 0.125em 0.25em;
-  color: none;
-  text-align: center;
-  text-decoration: none !important;
-  border: 1px solid;
-  border-color: none;
-  border-radius: .2rem;
-  cursor: pointer;
-
-  &:hover {
-    color: #000;
-    background-color: #fff !important;
-  }
-}
-
   /* social buttons */
 
   $social:
+  (bluesky, $bluesky-color),
   (facebook, $facebook-color),
-  (twitter, $twitter-color),
   (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color);
+  (linkedin, $linkedin-color),
+  (mastodon, $mastodon-color),
+  (twitter, $twitter-color); 
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {

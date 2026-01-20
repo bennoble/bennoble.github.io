@@ -1,0 +1,50 @@
+/* ==========================================================================
+    CATALOG THEME - LIGHT VERSION
+    ========================================================================== */
+/* Color codes used for the theme */
+$primary-color              : #2c6e6b;
+$gray                       : #6c6760;
+$dark-gray                  : mix(#000, $gray, 55%);
+$darker-gray                : mix(#000, $gray, 70%);
+$light-gray                 : mix(#fff, $gray, 30%);
+$lighter-gray               : mix(#fff, $gray, 88%);
+
+/* Color codes used for the site */
+$danger-color               : #c45a57;
+$info-color                 : #2c6e6b;
+$notice-color               : #6c6760;
+$success-color              : #4c8b6f;
+$warning-color              : #c9863a;
+
+/* Other basic settings for the template */
+$border-radius              : 3px;
+$box-shadow                 : 0 1px 0 rgba(25, 20, 16, 0.08);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Light theme for the site */
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #f8f5f0;
+    --global-bg-texture                 : none;
+    --global-accent-color               : #c43d2b;
+    --global-accent-color-hover         : #a33222;
+    --global-footer-bg-color            : #f0ebe3;
+    --global-border-color               : #e4dbcf;
+    --global-dark-border-color          : #cbbfaf;
+    --global-code-background-color      : #f2ece4;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 20%);
+    --global-link-color                 : #2a2520;
+    --global-link-color-hover           : #0d0a08;
+    --global-link-color-visited         : #3a352f;
+    --global-masthead-link-color        : #{$dark-gray};
+    --global-masthead-link-color-hover  : #{$darker-gray};
+    --global-text-color                 : #{$dark-gray};
+    --global-text-color-light           : #{$light-gray};
+    --global-thead-color                : #{$lighter-gray};
+}
