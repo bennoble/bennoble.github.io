@@ -11,13 +11,13 @@ redirect_from:
 <div class="guides-page">
 
 <div class="section-intro">
-  <p class="section-intro__eyebrow">Advice for Students</p>
-  <p class="section-intro__lede">Resources for (mostly graduate) students on academic writing, productivity, and professional development.</p>
-  <div class="section-intro__cta">
+  <!-- <p class="section-intro__eyebrow">Advice for Students</p> -->
+  <p class="section-intro__lede">Resources on academic writing, productivity, and professional development.</p>
+<!--   <div class="section-intro__cta">
     <a href="/blog/">Browse my latest notes</a>
     <span aria-hidden="true">•</span>
     <a href="/teaching/">Jump to teaching materials</a>
-  </div>
+  </div> -->
 </div>
 
 <h2 class="archive__subtitle">Getting Started</h2>

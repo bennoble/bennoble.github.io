@@ -18,5 +18,5 @@ main:
   - title: "Textbook"
     url: https://understandingamericanpolitics.substack.com
 
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /research-statement/

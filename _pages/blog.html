@@ -8,14 +8,14 @@ redirect_from:
 ---
 
 <div class="section-intro">
-  <p class="section-intro__eyebrow">Notes & Updates</p>
+  <!-- <p class="section-intro__eyebrow">Notes & Updates</p> -->
   <p class="section-intro__lede">Occasional reflections on the research process, teaching, AI in academia, and whatever else is on my mind. These may be hopelessly out of date...</p>
-  <div class="section-intro__cta">
+<!--   <div class="section-intro__cta">
     <a href="/advice-for-students/">Explore advice for students</a>
     <span aria-hidden="true">•</span>
     <a href="/research/">See current research</a>
   </div>
-</div>
+ --></div>
 
 {% assign curated_slugs = "/blog/reading,/blog/9to5,/blog/six-ai-applications,/blog/pandemic-productivity,/blog/teach-yourself-methods,/blog/public-scholarship" | split: "," %}
 {% assign curated_posts = site.posts | where_exp: "post", "curated_slugs contains post.url" | sort: "date" | reverse %}
