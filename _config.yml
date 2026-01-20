@@ -14,6 +14,7 @@ description              : &description "personal description"
 url                      : https://bennoble.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bennoble/bennoble.github.io"
+site_theme               : "catalog"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -49,7 +50,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          : G-7Z11FNT8FV
 
@@ -162,6 +163,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_author_avatar: false
       read_time: true
       comments: true
       share: true
@@ -173,6 +175,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_author_avatar: false
       sidebar: []
 
 # Sass/SCSS

@@ -11,4 +11,11 @@ Thumbs.db
 
 # Personal notes (not for publication)
 personal-notes/
+_drafts/
 
+.claude/
+_posts/STYLE_GUIDE_FOR_GHOSTWRITER.md
+
+# Ruby/Jekyll build artifacts
+.bundle/
+vendor/bundle/
