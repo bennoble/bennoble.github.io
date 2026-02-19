@@ -1,4 +1,16 @@
 published:
+  - title: "Are Voters' Preferences Being Ignored in Governor's Agendas?"
+    authors: "Benjamin S. Noble and Daniel M. Butler"
+    year: 2026
+    venue: "Political Research Quarterly"
+    links:
+      - label: "Publisher Site"
+        url: "https://journals.sagepub.com/eprint/T56FEEI9PWVNEGBVGIVN/full"
+      - label: "Paper (Ungated)"
+        url: "/files/papers/partisanship-sots.pdf"
+      - label: "Data/Code"
+        url: "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/NVDFHX"
+
   - title: "Presidential Leadership and Legislative Polarization"
     authors: "Benjamin S. Noble and Ian R. Turner"
     year: 2026
@@ -87,15 +99,9 @@ published:
 working_papers:
   - title: "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda"
     authors: "David Ryan Miller, Benjamin S. Noble, and Erin L. Rosstier"
-    links:  
-      - label: "Paper"
-        url: "/files/papers/presidents_pressbriefings.pdf"
-
-  - title: "Are Voters' Preferences Being Ignored by Governor's Agendas?"
-    authors: "Daniel M. Butler and Benjamin S. Noble"
     links:
       - label: "Paper"
-        url: "/files/papers/partisanship-sots.pdf"
+        url: "/files/papers/presidents_pressbriefings.pdf"
 
   - title: "A More Coherent Measure of Party Cohesion Using Topic Models and Contextual Embeddings"
     authors: "Gechun Lin and Benjamin S. Noble"

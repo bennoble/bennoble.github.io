@@ -416,7 +416,7 @@
    ========================================================================== */
 
 .publication-item {
-  padding: 1.25rem 0;
+  padding: 1.5rem 0;
   border-bottom: 1px solid var(--global-border-color);
 
   &:first-of-type {
@@ -426,31 +426,43 @@
   &:last-of-type {
     border-bottom: none;
   }
-}
 
-.pub-title {
-  margin: 0 0 0.35rem;
-  font-size: 1.05rem;
-  font-weight: 500;
-  line-height: 1.35;
-}
+  .pub-title {
+    margin: 0 0 0.2rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.35;
+  }
 
-.pub-meta {
-  margin: 0 0 0.5rem;
-  font-size: 0.85rem;
-  color: var(--global-text-color-light);
-}
+  .pub-meta {
+    margin: 0 0 0.2rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
 
-.pub-links-inline {
-  margin: 0;
-  font-size: 0.8rem;
-}
+  .pub-links-inline {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
 
-.pub-award {
-  margin: 0.5rem 0 0;
-  font-size: 0.8rem;
-  font-style: italic;
-  color: var(--global-text-color-light);
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      transition: border-color 0.15s ease;
+
+      &:hover {
+        border-bottom-color: currentColor;
+      }
+    }
+  }
+
+  .pub-award {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--global-text-color-light);
+  }
 }
 
 /* Teaching page course items */
