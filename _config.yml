@@ -198,6 +198,10 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+
+# GitHub Metadata - disabled to avoid authentication issues
+# Set JEKYLL_GITHUB_TOKEN env var if you need this
+github: null
    
 # Redirects
 redirect_from:

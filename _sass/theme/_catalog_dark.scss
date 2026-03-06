@@ -33,6 +33,7 @@ html[data-theme="dark"] {
     --global-bg-texture                 : none;
     --global-accent-color               : #e05a47;
     --global-accent-color-hover         : #ee6f5e;
+    --global-accent-color-faint          : rgba(224, 90, 71, 0.3);
     --global-footer-bg-color            : #1a1816;
     --global-border-color               : #2d2823;
     --global-dark-border-color          : #403830;
@@ -46,5 +47,6 @@ html[data-theme="dark"] {
     --global-masthead-link-color-hover  : #{$darker-gray};
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
+    --global-text-color-muted           : #{mix(#000, $gray, 50%)};
     --global-thead-color                : #{$lighter-gray};
 }

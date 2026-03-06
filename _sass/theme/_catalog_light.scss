@@ -33,6 +33,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-bg-texture                 : none;
     --global-accent-color               : #c43d2b;
     --global-accent-color-hover         : #a33222;
+    --global-accent-color-faint          : rgba(196, 61, 43, 0.3);
     --global-footer-bg-color            : #f0ebe3;
     --global-border-color               : #e4dbcf;
     --global-dark-border-color          : #cbbfaf;
@@ -46,5 +47,6 @@ $sidebar-screen-min-width   : 1024px;
     --global-masthead-link-color-hover  : #{$darker-gray};
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
+    --global-text-color-muted           : #{mix(#fff, $gray, 50%)};
     --global-thead-color                : #{$lighter-gray};
 }

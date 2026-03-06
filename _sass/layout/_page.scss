@@ -78,15 +78,11 @@
 
   a {
     text-decoration: none;
-    background-image: linear-gradient(var(--global-accent-color), var(--global-accent-color));
-    background-size: 0% 1px;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    transition: background-size 0.25s ease;
-    padding-bottom: 1px;
+    border-bottom: 1.5px solid var(--global-accent-color-faint);
+    transition: border-color 0.2s ease;
 
     &:hover {
-      background-size: 100% 1px;
+      border-bottom-color: var(--global-accent-color);
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -416,7 +412,7 @@
    ========================================================================== */
 
 .publication-item {
-  padding: 1.5rem 0;
+  padding: 1.25rem 0;
   border-bottom: 1px solid var(--global-border-color);
 
   &:first-of-type {
@@ -428,59 +424,102 @@
   }
 
   .pub-title {
-    margin: 0 0 0.2rem;
+    margin: 0 0 0.35rem;
     font-size: 1.05rem;
     font-weight: 500;
     line-height: 1.35;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 2px solid var(--global-accent-color-faint);
+      transition: border-color 0.2s ease;
+
+      &:hover {
+        border-bottom-color: var(--global-accent-color);
+      }
+    }
   }
 
   .pub-meta {
-    margin: 0 0 0.2rem;
-    font-size: 0.9rem;
+    margin: 0 0 0.3rem;
+    font-family: $sans-serif;
+    font-size: 0.8rem;
     color: var(--global-text-color-light);
   }
 
   .pub-links-inline {
     margin: 0;
-    font-size: 0.85rem;
-    color: var(--global-text-color-light);
+    font-family: $sans-serif;
+    font-size: 0.75rem;
+    color: var(--global-text-color-muted);
 
     a {
-      color: var(--global-text-color-light);
+      color: var(--global-text-color-muted);
       text-decoration: none;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-      transition: border-color 0.15s ease;
+      border-bottom: 1px solid var(--global-border-color);
+      transition: color 0.15s ease, border-color 0.15s ease;
 
       &:hover {
-        border-bottom-color: currentColor;
+        color: var(--global-accent-color);
+        border-bottom-color: var(--global-accent-color);
       }
     }
   }
 
   .pub-award {
-    margin: 0.35rem 0 0;
-    font-size: 0.85rem;
+    margin: 0.4rem 0 0;
+    font-family: $sans-serif;
+    font-size: 0.72rem;
+    font-weight: 500;
     font-style: italic;
-    color: var(--global-text-color-light);
+    color: var(--global-accent-color);
   }
 }
 
 /* Teaching page course items */
 .course-item {
-  margin-bottom: 2em;
-  padding-left: 1em;
-  border-left: 3px solid var(--global-border-color);
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+
+  &:last-of-type {
+    border-bottom: none;
+  }
 
   .course-title {
-    margin-bottom: 0.25em;
+    margin: 0 0 0.35rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.35;
   }
 
   .course-meta {
-    margin-top: 0;
-    margin-bottom: 0.5em;
+    margin: 0;
+    font-family: $sans-serif;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+
+    a {
+      color: var(--global-text-color-muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--global-border-color);
+      transition: color 0.15s ease, border-color 0.15s ease;
+
+      &:hover {
+        color: var(--global-accent-color);
+        border-bottom-color: var(--global-accent-color);
+      }
+    }
   }
 
   .course-callout {
-    margin-top: 0.5em;
+    margin: 0.4rem 0 0;
+    font-family: $sans-serif;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
   }
 }
