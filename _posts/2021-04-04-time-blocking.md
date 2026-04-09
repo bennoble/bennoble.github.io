@@ -48,7 +48,7 @@ If you believe, as I do, that you need long blocks of time to do your best acade
 
 [^3]: If you want to get serious about time blocking, the linked article is a great resource.
 
-![](/images/timeblock_full_cal.png)
+![Weekly calendar view filled with color-coded time blocks for tasks like writing, coding, meetings, reading, and exercise](/images/timeblock_full_cal.png)
 
 But, I am being a bit cheeky. “Simply” blocking out your time is not so simple in practice.
 
@@ -78,7 +78,7 @@ Although unconventional, the first day of my week is Wednesday (not Sunday or Mo
 
 I start with a “blank” calendar, which already includes blocks for non-negotiables: working out, reading news, lunch, seminars and meetings, etc.
 
-![](/images/timeblock_empty_cal.png)
+![Weekly calendar showing only fixed commitments like workouts, meetings, and seminars, with open blocks available for scheduling tasks](/images/timeblock_empty_cal.png)
 
 Note that “coffee and reading” is *not* academic reading, but rather, reading the news and catching up on blogs. Time blocking *does not mean* that I work like an unfeeling automation from 8AM to 5PM. I schedule regular time to read the news, check social media, and take walks. Scheduling these breaks wards off the temptation to tab over to Twitter during a work block and also ensures that I actually take them.
 

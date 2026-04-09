@@ -16,7 +16,7 @@ Americans are wary of presidential power, yet simultaneously demand a “[Green 
 
 > “The ingredients which constitute energy in the executive, are, unity; duration; an adequate provision for its support; competent powers. The ingredients which constitute safety in the republican sense, are, a due dependence on the people; a due responsibility.”
 
-![](https://64.media.tumblr.com/a6bbe6cb7b0c7860384b713496da192e/tumblr_oh1pnoJgZg1ukhudfo1_540.gifv)
+![Animated GIF from the Hamilton musical showing cast members performing on stage](https://64.media.tumblr.com/a6bbe6cb7b0c7860384b713496da192e/tumblr_oh1pnoJgZg1ukhudfo1_540.gifv)
 
 In an era of congressional gridlock and partisan polarization, some scholars argue that the balance has tipped too far in the direction of safety. What we need is [a more powerful presidency](https://www.washingtonpost.com/politics/2020/09/14/how-stronger-presidency-could-lead-more-effective-government/), one that can circumvent a parochial Congress to enact policies in the broad, national interest. In some cases, [presidents](https://apnews.com/article/donald-trump-business-legislation-barack-obama-ap-top-news-e9f75e03bb7a41c1a44e9512d4990832), and [presidential hopefuls](https://www.nationalreview.com/news/sanders-prepares-to-sign-dozens-of-executive-orders-upon-taking-office-we-cannot-accept-delays-from-congress/), have heeded the call, proposing expansive unilateral agendas and promising to go over the heads of lawmakers on Day 1.
 
