@@ -25,18 +25,21 @@ redirect_from:
   {% assign year = post.date | date: '%Y' %}
   {% if year != current_year %}
     {% if current_year != '' %}
-      </ul>
+      </div>
+    </section>
     {% endif %}
-    <h2 class="archive__subtitle">{{ year }}</h2>
-    <ul class="notes-list">
+    <section class="notes-year">
+      <h2 class="archive__subtitle notes-year__heading">{{ year }}</h2>
+      <div class="notes-list">
     {% capture current_year %}{{ year }}{% endcapture %}
   {% endif %}
-  <li>
-    <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong>
-    <p class="note-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+  <article class="note-entry">
+    <h3 class="note-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <time class="note-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
     <p class="note-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-  </li>
+  </article>
 {% endfor %}
 {% if current_year != '' %}
-</ul>
+      </div>
+    </section>
 {% endif %}

@@ -13,6 +13,17 @@ header-img: https://benjaminnoble.org/images/robots.png
 img: https://benjaminnoble.org/images/robots.png
 ---
 
+<aside class="article-outline" aria-label="Section navigation">
+  <ol>
+    <li><a href="#three-skills">Three AI Skills</a></li>
+    <li><a href="#prompting-your-opening-bid">Prompting</a></li>
+    <li><a href="#context-the-models-working-memory">Context</a></li>
+    <li><a href="#conversation-iteration-as-a-skill">Conversation</a></li>
+    <li><a href="#ai-as-a-thinking-partner">AI as Partner</a></li>
+    <li><a href="#takeaways">Takeaways</a></li>
+  </ol>
+</aside>
+
 <figure>
   <img src="/images/robots.png" alt="Stylized illustration of a human and a robot collaborating">
 </figure>
@@ -53,7 +64,7 @@ Like any good academic, I want to get my definitions out on the table.
 - **Context** is everything the model knows over the course of a conversation. That includes your prompts, the model's responses, any documents or images you attach, custom instructions you've set, and (in newer models) tool use like web searches.
 - **Conversation** is the iterative process of prompting, reviewing outputs, and steering the model toward what you actually want.
 
-### Prompting: Your Opening Bid
+## Prompting: Your Opening Bid
 
 A **prompt** is what you type into the chat box: the instructions you give or questions you ask. Every conversation starts with a first prompt, which sets the tone for everything that follows. 
 
@@ -69,7 +80,7 @@ Your syllabus is 20 pages long because you want to give students all the informa
 
 Yet when working with AI, most people spend a few seconds writing a prompt, get back something disappointing, and conclude that the model is bad at the task. But the model is just trying to do its best to infer your intent and give you what you want. The instructions just weren't very good.
 
-#### One task, two prompts
+### One task, two prompts
 
 Suppose you want to draft a rubric for a course assignment. Here's a prompt you might try:
 

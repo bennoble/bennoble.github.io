@@ -58,7 +58,21 @@ $(document).ready(function(){
   });
 
   // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  $("a").smoothScroll({offset: -90});
+
+  var scrollToHash = function(hash) {
+    if (!hash) return;
+    var id = hash.substring(1);
+    var target = document.getElementById(id);
+
+    if (target) {
+      $("html, body").scrollTop($(target).offset().top - 90);
+    }
+  };
+
+  $(window).on("load hashchange", function() {
+    scrollToHash(window.location.hash);
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
