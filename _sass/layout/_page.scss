@@ -52,9 +52,10 @@
 .page__byline {
   display: block;
   margin: 0.5em 0 2.5em;
-  font-family: $global-font-family;
-  font-size: 1rem;
-  font-style: italic;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
   color: var(--global-text-color-light);
   animation: intro 0.4s ease both;
   animation-delay: 0.15s;
@@ -62,7 +63,6 @@
   .page__byline-sep {
     display: inline-block;
     margin: 0 0.4em;
-    font-style: normal;
     opacity: 0.6;
   }
 }
