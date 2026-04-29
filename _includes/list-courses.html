@@ -1,16 +1,24 @@
 {% assign teaching = site.data.teaching %}
 
 {% for section in teaching -%}
-<h2>{{ section.institution }}</h2>
+<div class="br-section-label">§ {{ section.institution }}</div>
 {% for course in section.courses -%}
-<div class="course-item">
-<h3 class="course-title">{{ course.title }}</h3>
-<p class="course-meta">
-{{ course.level }}{% if course.syllabus_url %} • <a href="{{ course.syllabus_url }}">{{ course.syllabus_label | default: "Syllabus" }}</a>{% endif %}
-</p>
-{% if course.callout %}
-<p class="course-callout">{{ course.callout | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-{% endif %}
-</div>
+{% assign course_org = course.code | default: section.institution %}
+{% assign course_org = course_org | replace: "University of California, San Diego", "UCSD" | replace: "Washington University in St. Louis", "WUSTL" | replace: "Institute for Qualitative and Multi-Method Research", "IQMR" %}
+<article class="br-list-row br-course-row">
+  <div class="br-row-meta">
+    <strong>{{ course_org }}</strong>
+    <small>{{ course.level }}</small>
+  </div>
+  <div>
+    <h3 class="br-row-title">{{ course.title }}</h3>
+    {% if course.callout %}
+      <p class="br-row-subtitle">{{ course.callout | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+  </div>
+  <div class="br-tags">
+    {% if course.syllabus_url %}<a class="br-tag" href="{{ course.syllabus_url }}">{{ course.syllabus_label | default: "Syllabus" }}</a>{% endif %}
+  </div>
+</article>
 {%- endfor %}
 {%- endfor %}

@@ -1,27 +1,32 @@
 {% include base_path %}
-<div class="masthead">
+{% assign current_file = page.file_no | default: "023" %}
+{% if page.url == "/" or page.url == "/index.html" %}
+  {% assign current_file = "000" %}
+{% endif %}
+
+<header class="br-masthead">
   <a class="skip-link screen-reader-shortcut" href="#main">Skip to main content</a>
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><span class="navicon"></span></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+  <div class="br-masthead__meta">
+    <a href="{{ "/" | relative_url }}">BENJAMIN&nbsp;S.&nbsp;NOBLE</a>
+    <span>LAST UPDATED {{ site.time | date: "%b %-d, %Y" | upcase }}</span>
+    <span>BENJAMINNOBLE.ORG</span>
+    <span>FILE {{ current_file }}{% if page.file_label %} / {{ page.file_label | upcase }}{% endif %}</span>
   </div>
-</div>
+  <nav class="br-nav" aria-label="Primary navigation">
+    <a class="br-nav__link{% if page.url == '/' or page.url == '/index.html' %} is-active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+    {% for link in site.data.navigation.main %}
+      {% if link.url contains 'http' %}
+        {% assign href = link.url %}
+      {% else %}
+        {% assign href = link.url | relative_url %}
+      {% endif %}
+      {% assign active = false %}
+      {% if page.url contains link.url and link.url != '/' %}
+        {% assign active = true %}
+      {% endif %}
+      <a class="br-nav__link{% if active %} is-active{% endif %}" href="{{ href }}">{{ link.title | replace: "Advice for Students", "Advice" }}</a>
+    {% endfor %}
+    <span class="br-nav__spacer" aria-hidden="true"></span>
+    <a class="br-nav__index" href="{{ "/" | relative_url }}">↗ FIND IN INDEX</a>
+  </nav>
+</header>

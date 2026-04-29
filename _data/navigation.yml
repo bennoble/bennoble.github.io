@@ -12,6 +12,9 @@ main:
   - title: "Advice for Students"
     url: /advice-for-students/
 
+  - title: "AI Guides"
+    url: /ai-guides/
+
   - title: "Notes"
     url: /blog/
 

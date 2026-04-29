@@ -1,66 +1,65 @@
 {% assign pubs = site.data.publications %}
 
 {% if pubs.published %}
-<h2>Published</h2>
+<div class="br-section-label">§ Published</div>
 {% for item in pubs.published -%}
-<div class="publication-item">
-<h3 class="pub-title">{{ item.title }}</h3>
-<p class="pub-meta">
-{{ item.authors }}{% if item.year %} • <span class="pub-year">{{ item.year }}</span>{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
-</p>
-{% if item.links %}
-<p class="pub-links-inline">
-{% for link in item.links -%}
-{% unless forloop.first %}&nbsp;•&nbsp;{% endunless %}<a href="{{ link.url }}">{{ link.label }}</a>
-{%- endfor %}
-</p>
-{% endif %}
-{% if item.award %}
-<p class="pub-award">{{ item.award }}</p>
-{% endif %}
-</div>
+<article class="br-list-row br-publication-row">
+  <span class="br-row-meta">{{ item.year }}</span>
+  <div>
+    <h3 class="br-row-title">{{ item.title }}</h3>
+    <p class="br-row-subtitle">{{ item.authors }}{% if item.venue %} · <em>{{ item.venue }}</em>{% endif %}</p>
+    {% if item.award %}<p class="br-row-award">★ {{ item.award }}</p>{% endif %}
+  </div>
+  {% if item.links %}
+    <div class="br-tags">
+      {% for link in item.links -%}
+        {% assign tag = link.label | replace: "Publisher Site (Open Access)", "Open Access" | replace: "Publisher Site", "Publisher" | replace: "Paper (Ungated)", "PDF" | replace: "Paper", "PDF" | replace: "Data/Code", "Data" %}
+        <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
+      {%- endfor %}
+    </div>
+  {% endif %}
+</article>
 {%- endfor %}
 {% endif %}
 
 {% if pubs.working_papers %}
-<h2>Working Papers</h2>
+<div class="br-section-label">§ Working Papers</div>
 {% for item in pubs.working_papers -%}
-<div class="publication-item">
-<h3 class="pub-title">
-{% if item.links and item.links[0] -%}
-<a href="{{ item.links[0].url }}">{{ item.title }}</a>
-{% else -%}
-{{ item.title }}
-{% endif -%}
-{% if item.links and item.links[0] %} ↗{% endif %}
-</h3>
-<p class="pub-meta">{{ item.authors }}</p>
-{% if item.links and item.links.size > 1 %}
-<p class="pub-links-inline">
-{% for link in item.links offset:1 -%}
-{% unless forloop.first %}&nbsp;•&nbsp;{% endunless %}<a href="{{ link.url }}">{{ link.label | default: "Link" }}</a>
-{%- endfor %}
-</p>
-{% endif %}
-</div>
+<article class="br-list-row br-publication-row">
+  <span class="br-row-meta">R&amp;R</span>
+  <div>
+    <h3 class="br-row-title">{{ item.title }}</h3>
+    <p class="br-row-subtitle">{{ item.authors }}</p>
+  </div>
+  {% if item.links %}
+    <div class="br-tags">
+      {% for link in item.links -%}
+        {% assign tag = link.label | replace: "Paper", "PDF" %}
+        <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
+      {%- endfor %}
+    </div>
+  {% endif %}
+</article>
 {%- endfor %}
 {% endif %}
 
 {% if pubs.other_publications %}
-<h2>Other Publications</h2>
+<div class="br-section-label">§ Other Publications</div>
 {% for item in pubs.other_publications -%}
-<div class="publication-item">
-<h3 class="pub-title">{{ item.title }}</h3>
-<p class="pub-meta">
-{{ item.authors }}{% if item.year %} • <span class="pub-year">{{ item.year }}</span>{% endif %}{% if item.venue %} • <em>{{ item.venue }}</em>{% endif %}
-</p>
-{% if item.links %}
-<p class="pub-links-inline">
-{% for link in item.links -%}
-{% unless forloop.first %}&nbsp;•&nbsp;{% endunless %}<a href="{{ link.url }}">{{ link.label }}</a>
-{%- endfor %}
-</p>
-{% endif %}
-</div>
+<article class="br-list-row br-publication-row">
+  <span class="br-row-meta">{{ item.year }}</span>
+  <div>
+    <h3 class="br-row-title">{{ item.title }}</h3>
+    <p class="br-row-subtitle">{{ item.authors }}{% if item.venue %} · <em>{{ item.venue }}</em>{% endif %}</p>
+  </div>
+  {% if item.links %}
+    <div class="br-tags">
+      {% for link in item.links -%}
+        {% assign tag = link.label | replace: "Publisher Site", "Publisher" %}
+        <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
+      {%- endfor %}
+    </div>
+  {% endif %}
+</article>
 {%- endfor %}
 {% endif %}

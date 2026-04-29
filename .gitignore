@@ -12,10 +12,12 @@ Thumbs.db
 # Personal notes (not for publication)
 personal-notes/
 _drafts/
+_website-redesign-docs/
 
 .claude/
 _posts/STYLE_GUIDE_FOR_GHOSTWRITER.md
 
 # Ruby/Jekyll build artifacts
 .bundle/
+.sass-cache/
 vendor/bundle/

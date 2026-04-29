@@ -1,20 +1,10 @@
 {% include base_path %}
-
-<div class="page__footer-icons">
-  {% if site.author.email %}
-    <a href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
-  {% endif %}
-  {% if site.author.googlescholar %}
-    <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-  {% endif %}
-  {% if site.author.github %}
-    <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="fab fa-github"></i></a>
-  {% endif %}
-  {% if site.author.twitter %}
-    <a href="https://twitter.com/{{ site.author.twitter }}" aria-label="X/Twitter"><i class="fab fa-x-twitter"></i></a>
-  {% endif %}
-</div>
-
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+{% assign current_file = page.file_no | default: "023" %}
+{% if page.url == "/" or page.url == "/index.html" %}
+  {% assign current_file = "000" %}
+{% endif %}
+<div class="br-footer">
+  <span>END FILE {{ current_file }}{% if page.file_label %} / {{ page.file_label | upcase }}{% elsif page.title %} / {{ page.title | upcase }}{% endif %}</span>
+  <span>{% if page.record_count %}{{ page.record_count }}{% else %}{{ site.author.email | upcase }}{% endif %}</span>
+  <a href="#top">↑ TOP</a>
 </div>

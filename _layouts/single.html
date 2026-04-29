@@ -4,103 +4,80 @@ layout: default
 
 {% include base_path %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
 <div id="main" role="main">
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="page{% if page.id %} br-post{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
-    <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+    {% if page.id %}
+      {% assign filed_under = "Notes" %}
+      {% if page.url contains "/blog/talking-to-ai" or page.url contains "/blog/six-ai-applications" %}
+        {% assign filed_under = "AI Guides" %}
+      {% elsif page.url contains "/blog/wish-i-knew-before-grad-school" or page.url contains "/blog/advisors" or page.url contains "/blog/website" or page.url contains "/blog/seven-habits" or page.url contains "/blog/time-blocking" or page.url contains "/blog/more-ideas" or page.url contains "/blog/minimum-viable-paper" or page.url contains "/blog/get-feedback" or page.url contains "/blog/short-talk" or page.url contains "/blog/reviewing" or page.url contains "/blog/conferences" %}
+        {% assign filed_under = "Advice" %}
+      {% endif %}
+      <header class="br-post-hero">
+        <div class="br-post-kicker">
+          <span class="br-label">File {{ page.file_no | default: "023" }} · Note</span>
+          <span class="br-label">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+            {% if page.read_time %} · {% include read-time.html %}{% endif %}
+          </span>
+        </div>
+        <h1 class="br-post-title" itemprop="headline">{{ page.title }}</h1>
+        {% if page.excerpt %}<p class="br-post-lede">{{ page.excerpt | strip_html }}</p>{% endif %}
+      </header>
 
-          {% if page.collection == 'teaching' %}
-            <p class="page__byline">{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
-          {% elsif page.venue and page.date %}
-            <p class="page__byline">Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
-          {% else %}
-            {% assign byline_date = page.modified | default: page.date %}
-            {% if byline_date or page.read_time %}
-              <p class="page__byline">
-                {% if byline_date %}<time datetime="{{ byline_date | date_to_xmlschema }}">{{ byline_date | date: "%B %-d, %Y" }}</time>{% endif %}
-                {% if byline_date and page.read_time %}<span class="page__byline-sep">·</span>{% endif %}
-                {% if page.read_time %}<span>{% include read-time.html %}</span>{% endif %}
-              </p>
-            {% endif %}
+      <div class="br-record-strip">
+        <div class="br-record-strip__cell">
+          <span class="br-label">Filed under</span>
+          <div class="br-record-strip__value">{{ filed_under }}</div>
+        </div>
+      </div>
+
+      <div class="br-post-grid">
+        {% assign toc_headings = content | split: '<h2 id="' %}
+        <aside class="br-toc">
+          {% if page.toc.first %}
+            <div class="br-label br-toc__title">Table of contents</div>
+            {% for item in page.toc %}
+              <a href="#{{ item.id }}"><span>{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span><span>{{ item.label }}</span></a>
+            {% endfor %}
+          {% elsif toc_headings.size > 1 %}
+            <div class="br-label br-toc__title">Table of contents</div>
+            {% for heading in toc_headings offset:1 %}
+              {% assign heading_id = heading | split: '"' | first %}
+              {% assign heading_label = heading | split: '</h2>' | first | split: '>' | last | strip_html %}
+              <a href="#{{ heading_id }}"><span>{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span><span>{{ heading_label }}</span></a>
+            {% endfor %}
           {% endif %}
-        </header>
-      {% endunless %}
+        </aside>
+
+        <section class="page__content br-post-content" itemprop="text">
+          {{ content }}
+        </section>
+      </div>
+    {% else %}
+      <header class="br-page-header">
+        <div>
+          <span class="br-label">File {{ page.file_no | default: "999" }} · {{ page.file_label | default: page.title }}</span>
+          {% if page.title %}<h1 class="br-page-title" itemprop="headline">{{ page.display_title | default: page.title }}</h1>{% endif %}
+          {% if page.lede %}<p class="br-page-header__lede">{{ page.lede }}</p>{% endif %}
+        </div>
+        {% if page.cta_url %}
+          <a class="br-primary" href="{{ page.cta_url | relative_url }}">{{ page.cta_label | default: "Download" }}</a>
+        {% endif %}
+      </header>
 
       <section class="page__content" itemprop="text">
-        {% include article-outline.html %}
         {{ content }}
-
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% endif %}
-
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
-
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-      </footer>
-
-    </div>
+    {% endif %}
 
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
   </article>
-
-  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
-    <div class="page__related">
-      {% if site.data.ui-text[site.locale].related_label %}
-        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      {% endif %}
-      <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
 </div>

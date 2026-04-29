@@ -5,46 +5,38 @@ layout: default
 {% include base_path %}
 
 <div id="main" role="main" class="home">
-  <section class="home-hero">
-    <div class="home-hero__media">
-      {% if site.author.avatar %}
-        {% if site.author.avatar contains "://" %}
-          <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" />
-        {% else %}
-          <img src="{{ site.author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ site.author.name }}" />
-        {% endif %}
-      {% endif %}
-      <p class="home-hero__caption">
-        {{ site.author.location }}
-      </p>
+  <section class="br-home-hero">
+    <div class="br-home-hero__title">
+      <span class="br-label">Benjamin S. Noble · Political Science · UCSD</span>
+      <h1 class="br-page-title">Benjamin<br>S. Noble.</h1>
     </div>
-    <div class="home-hero__content">
-      <p class="home-hero__kicker">{{ site.author.employer }}</p>
-      <h1 class="home-hero__title">{{ site.title }}</h1>
-      <p class="home-hero__scope">{{ site.author.bio }}</p>
-      <div class="home-hero__intro">
-        {{ content }}
-      </div>
+    <div class="br-home-hero__media">
+      <img src="{{ "/images/noble_headshot_26sm.jpg" | relative_url }}" alt="{{ site.author.name }}">
     </div>
   </section>
 
-  <section class="home-section home-archive">
-    <div class="home-section__header">
-      <span class="home-section__num">Index</span>
-      <h2>Browse</h2>
+  <section class="br-home-intro">
+    {{ content }}
+  </section>
+
+  <section class="br-index" aria-label="Site index">
+    <div class="br-index__header">
+      <span class="br-label">§ Index</span>
+      <span class="br-label">07 sections</span>
     </div>
-    <div class="home-archive__list">
-      {% for item in site.data.home.directory %}
-        <a class="home-archive__item" href="{{ item.url | prepend: base_path }}">
-          <span class="home-archive__title">{{ item.title }}</span>
-          <span class="home-archive__desc">{{ item.description }}</span>
-        </a>
-      {% endfor %}
-      <a class="home-archive__item" href="https://understandingamericanpolitics.substack.com">
-        <span class="home-archive__title">Textbook</span>
-        <span class="home-archive__desc">Understanding American Politics — my free, online text for Intro to American Politics courses.</span>
+    {% for item in site.data.home.directory %}
+      <a class="br-index__row" href="{{ item.url | relative_url }}">
+        <span class="br-index__num">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
+        <span class="br-index__title">{{ item.title | replace: "Advice for Students", "Advice" }}</span>
+        <span class="br-index__desc">{{ item.description }}</span>
+        <span class="br-index__arrow">↗</span>
       </a>
-    </div>
+    {% endfor %}
+    <a class="br-index__row" href="https://understandingamericanpolitics.substack.com">
+      <span class="br-index__num">{{ site.data.home.directory.size | plus: 1 | prepend: "0" | slice: -2, 2 }}</span>
+      <span class="br-index__title">Textbook</span>
+      <span class="br-index__desc">Understanding American Politics — my free, online text for Intro to American Politics courses.</span>
+      <span class="br-index__arrow">↗</span>
+    </a>
   </section>
-
 </div>
