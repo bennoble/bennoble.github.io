@@ -11,18 +11,14 @@ output:
     variant: gfm+footnotes
 header-img: https://benjaminnoble.org/images/robots.png
 img: https://benjaminnoble.org/images/robots.png
+toc:
+  - { id: three-skills, label: "Three AI Skills" }
+  - { id: prompting-your-opening-bid, label: "Prompting" }
+  - { id: context-the-models-working-memory, label: "Context" }
+  - { id: conversation-iteration-as-a-skill, label: "Conversation" }
+  - { id: ai-as-a-thinking-partner, label: "AI as Partner" }
+  - { id: takeaways, label: "Takeaways" }
 ---
-
-<aside class="article-outline" aria-label="Section navigation">
-  <ol>
-    <li><a href="#three-skills">Three AI Skills</a></li>
-    <li><a href="#prompting-your-opening-bid">Prompting</a></li>
-    <li><a href="#context-the-models-working-memory">Context</a></li>
-    <li><a href="#conversation-iteration-as-a-skill">Conversation</a></li>
-    <li><a href="#ai-as-a-thinking-partner">AI as Partner</a></li>
-    <li><a href="#takeaways">Takeaways</a></li>
-  </ol>
-</aside>
 
 <figure>
   <img src="/images/robots.png" alt="Stylized illustration of a human and a robot collaborating">

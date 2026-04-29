@@ -1,0 +1,9 @@
+{%- if page.toc and page.toc.size > 0 -%}
+<aside class="article-outline" aria-label="Section navigation">
+  <ol>
+    {%- for item in page.toc -%}
+    <li><a href="#{{ item.id }}">{{ item.label }}</a></li>
+    {%- endfor -%}
+  </ol>
+</aside>
+{%- endif -%}

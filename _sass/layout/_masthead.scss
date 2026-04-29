@@ -66,13 +66,18 @@
   }
 }
 
-.masthead__menu-item.selected a {
+.masthead__menu-item--lg a {
   color: var(--global-accent-color);
-  font-weight: 600;
-  pointer-events: none;
-  cursor: default;
 }
 
-.masthead__menu-item.selected a:hover {
-  color: var(--global-accent-color);
+.masthead__menu-item--lg a:hover {
+  color: var(--global-accent-color-hover);
+}
+
+.masthead__menu-item:not(.masthead__menu-item--lg).selected a {
+  font-weight: 600;
+  border-bottom: 1px solid var(--global-accent-color);
+  padding-bottom: 2px;
+  pointer-events: none;
+  cursor: default;
 }

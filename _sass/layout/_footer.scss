@@ -53,7 +53,8 @@
   .fas,
   .fab,
   .far,
-  .fal {
+  .fal,
+  .ai {
     color: var(--global-text-color-light);
     transition: color 0.15s ease;
   }
@@ -61,7 +62,8 @@
   a:hover .fas,
   a:hover .fab,
   a:hover .far,
-  a:hover .fal {
+  a:hover .fal,
+  a:hover .ai {
     color: var(--global-accent-color);
   }
 }
@@ -80,6 +82,12 @@
     &:hover {
       color: var(--global-accent-color);
     }
+  }
+
+  .ai {
+    font-family: 'Academicons';
+    font-style: normal;
+    font-weight: normal;
   }
 }
 

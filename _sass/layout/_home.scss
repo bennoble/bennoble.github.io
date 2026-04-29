@@ -93,11 +93,12 @@
 }
 
 .home-section__num {
-  font-family: $monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
-  color: var(--global-accent-color);
-  opacity: 0.9;
+  font-family: $sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--global-base-color);
 }
 
 .home-section__header h2 {

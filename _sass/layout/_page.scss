@@ -43,6 +43,28 @@
   & + .page__meta {
     margin-top: -0.5em;
   }
+
+  & + .page__byline {
+    margin-top: 0.5em;
+  }
+}
+
+.page__byline {
+  display: block;
+  margin: 0.5em 0 2.5em;
+  font-family: $global-font-family;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  animation: intro 0.4s ease both;
+  animation-delay: 0.15s;
+
+  .page__byline-sep {
+    display: inline-block;
+    margin: 0 0.4em;
+    font-style: normal;
+    opacity: 0.6;
+  }
 }
 
 .page__lead {
