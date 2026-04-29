@@ -17,7 +17,7 @@ redirect_from:
   </div>
  --></div>
 
-{% assign curated_slugs = "/blog/reading,/blog/9to5,/blog/six-ai-applications,/blog/pandemic-productivity,/blog/teach-yourself-methods,/blog/public-scholarship" | split: "," %}
+{% assign curated_slugs = "/blog/talking-to-ai,/blog/reading,/blog/9to5,/blog/six-ai-applications,/blog/pandemic-productivity,/blog/teach-yourself-methods,/blog/public-scholarship" | split: "," %}
 {% assign curated_posts = site.posts | where_exp: "post", "curated_slugs contains post.url" | sort: "date" | reverse %}
 
 {% capture current_year %}{% endcapture %}
