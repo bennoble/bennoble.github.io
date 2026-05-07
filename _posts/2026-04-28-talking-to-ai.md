@@ -30,7 +30,7 @@ We are all writers. And as writers, we have all faced the blank page. A blinking
 
 Part of the appeal of large language models is that they promise to free us from the blank page. 
 
-<figure>
+<figure class="plate">
   <img src="/images/chat-box.png" alt="A blank chat input box">
   <figcaption>The blank box is the new blank page.</figcaption>
 </figure>
@@ -49,7 +49,7 @@ In this guide, I cover three foundational skills for working with LLMs: **prompt
 
 ## Three Skills
 
-<figure>
+<figure class="plate">
   <img src="/images/three-skills.png" alt="Diagram of prompting, context, and conversation">
   <figcaption>Three durable skills, model agnostic.</figcaption>
 </figure>
@@ -59,6 +59,7 @@ Like any good academic, I want to get my definitions out on the table.
 - **Prompting** is the act of giving the model information. Whatever you type into the box is your prompt. Prompts can be short ("what is the capital of France"), or, as we'll see, hundreds of words long with detailed instructions, supporting documents, and validation behavior baked in.
 - **Context** is everything the model knows over the course of a conversation. That includes your prompts, the model's responses, any documents or images you attach, custom instructions you've set, and (in newer models) tool use like web searches.
 - **Conversation** is the iterative process of prompting, reviewing outputs, and steering the model toward what you actually want.
+{: .ruled-list}
 
 ## Prompting: Your Opening Bid
 
@@ -80,19 +81,23 @@ Yet when working with AI, most people spend a few seconds writing a prompt, get 
 
 Suppose you want to draft a rubric for a course assignment. Here's a prompt you might try:
 
-> Can you write a rubric for an undergraduate literature review paper?
+<blockquote class="prompt-card prompt-a">
+  <p>Can you write a rubric for an undergraduate literature review paper?</p>
+</blockquote>
 
 The model will happily produce a rubric. It's seen millions of them, so it knows the general shape. But the result will be generic, and you'll probably feel let down. That's not a failure of the model. It's a failure of communication. A graduate TA, given the same instruction, would produce something equally generic, because nothing in the prompt tells them what kind of rubric you want.
 
 Now consider this alternative:
 
-> I teach an undergraduate course on the U.S. presidency. I'm assigning a 3-page literature review where students must cite five academic sources on unilateral action and summarize their similarities and differences. I've attached the assignment description I am providing students. Draft a rubric for this assignment. Use a 4-point scale (Exceeds / Meets / Approaching / Below). Include the following criteria: clarity, accuracy, synthesis, writing. Each criterion should have a one-sentence descriptor for every level. Format as a table. Aim for 400-500 words.
+<blockquote class="prompt-card prompt-b">
+  <p>I teach an undergraduate course on the U.S. presidency. I'm assigning a 3-page literature review where students must cite five academic sources on unilateral action and summarize their similarities and differences. I've attached the assignment description I am providing students. Draft a rubric for this assignment. Use a 4-point scale (Exceeds / Meets / Approaching / Below). Include the following criteria: clarity, accuracy, synthesis, writing. Each criterion should have a one-sentence descriptor for every level. Format as a table. Aim for 400-500 words.</p>
+</blockquote>
 
 This prompt is longer. But it's also something you could give to a TA and expect a result closer to what you wanted. It provides background about the course, the structure of the assignment (with the student-facing handout itself attached), and asks for a specific kind of rubric: the scale, the criteria, the format, the length.
 
 How did I know to write the second prompt instead of the first? Practice and experimentation, mostly. But that's a pretty unsatisfying answer. So, here are a few core principles that can help you get from A to B.
 
-<figure>
+<figure class="plate">
   <img src="/images/prompting-skills.png" alt="Three principles for prompting: be specific, provide background, sequence the work">
   <figcaption>Three principles for thoughtful prompts.</figcaption>
 </figure>
@@ -100,6 +105,7 @@ How did I know to write the second prompt instead of the first? Practice and exp
 - **Be specific.** "Write me a rubric" raises a dozen questions the model isn't going to ask before answering. Should it be holistic or analytic? How many criteria? How long? For what audience? In the absence of specifics, the model wants to be helpful, so it picks the central tendency in its training data, which is rarely what you want. So tell it. Don't let it guess.
 - **Provide background.** The model is a blank slate at the start of every new chat.[^1] It doesn't know what you teach, who your students are, or what stage of the project you're in. Tell the model about your class. Paste in the assignment handout. Name your audience. State your goals.
 - **Sequence the work.** When you have a compound task (e.g., draft a rubric, create grading guidance for the TA, suggest revisions to the assignment handout), resist the urge to ask for everything at once. Models can tackle complex tasks in a single pass. But sequencing gives you more chances to course correct, especially when parts of the ask build on each other. If you revise the assignment, that has implications for the rubric. By splitting requests, you create natural points to review, redirect, and refine.
+{: .ruled-list}
 
 You may have heard the term "prompt engineering," or seen guides full of magic spells: offer the model a tip, threaten it, role-play as a wizard, write in all caps. These are far less important than simply using a skill you already have. When a prompt fails, the fix is almost never some obscure syntax. The fix is "write instructions you'd be willing to hand to a smart graduate student." If a grad student could complete the task from your prompt, the model can too.
 
@@ -122,6 +128,7 @@ LLMs process information differently than humans, and those differences matter f
 | **Attention** | Skim, skip, prioritize | Consumes every token; can't skim |
 | **Fatigue** | Get tired by exerting effort | Get tired by consuming content |
 | **Memory** | Imperfect but continuous | History persists within a chat, none across chats |
+{: .compare3}
 
 When you read an article, you don't read it linearly from start to end. You skim. You skip. You prioritize the abstract, the key tables, the conclusion. You ignore page numbers, formatting, acknowledgements, and most of the references. Your eyes literally never land on some pages. You didn't even know there was an Appendix F. So most of the article never enters your working memory. The model cannot skim. Every token you hand it gets consumed and weighted, including the boilerplate, the references, and yes, even Appendix F. It can't decide a section is unimportant and look past it. And you can't tell it to. So irrelevant material isn't free. It sits in the context window, gets some non-zero weight, and dilutes the response on the part you actually care about.
 
@@ -133,11 +140,10 @@ Memory is the third asymmetry. Think about your grad students. You have a sense 
 
 These asymmetries suggest three practical rules:
 
-**Be selective.** If you want feedback on your abstract, paste the abstract (and perhaps the intro). Don't upload the full manuscript with appendices and references. The extra material doesn't help. In fact, it can actively hurt you by diluting the model's attention.
-
-**Start fresh when performance slows.** When responses get worse, or the browser starts to lag, that's a signal the conversation has grown too long. Ask the model to summarize the key context you'd need to continue, then paste that summary into a new chat. You preserve continuity without dragging the full transcript along.
-
-**Segregate and revisit chats.** Treat chats like folders. One chat per project, one chat per task. Don't have one mega-chat for everything. When you want to return to an earlier line of work, go back to the original chat and pick up where you left off. The model still remembers everything from that conversation, and you don't have to re-establish context from scratch.
+- **Be selective.** If you want feedback on your abstract, paste the abstract (and perhaps the intro). Don't upload the full manuscript with appendices and references. The extra material doesn't help. In fact, it can actively hurt you by diluting the model's attention.
+- **Start fresh when performance slows.** When responses get worse, or the browser starts to lag, that's a signal the conversation has grown too long. Ask the model to summarize the key context you'd need to continue, then paste that summary into a new chat. You preserve continuity without dragging the full transcript along.
+- **Segregate and revisit chats.** Treat chats like folders. One chat per project, one chat per task. Don't have one mega-chat for everything. When you want to return to an earlier line of work, go back to the original chat and pick up where you left off. The model still remembers everything from that conversation, and you don't have to re-establish context from scratch.
+{: .ruled-list}
 
 ## Conversation: Iteration as a Skill
 
@@ -153,7 +159,7 @@ At this point, people bounce off of the tool. They see a flawed output and concl
 
 ### Models make mistakes
 
-<figure>
+<figure class="plate">
   <img src="/images/wrong.png" alt="Illustration of an error or mistake">
   <figcaption>Models are confidently wrong, and that (probably) won't go away.</figcaption>
 </figure>
@@ -172,7 +178,7 @@ Some of the most valuable uses of these tools are for work where there is no sin
 
 ## AI as a Thinking Partner
 
-<figure>
+<figure class="plate">
   <img src="/images/athens.png" alt="Reference to Raphael's School of Athens">
   <figcaption>Thinking has always been a conversation.</figcaption>
 </figure>
@@ -185,7 +191,7 @@ The model can still help. Just not by writing *for* you. The right prompts turn 
 
 ### Interview mode
 
-<figure>
+<figure class="plate">
   <img src="/images/interview.png" alt="A model interviewing the user one question at a time">
   <figcaption>Let the model interview you when you're stuck.</figcaption>
 </figure>
@@ -206,7 +212,7 @@ The same pattern works for the early stages of a paper or grant proposal. You ha
 
 You aren't limited to delegation and interview. Three other patterns I use:
 
-<figure>
+<figure class="plate">
   <img src="/images/three-roles.png" alt="Tutor, brainstormer, and reviewer roles">
   <figcaption>Three other roles the model can play.</figcaption>
 </figure>
@@ -224,6 +230,7 @@ Three skills, briefly:
 - **Prompting** isn't a magic spell. It's clear communication. If you aren't confident a smart RA could accomplish the task from the prompt, the model probably can't either.
 - **Context** is about balance. Provide what's needed. Prune what isn't. Long chats produce worse outputs than short, focused ones.
 - **Conversation** is iteration. Your reaction to model outputs is the best data you have for improving the next turn.
+{: .ruled-list}
 
 The models aren't psychic. They won't infer what you want from a vague prompt. And they won't magically clean up after a sprawling conversation. But they are responsive to clear instructions and active steering. Most of the difference between frustrating and useful AI use is on your side of the keyboard. 
 
