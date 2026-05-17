@@ -13,14 +13,17 @@ layout: default
 
     {% if page.id %}
       {% assign filed_under = "Notes" %}
-      {% if page.url contains "/blog/talking-to-ai" or page.url contains "/blog/six-ai-applications" %}
+      {% assign kicker_label = "Note" %}
+      {% if page.nav_section == "ai-guides" %}
         {% assign filed_under = "AI Guides" %}
-      {% elsif page.url contains "/blog/wish-i-knew-before-grad-school" or page.url contains "/blog/advisors" or page.url contains "/blog/website" or page.url contains "/blog/seven-habits" or page.url contains "/blog/time-blocking" or page.url contains "/blog/more-ideas" or page.url contains "/blog/minimum-viable-paper" or page.url contains "/blog/get-feedback" or page.url contains "/blog/short-talk" or page.url contains "/blog/reviewing" or page.url contains "/blog/conferences" %}
+        {% assign kicker_label = "AI Guide" %}
+      {% elsif page.nav_section == "advice" %}
         {% assign filed_under = "Advice" %}
+        {% assign kicker_label = "Advice" %}
       {% endif %}
       <header class="br-post-hero">
         <div class="br-post-kicker">
-          <span class="br-label">File {{ page.file_no | default: "023" }} · Note</span>
+          <span class="br-label">File {{ page.file_no | default: "023" }} · {{ kicker_label }}</span>
           <span class="br-label">
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
             {% if page.read_time %} · {% include read-time.html %}{% endif %}

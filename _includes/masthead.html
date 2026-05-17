@@ -4,6 +4,13 @@
   {% assign current_file = "000" %}
 {% endif %}
 
+{% assign nav_section = "" %}
+{% if page.nav_section == "ai-guides" %}
+  {% assign nav_section = "/ai-guides/" %}
+{% elsif page.nav_section == "advice" %}
+  {% assign nav_section = "/advice-for-students/" %}
+{% endif %}
+
 <header class="br-masthead">
   <a class="skip-link screen-reader-shortcut" href="#main">Skip to main content</a>
   <div class="br-masthead__meta">
@@ -21,7 +28,11 @@
         {% assign href = link.url | relative_url %}
       {% endif %}
       {% assign active = false %}
-      {% if page.url contains link.url and link.url != '/' %}
+      {% if nav_section != "" %}
+        {% if link.url == nav_section %}
+          {% assign active = true %}
+        {% endif %}
+      {% elsif page.url contains link.url and link.url != '/' %}
         {% assign active = true %}
       {% endif %}
       <a class="br-nav__link{% if active %} is-active{% endif %}" href="{{ href }}">{{ link.title | replace: "Advice for Students", "Advice" }}</a>

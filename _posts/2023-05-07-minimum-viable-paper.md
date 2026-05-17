@@ -6,6 +6,8 @@ output:
     preserve_yaml: true
     variant: gfm+footnotes
 permalink: /blog/minimum-viable-paper
+nav_section: advice
+nav_order: 7
 title: Write Your First Draft Faster by Writing the "Minimum Viable Paper"
 ---
 

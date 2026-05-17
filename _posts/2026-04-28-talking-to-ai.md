@@ -2,6 +2,8 @@
 title: "Talking to AI: Prompting, Context, and Conversation"
 date: 2026-04-28
 permalink: /blog/talking-to-ai
+nav_section: ai-guides
+nav_order: 1
 excerpt: Three foundational skills for working with LLMs and how to use them effectively.
 output:
   md_document:

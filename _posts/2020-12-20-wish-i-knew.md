@@ -12,6 +12,8 @@ output:
 date: 2020-12-21
 toc: true
 permalink: /blog/wish-i-knew-before-grad-school/
+nav_section: advice
+nav_order: 1
 
 excerpt: Is grad school really that hard? How many hours will I have to work? Will I get a job? 
 ---

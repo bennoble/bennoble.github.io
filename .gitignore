@@ -21,3 +21,4 @@ _posts/STYLE_GUIDE_FOR_GHOSTWRITER.md
 .bundle/
 .sass-cache/
 vendor/bundle/
+.jekyll-cache/

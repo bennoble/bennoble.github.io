@@ -6,22 +6,19 @@ author_profile: false
 file_no: "005"
 file_label: "AI Guides"
 lede: "Practical guides for using AI in academic work, from first principles to research and teaching workflows."
-record_count: "02 guides listed"
+record_count: "03 guides listed"
 ---
 
 <div class="br-section-label">§ Start Here</div>
 
-{% assign guide_slugs = "/blog/talking-to-ai,/blog/six-ai-applications" | split: "," %}
-{% for guide_slug in guide_slugs %}
-  {% assign guide = site.posts | where: "url", guide_slug | first %}
-  {% if guide %}
-    <a class="br-list-row br-advice-row" href="{{ guide.url | relative_url }}">
-      <span class="br-row-meta">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
-      <span>
-        <span class="br-row-title">{{ guide.title }}</span>
-        <span class="br-row-subtitle">{{ guide.excerpt | strip_html }}</span>
-      </span>
-      <span class="br-row-action">↗ Read</span>
-    </a>
-  {% endif %}
+{% assign guides = site.posts | where: "nav_section", "ai-guides" | sort: "nav_order" %}
+{% for guide in guides %}
+  <a class="br-list-row br-advice-row" href="{{ guide.url | relative_url }}">
+    <span class="br-row-meta">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
+    <span>
+      <span class="br-row-title">{{ guide.title }}</span>
+      <span class="br-row-subtitle">{{ guide.excerpt | strip_html }}</span>
+    </span>
+    <span class="br-row-action">↗ Read</span>
+  </a>
 {% endfor %}

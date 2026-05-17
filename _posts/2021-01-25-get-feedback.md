@@ -11,6 +11,8 @@ output:
 #   encoding = encoding)})
 date: 2021-01-25
 permalink: /blog/get-feedback
+nav_section: advice
+nav_order: 8
 excerpt: Feedback is a gift, but in this case, it truly is better to give than to receive. I discuss some strategies for dealing with the initial sting and making the most of constructive criticism.
 ---
 

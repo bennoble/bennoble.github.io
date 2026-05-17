@@ -8,6 +8,8 @@ output:
     preserve_yaml: true
     variant: gfm+footnotes
 permalink: /blog/conferences
+nav_section: advice
+nav_order: 11
 title: An Introvert's Guide to Navigating Academic Conferences
 header-img: https://images.unsplash.com/photo-1560439514-4e9645039924?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470
 ---

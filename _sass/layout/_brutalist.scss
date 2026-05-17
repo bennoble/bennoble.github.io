@@ -340,10 +340,9 @@ a:hover {
 }
 
 .page__content > .prompt-card {
-  position: relative;
   max-width: 760px;
   margin: var(--space-4);
-  padding: 24px var(--space-3) var(--space-3);
+  padding: var(--space-3);
   border: 2px solid var(--ink);
   background: var(--paper-2);
   color: var(--ink);
@@ -351,31 +350,6 @@ a:hover {
   font-size: 14px;
   font-style: normal;
   line-height: 1.6;
-}
-
-.page__content > .prompt-card::before {
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  padding: 5px 9px;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-.page__content > .prompt-card.prompt-a::before {
-  content: "Prompt A";
-  background: var(--ink);
-  color: var(--paper);
-}
-
-.page__content > .prompt-card.prompt-b::before {
-  content: "Prompt B";
-  background: var(--yellow);
-  color: var(--ink);
 }
 
 .page__content > .prompt-card > p {
@@ -435,20 +409,19 @@ a:hover {
 }
 
 .page__content > ul.ruled-list {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding-left: 1.4em;
 }
 
 .page__content > ul.ruled-list > li {
-  margin: 0;
-  padding: 14px 0;
-  border-top: 1px solid var(--ink);
+  margin: 0 0 10px;
+  padding: 0;
   font-size: 17px;
   line-height: 27px;
 }
 
 .page__content > ul.ruled-list > li:last-child {
-  border-bottom: 1px solid var(--ink);
+  margin-bottom: 0;
 }
 
 .page__content > ul.ruled-list > li > strong:first-child {
@@ -915,6 +888,70 @@ a:hover {
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.br-post-content p a:not(.footnote):not(.reversefootnote),
+.br-post-content li a:not(.footnote):not(.reversefootnote) {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  border-bottom: 0;
+  padding: 1px 2px;
+  transition: background 0.08s ease-in, color 0.08s ease-in;
+}
+
+.br-post-content p a:not(.footnote):not(.reversefootnote):hover,
+.br-post-content li a:not(.footnote):not(.reversefootnote):hover {
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration-color: var(--ink);
+}
+
+.br-post-content .footnotes p a:not(.footnote):not(.reversefootnote),
+.br-post-content .footnotes li a:not(.footnote):not(.reversefootnote) {
+  background: none;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  padding: 0;
+}
+
+.br-post-content .footnotes p a:not(.footnote):not(.reversefootnote):hover,
+.br-post-content .footnotes li a:not(.footnote):not(.reversefootnote):hover {
+  background: none;
+  color: var(--ink);
+}
+
+.br-post-content sup a.footnote {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.br-post-content sup a.footnote:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.br-post-content .footnotes a.reversefootnote,
+.br-post-content .footnotes a.reversefootnote:hover {
+  color: var(--ink);
+  text-decoration: none;
+  text-decoration-color: var(--ink);
+}
+
+.br-post-content .footnotes,
+.br-post-content .footnotes ol,
+.br-post-content .footnotes li,
+.br-post-content .footnotes p {
+  font-size: 14px;
+  line-height: 22px;
 }
 
 @media (max-width: 860px) {

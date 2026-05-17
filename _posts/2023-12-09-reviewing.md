@@ -8,6 +8,8 @@ output:
     preserve_yaml: true
     variant: gfm+footnotes
 permalink: /blog/reviewing
+nav_section: advice
+nav_order: 10
 title: How to Be a Better Reviewer (JAWS Event Recap)
 header-img: /images/review_header.jpeg
 ---
