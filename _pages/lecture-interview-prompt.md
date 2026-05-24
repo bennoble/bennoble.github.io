@@ -1,13 +1,34 @@
 ---
 layout: single
 permalink: /lecture-interview-prompt/
-title: "Lecture Interview Prompt"
+title: "Inverted AI Interviews for Lecture Development"
 author_profile: false
 sitemap: false
 file_no: "007"
-file_label: "Lecture Prompt"
-lede: "A prompt for using an AI chatbot (Claude, ChatGPT, Gemini, etc.) to help you develop a lecture. It runs in two phases: an interview to gather context, then a comprehensive outline you can build slides from."
+file_label: "UCSD Faculty AI Symposium"
+lede: "An inverted AI workflow where the model interviews the instructor to elicit tacit knowledge, identify gaps, and produce a structured outline for lecture development."
 ---
+
+<div class="br-section-label prompt-section-label">§ About this page</div>
+
+<p class="prompt-intro">Thanks for coming to my talk at the <strong>UCSD Faculty AI Symposium</strong> on May 29, 2026. I'm <a href="/">Benjamin Noble</a>, an assistant professor of political science at UC San Diego. The prompt I demoed is below, ready to copy into the AI chatbot of your choice.</p>
+
+<a class="br-list-row br-advice-row" href="mailto:b2noble@ucsd.edu?subject=Inverted%20AI%20Interview%20Prompt">
+  <span class="br-row-meta">01</span>
+  <span>
+    <span class="br-row-title">Email me</span>
+    <span class="br-row-subtitle">Questions, reactions, or want to share how you used it?</span>
+  </span>
+  <span class="br-row-action">↗ Write</span>
+</a>
+<a class="br-list-row br-advice-row" href="/ai-guides/">
+  <span class="br-row-meta">02</span>
+  <span>
+    <span class="br-row-title">AI Guides</span>
+    <span class="br-row-subtitle">More on how I use AI in teaching and research.</span>
+  </span>
+  <span class="br-row-action">↗ Read</span>
+</a>
 
 <div class="br-section-label prompt-section-label">§ How to use</div>
 
