@@ -9,7 +9,7 @@
       callout: "✦ My free, online companion text: <a href=\"https://understandingamericanpolitics.substack.com\">Understanding American Politics</a>"
     - title: "Applied Data Analysis & Causal Inference"
       level: "Undergraduate"
-      syllabus_url: "/files/syl/ug_causal_syl.pdf"
+      syllabus_url: "/teaching/causal-inference/"
     - title: "American Political Institutions"
       level: "Graduate"
       syllabus_url: "/files/syl/grad_institutions.pdf"  
