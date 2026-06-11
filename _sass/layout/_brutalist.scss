@@ -864,18 +864,12 @@ a:hover {
   margin-right: 0;
 }
 
-.br-post-content > p:first-of-type {
+/* Lede treatment is a post convention; pages reusing the grid keep their
+   first paragraph at body size. */
+.br-post .br-post-content > p:first-of-type {
   font-size: 22px;
   font-weight: 500;
   line-height: 32px;
-}
-
-/* Pages (not blog posts) reuse the post grid for a jump-nav, but their first
-   body paragraph is not a lede, so keep it at normal body size. */
-.page:not(.br-post) .br-post-content > p:first-of-type {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
 }
 
 .br-post-content table {

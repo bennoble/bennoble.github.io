@@ -1,7 +1,6 @@
 ---
 title: "Applied Data Analysis"
 permalink: /teaching/causal-inference/
-classes: syllabus-page
 author_profile: false
 show_toc: true
 file_no: "170"

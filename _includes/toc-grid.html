@@ -1,0 +1,30 @@
+{% assign toc_headings = "" | split: "" %}
+{% unless page.toc.first %}
+  {% assign toc_headings = content | split: '<h2 id="' %}
+{% endunless %}
+{% if page.toc.first or toc_headings.size > 1 %}
+  <div class="br-post-grid">
+    <aside class="br-toc">
+      <div class="br-label br-toc__title">Table of contents</div>
+      {% if page.toc.first %}
+        {% for item in page.toc %}
+          <a href="#{{ item.id }}"><span>{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span><span>{{ item.label }}</span></a>
+        {% endfor %}
+      {% else %}
+        {% for heading in toc_headings offset:1 %}
+          {% assign heading_id = heading | split: '"' | first %}
+          {% assign heading_label = heading | split: '</h2>' | first | remove_first: heading_id | remove_first: '">' | strip_html %}
+          <a href="#{{ heading_id }}"><span>{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span><span>{{ heading_label }}</span></a>
+        {% endfor %}
+      {% endif %}
+    </aside>
+
+    <section class="page__content br-post-content" itemprop="text">
+      {{ content }}
+    </section>
+  </div>
+{% else %}
+  <section class="page__content br-post-content" itemprop="text">
+    {{ content }}
+  </section>
+{% endif %}
