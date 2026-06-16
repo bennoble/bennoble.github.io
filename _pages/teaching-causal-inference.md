@@ -6,13 +6,17 @@ show_toc: true
 file_no: "170"
 file_label: "POLI 170A · Summer 2026"
 lede: "An applied introduction to causal inference for the social sciences."
+cta_url: /files/poli170a-summer2026-syllabus.pdf
+cta_label: "Download syllabus (PDF)"
 ---
 
 | | |
 |---|---|
 | **Instructor** | Benjamin Noble · [b2noble@ucsd.edu](mailto:b2noble@ucsd.edu) |
 | **Meetings** | Monday and Wednesday, 11:00am to 1:50pm (fully remote; Zoom link on Canvas) |
-| **Office hours** | Monday and Wednesday, 2:00–3:00pm (same Zoom link as class) |
+| **Office hours** | TBD |
+
+<!-- Monday and Wednesday, 2:00–3:00pm (same Zoom link as class) | -->
 
 You can come to office hours to ask me questions about the course content (especially if you're having trouble). But you can also come to office hours to say hello, ask me about my research, learn what political scientists do, and tell me about your interests (academic or otherwise). I'd love to meet you.
 
@@ -20,33 +24,36 @@ You can come to office hours to ask me questions about the course content (espec
 
 Does ideological extremism cause a candidate's vote share to increase? Does inflation cause presidential approval to decline? Does democratization cause countries to become more peaceful? These are all *causal* questions. They all take the form: does X *cause* Y?
 
-As social scientists, we often care about causal questions, but it is difficult to answer these questions definitively. Unlike a pharmaceutical company that can randomly assign people to take or not take a drug, we cannot randomly assign ideologies to candidates, inflation to presidents, or democracy to countries (but it would be nice if we could!). Instead, we have to apply creative strategies to try to learn about the world and whether X causes Y with *observational* data. That is, data we observe from the real world (not an experiment).
+As social scientists, we often care about causal questions, but it is difficult to answer these questions definitively. Unlike a pharmaceutical company that can randomly assign people to take or not take a drug, we cannot randomly assign ideologies to candidates, inflation to presidents, or democracy to countries (but it would be nice if we could!). Instead, we have to apply creative strategies to try to learn whether X causes Y with *observational* data. That is, data we observe from the real world (not an experiment).
 
 In this course, we are going to learn about the social science toolkit that will help us analyze data from the real world and, sometimes, draw causal conclusions about whether X causes Y.
 
-A typical session will include a mix of lecture and in-class, hands-on "lab" activities that will give you an opportunity to apply the concepts from lecture. In a typical class, you can expect:
+In a typical class, you can expect:
 
 - Lecture on a new statistical/data analysis concept.
-- In-class "lab" exercise where you will work individually or in small groups to apply concepts we learned in the lecture.
+- In-class "lab" exercise where you will work in small groups to apply concepts we learned in the lecture.
 - Review solutions to the lab exercise, answer questions.
 
-## Required Texts
+## Required Texts and Materials
 
-We'll use two textbooks in this class. Both are available for free online.
+All textbooks and materials used in this course are available for free online.
+
+Our primary textbook is:
 
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (referred to below as "Mixtape") by Scott Cunningham (2021, Yale University Press).
   - *Note: this textbook includes a good deal of mathematical notation. Because this is an* applied *course, our focus is on gaining a conceptual understanding of the math and implementing it with code and data.*
-- [Regression and Other Stories](https://users.aalto.fi/~ave/ROS.pdf) (referred to below as "ROS") by Andrew Gelman, Jennifer Hill, and Aki Vehtari (2020, Cambridge University Press).
 
-Some weeks, I will assign political science articles where researchers apply the concept we are learning about in their own research. These should be accessible (for free) if you are connected to the UCSD internet (but let me know if there are issues). Some of these articles can be quite detailed and technical, but do not worry too much. Try to understand the authors' argument and how they use the methodological tools to answer their research question.
+I will also assign readings from the below textbook. This book covers many of the same concepts as our main textbook in a different, less technical way. You may want to reference this book if you get stuck or prefer its approach.
 
-Occasionally, I will also assign blog posts that build on the week's content.
+- [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) (referred to below as "The Effect") by Nick Huntington-Klein (2025). Written for an applied audience, with R, Stata, and Python code throughout.
+
+In class labs, homework assignments, and the final will require use of the R programming language. We will cover R on the first day of class, and programming knowledge is not required as a prerequisite. To program in R, we will be using [UCSD's DataHub](https://datahub.ucsd.edu/hub/login?next=/hub/), which you can access with your UCSD Student SSO.
 
 ## Course Format
 
-This is a fully remote class. All sessions meet over Zoom; the meeting link is posted on Canvas.
+This class is a fully remote. All sessions meet over Zoom. The meeting link is available on Canvas.
 
-Lectures are recorded. I will post recordings to Canvas after class so you can review or catch up if you miss a session. Breakout rooms (where most lab work happens) are not recorded.
+Lectures will be recorded and posted to Canvas after class. However, attendance is required.
 
 Please keep your camera on during class sessions. This is a remote class with a lot of group work and discussion. Seeing each other matters.
 
@@ -54,42 +61,43 @@ If you experience a technical failure during class (your connection drops, Zoom 
 
 ## Assignments
 
-- **Lab assignments (35%).** Group "lab" activities in most sessions, applying that week's lessons. Graded for participation.
-- **Problem sets (30%).** Four problem sets combining conceptual Canvas-quiz questions with short coding problems.
-- **Final project (35%).** A group data-analysis task in place of a final exam, presented live during the exam period.
+- **Attendance and Participation (10%)** including attending lecture synchronously, turning your camera on, and actively participating in lab activities and discussions.
+- **Lab assignments (30%)** completed in class and submitted at the end of each session, graded for effort and participation.
+- **Problem sets (30%)** to be completed individually, applying key course concepts.
+- **Final group project (20%)** to be completed in class and presented (privately) during the final exam period.
 {: .ruled-list}
+
+### Attendance and Participation (10%)
+
+You are expected to attend every class session synchronously and have your camera on for the full session.
+
+Because life happens, you will be allowed one excused class absence with no questions asked; the lab from that day will be dropped from your final grade. You do not need to email me to use this policy. It will be applied automatically when I calculate final grades.
+
+Beyond your one free absence, you must contact me in advance to miss additional classes without penalty, and waiving the penalty is at my discretion. If I grant an excuse, the lab from that day may be dropped or made up, depending on the situation.
+
+Missing class without prior contact (barring exceptional emergencies) will result in a zero on that day's lab. Be thoughtful about how you use the free absence policy; I will not grant additional exceptions for routine reasons.
 
 ### Lab Assignments (35%)
 
-Most class sessions will include a group "lab" activity, applying the lessons we are learning that week. Lab groups are fixed across the quarter (roughly four students each), and they will also serve as your final project groups (described below).
+All class sessions include a group lab activity, which allow you to practice what we have learned in a low-stakes, group setting. Lab groups will be assigned during the first week of class and will serve as your final project groups as well (described below).
 
-Although these are group assignments, each member is responsible for submitting their own code and results. Labs are graded for participation: full credit requires attending class with your camera on (per the course format above) and submitting a lab that demonstrates effort. You do not need to finish the entire lab to receive full credit. Solutions will be posted after class so you can check your work.
+Labs are graded for participation and effort. Although these are group assignments, each member is responsible for submitting their own code and results. You will submit your code file (.rmd) and knitted html file via Canvas at the end of the class session. We will cover these filetypes on the first day of class. You do not need to finish the entire lab to receive full credit, and solutions will be posted after class so you can check your work.
 
-After lab time, we will review solutions together as a class. During this review, I will call on a few students per session to share their screen and walk us through what their group did. I will rotate through students over the course of the quarter, so everyone should expect to be called on at some point. This is a chance to learn from each other's approaches and to make sure each of you is engaging with the material.
-
-Labs should be submitted on Canvas at the end of the lab period as both the raw .rmd file and the knitted html, matching the workflow you will use for problem sets.
-
-You are expected to attend every class session. Because life happens, you will be allowed one excused class absence with no questions asked; the lab from that day will be dropped from your final grade. You do not need to email me to use this policy; it will be applied automatically when I calculate final grades.
-
-Beyond that one free absence, missing class requires contacting me in advance with a reason. If I grant special dispensation, the lab from that day can be dropped or made up, depending on the situation. Missing class without prior contact will result in a zero on that day's lab, with no make-up. Be thoughtful about how you use the free absence policy; I will not grant additional exceptions for routine reasons.
+After lab, we will review solutions together as a class. During this review, you may be called upon to to share your screen and walk us through what your group did. I will rotate through students over the course of the quarter, so everyone should expect to be called on at some point. This is a chance to learn from each other's approaches and to make sure each of you is engaging with the material. You will not be penalized if you aren't sure of your answer. This is simply an opportunity to share your work and demonstrate your group's approach.
 
 ### Problem Sets (30%)
 
-You will complete four problem sets over the course of the quarter, each covering material from the lectures and in-class labs. Every problem set will combine two components: a set of conceptual questions and one or two short coding problems.
+You will complete three problem sets over the course of the quarter, each covering material from the lectures and in-class labs. These problem sets will include a mix of conceptual and coding questions.
 
-The conceptual portion will be answered via Canvas quiz. It will mix multiple-choice and numeric-answer questions designed to test your conceptual understanding and your ability to interpret statistical output. These questions are intended to be challenging. Expect that you will need to work through problems carefully (often in R) to arrive at the correct answer.
+When you submit your problem set, you must upload the code (rmd) and html files. Your code should include brief comments explaining what the code is doing. If you cannot arrive at the correct answer, you can still earn many of the possible points provided you make an attempt, show your work, and explain what you are doing. I will provide a template that will help you fulfill these requirements.
 
-The coding portion will ask you to apply what you have learned to a small piece of data, for example, fitting a regression and interpreting a coefficient, or implementing a DiD estimator. Each code problem must include the code used to arrive at the answer, brief comments in the code explaining what your code is doing and why, and a short interpretation of the result. If you cannot arrive at the correct answer, you can still earn many of the possible points provided you make an attempt, show your work, and explain what you are doing. I will provide a template that will help you fulfill these requirements.
-
-You must work on problem sets on your own. You may use our textbooks, notes, internet, even AI. But you may not consult with other students, tutors, etc. You may discuss your problem sets with me during office hours. Keep in mind that you will be expected to explain your understanding of this material during lab review and during the final presentation Q&A, so it is in your interest to genuinely engage with each problem set rather than outsource it to an LLM.
+*You must work on problem sets on your own.* You may use our textbooks, notes, the internet, even AI. But you may not consult with other students, tutors, etc. You may discuss your problem sets with me during office hours.
 
 ### Final Project (35%)
 
-In place of a traditional final exam, this course will conclude with a group final project. Your group will work together to complete a timed data analysis task during the final course on Wednesday, July 29. You will present your findings during our final exam period on Friday, July 31.
+This course will conclude with a group final project. Your group will work together to complete a timed data analysis task during the final course on Wednesday, July 29. You will present your findings (privately, not in front of the whole class) during our final exam period on Friday, July 31.
 
 Your final project grade will be based on three components: the quality of your group's analysis and presentation (the bulk of the grade), a short individual reflection that each group member submits describing their contributions and what they learned, and a confidential peer evaluation completed by each group member, which I may use to adjust individual grades within a group if there is clear evidence of unequal contribution.
-
-You may use AI tools while working on the final project, with the same expectations that apply elsewhere in the course: you should understand the work your group submits and be able to explain and defend the analytical choices during the live presentation and Q&A. Because the project is collaborative and the presentation is live, every member of the group is on the hook for the content.
 
 ## Course Policies
 
@@ -99,27 +107,27 @@ I take academic honesty and integrity seriously. You must adhere to the assignme
 
 ### Use of AI
 
-In this class, I encourage thoughtful use of generative AI tools (such as ChatGPT, Claude, Gemini, etc). These tools are incredibly powerful and can help you with both the statistical and coding concepts taught in this course. However, over-reliance on these tools poses some risk. They can make you *feel* like you understand something more than you do, and while they are less likely to make explicit errors than in the past, they can mislead you if you do not understand the underlying concepts. It is your responsibility to be a careful consumer of these tools and ensure that you validate anything you learn from them. It is also your responsibility, as a student in this course, to understand the answers they provide.
+In this class, I encourage thoughtful use of generative AI tools (such as ChatGPT, Claude, Gemini, TritonGPT, etc). These tools are incredibly powerful and can help you with both the statistical and coding concepts taught in this course. However, over-reliance on these tools poses some risk. They can make you *feel* like you understand something more than you do, and while they are less likely to make explicit errors than in the past, they can mislead you if you do not understand the underlying concepts. It is your responsibility to be a careful consumer of these tools and ensure that you validate anything you learn from them. It is also your responsibility, as a student in this course, to understand the answers they provide.
 
 Here are some recommendations:
 
-- If you are having trouble with coding, you should begin by working with one of these AI tools. They are often very good at answering basic coding questions and providing example code that can help you solve your problem. Often, if you copy/paste your error into the chat window, AI can provide a solution. Try this before asking me questions about coding (not because I don't want to help, but because this is how real data analysts solve problems today).
+- If you are having trouble with coding, you should begin by working with one of these AI tools. They are often very good at answering basic coding questions and providing example code that can help you solve your problem. Often, if you copy/paste your error into the chat window, AI can provide a solution. Try this before asking me questions about coding (not because I don't want to help, but because this is how real data analysts solve problems today). Don't just ask for answers though. Ask the LLM to explain its work.
 - These tools work best for topics and concepts you "mostly" know. If you are working with an LLM on completely new material and it makes a mistake or misleads you, you will not know or have any intuition that it is wrong. As such, I encourage use of these tools in consultation with material from lectures and the textbooks. Go back and forth between them to master these topics, and verify what you learn from the LLM in our other materials.
-- You should be aware that these systems often save your conversation history and use it to train future models. As such, never put any sensitive or private information into a prompt.
+- You should be aware that these systems often save your conversation history and may use it to train future models. As such, never put any sensitive or private information into a prompt.
 
 ### Late Submissions
 
-Late assignments will incur a one letter grade penalty for each 24 hour period they are late. For example, if a problem set is due at 10:59am, a late submission delivered between 11:00am on the due date to 10:59am the following day will automatically lose one letter grade. All solutions will be posted a week after the problem set is due. After solutions have been posted, late assignments cannot be accepted.
+As I post lab submissions after class, labs may not be submitted late. Late problem sets will incur a one letter grade penalty for each 24 hour period they are late. For example, if a problem set is due at 10:59am, a late submission delivered between 11:00am on the due date to 10:59am the following day will automatically lose one letter grade. All solutions will be posted one session after the problem set is due. After solutions have been posted, late problem sets cannot be accepted.
 
 ### Requests for Re-Grades
 
-If you believe an error has been made, you have one week following the return of the assignment to request a regrade. After this point, re-grades cannot be requested. To do so, please email Professor Noble with a brief explanation of why you are requesting a re-grade as well as evidence from our course materials justifying the request. I reserve the right to refuse to re-grade, and if we do re-grade, please note it may result in a lower grade.
+If you believe an error has been made, you have *one week* following the return of the assignment to request a regrade. After this point, re-grades cannot be requested. To do so, please email Professor Noble with a brief explanation of why you are requesting a re-grade as well as evidence from our course materials justifying the request. I reserve the right to refuse to re-grade, and if we do re-grade, please note it may result in a lower grade.
 
 ### Communication
 
 For all questions or comments, you may get in touch with me during my office hours listed on this syllabus, or via email. If your email requires a response, you can expect one within 24–48 business hours. If you email me over the weekend, the 24–48 hour clock begins Monday morning.
 
-Note: if you contact me the night before the homework is due, I will likely not respond in time to provide any advice before the deadline. Please plan and work ahead.
+Note: if you contact me the night before the homework is due, I will not respond in time to provide any advice before the deadline. Please plan and work ahead.
 
 ### Accommodations
 
@@ -129,36 +137,40 @@ Other resources, including the inclusive classroom statement, advising, and reso
 
 ## Course Schedule and Readings
 
-Based on your learning style, you may find it helpful to complete the readings before or after lecture. Ultimately, it is up to you when you want to do the readings. You can always refer to this living document for the most updated information about the course.
+Based on your learning style, you may find it helpful to complete the readings before or after lecture. Ultimately, it is up to you when you want to do the readings. You can always refer to this syllabus for the most updated information about the course.
 
 ### June 29 · Introduction and R Skills
 
 - Readings:
   - [Does X cause Y? An in-depth evidence review](https://www.cold-takes.com/does-x-cause-y-an-in-depth-evidence-review/) by Holden Karnofsky.
-  - Optional (for help with R): [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/) by James Scott, Chapters 1, 2, and 4.
+
+- Optional:
+  - For help with R: [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/) by James Scott, [Chapter 1](https://bookdown.org/jgscott/DSGI/getting-started-in-r.html), [Chapter 2](https://bookdown.org/jgscott/DSGI/lesson_data.html), and [Chapter 4](https://bookdown.org/jgscott/DSGI/plots.html).
+
 - **Homework 1 assigned.**
 
 ### July 1 · Potential Outcomes
 
 - Readings:
-  - Mixtape, Chapter 4 (stop before "4.2 Randomization Inference").
+  - Mixtape, [Chapter 4](https://mixtape.scunning.com/04-potential_outcomes) (stop before "4.2 Randomization Inference").
 
 ### July 6 · Extraordinary Least Squares
 
 - Readings:
-  - ROS, Chapters 6, 7, and 10 (stop before 10.5).
+  - Jared Wilber, September 2022. [Linear Regression](https://mlu-explain.github.io/linear-regression/). *MLU Explain*.
 
 ### July 8 · Potential Outcomes (II)
 
 - Readings:
-  - ROS, Chapter 18 (skip 18.4–18.5, ignore references to randomized block or group cluster experiments, which we will not cover).
+  - The Effect, [Chapter 10](https://theeffectbook.net/ch-TreatmentEffects.html).
 
 ### July 13 · Instrumental Variables
 
 - Readings:
-  - ROS, Chapter 21.1–21.2 (pp. 421–432).
-  - Mixtape, Chapter 7.1–7.2, 7.3.1, 7.5.
-  - White (2019), [Misdemeanor Disenfranchisement? The Demobilizing Effects of Brief Jail Spells on Potential Voters](https://www.cambridge.org/core/journals/american-political-science-review/article/misdemeanor-disenfranchisement-the-demobilizing-effects-of-brief-jail-spells-on-potential-voters/2FEDEE197EA55768312586DA2FEFB8F9), American Political Science Review.
+  - Mixtape, [Chapter 7](https://mixtape.scunning.com/07-instrumental_variables), sections 7.1–7.2, 7.3.1, 7.5.
+- Optional:
+  - The Effect, [Chapter 19](https://theeffectbook.net/ch-InstrumentalVariables.html).
+
 - **Homework 1 due before class, at 10:59am PT.**
 - **Homework 2 assigned.**
 
@@ -169,30 +181,33 @@ Based on your learning style, you may find it helpful to complete the readings b
 ### July 20 · Regression Discontinuity
 
 - Readings:
-  - ROS, 21.3 (pp. 432–440).
-  - Mixtape, Chapter 6.1–6.2.3, 6.3.
+  - Mixtape, [Chapter 6](https://mixtape.scunning.com/06-regression_discontinuity), sections 6.1–6.2.3, 6.3.
+- Optional:
+  - The Effect, [Chapter 20](https://theeffectbook.net/ch-RegressionDiscontinuity.html).
+
 - **Homework 2 due before class, at 10:59am PT.**
 - **Homework 3 assigned.**
 
 ### July 22 · Difference-in-Differences
 
 - Readings:
-  - Mixtape, Chapter 9 (stop before "9.5 The Importance of Placebos in DD").
+  - Mixtape, [Chapter 9](https://mixtape.scunning.com/09-difference_in_differences) (stop before "9.5 The Importance of Placebos in DD").
+- Optional:
+  - The Effect, [Chapter 18](https://theeffectbook.net/ch-DifferenceinDifference.html).
 
 ### July 27 · Buffer / Synthesis
 
 - No readings.
+
 - **Homework 3 due before class, at 10:59am PT.**
 
-No new content. This session is reserved as a buffer in case we need an extra day on a previous topic.
+### July 29 · Final Project Session
 
-### July 29 · Final Project Lab
-
-At the start of class, you will receive a dataset and instructions. You will work in your group to complete the analysis. You will have the full three hours of class to complete this work. You will submit your completed analysis at the end of class. There is no separate slide deck to prepare. During the presentation period, your group will screen-share your analysis and walk me through it.
+At the start of class, you will receive a dataset and instructions. You will work in your group to complete the analysis. You will have the full three hours of class to complete this work. You will submit your completed analysis at the end of class.
 
 ### July 31, 11:30am–2:29pm · Final Project Presentation
 
-Each group will present their final project.
+Each group will present their final project and answer questions about their analysis (privately, not in front of the class).
 
 ## Grading Scale
 

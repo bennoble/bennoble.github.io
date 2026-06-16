@@ -1,0 +1,68 @@
+% xelatex preamble for syllabus PDFs — mirrors the brutalist site layout.
+% Fonts: Inter Tight (body + headings), IBM Plex Mono (labels + code),
+% Newsreader (occasional serif accent).
+
+\usepackage{fontspec}
+\setmainfont{Avenir Next}
+\setsansfont{Avenir Next}
+\setmonofont{Menlo}[Scale = 0.88]
+\newfontfamily\serifaccent{Georgia}
+
+% --- Color palette (rough match for brutalist tokens) ---
+\usepackage[dvipsnames]{xcolor}
+\definecolor{ink}{HTML}{1a1a1a}
+\definecolor{paper}{HTML}{f7f3ec}
+\definecolor{rule}{HTML}{1a1a1a}
+\definecolor{muted}{HTML}{6b6b6b}
+\definecolor{accent}{HTML}{0f5d3a}
+\color{ink}
+
+% --- Hyperlinks ---
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks = true,
+  linkcolor  = accent,
+  urlcolor   = accent,
+  citecolor  = accent,
+  pdfborder  = {0 0 0}
+}
+
+% --- Headings ---
+\usepackage[explicit]{titlesec}
+\titleformat{\section}
+  {\sffamily\bfseries\large\color{ink}}
+  {}{0pt}
+  {#1\vspace{-6pt}\newline\rule{\linewidth}{0.5pt}}
+\titleformat{\subsection}
+  {\sffamily\bfseries\normalsize\color{ink}}
+  {}{0pt}{#1}
+\titleformat{\subsubsection}
+  {\sffamily\itshape\normalsize\color{ink}}
+  {}{0pt}{#1}
+\titlespacing*{\section}{0pt}{18pt}{8pt}
+\titlespacing*{\subsection}{0pt}{14pt}{4pt}
+\titlespacing*{\subsubsection}{0pt}{10pt}{2pt}
+
+% --- Lists ---
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.2em, itemsep=2pt, topsep=4pt}
+\setlist[enumerate]{leftmargin=1.4em, itemsep=2pt, topsep=4pt}
+
+% --- Tables (a bit more breathing room) ---
+\renewcommand{\arraystretch}{1.25}
+\usepackage{array}
+
+% --- Page-top kicker block (echoes the .br-page-header layout) ---
+% Usage: \kicker{File 170 · POLI 170A · Summer 2026}{Applied Data Analysis}{An applied introduction…}
+\newcommand{\kicker}[3]{%
+  \begingroup
+  \noindent
+  {\ttfamily\footnotesize\MakeUppercase{#1}}\par\vspace{4pt}
+  {\sffamily\bfseries\fontsize{26pt}{30pt}\selectfont #2}\par\vspace{6pt}
+  {\serifaccent\itshape\large\color{muted} #3}\par\vspace{8pt}
+  \noindent\rule{\linewidth}{1pt}\par\vspace{14pt}
+  \endgroup
+}
+
+% Pandoc lets paragraphs be tight; restore a touch of leading.
+\linespread{1.12}
