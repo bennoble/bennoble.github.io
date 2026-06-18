@@ -7,7 +7,7 @@ file_no: "002"
 file_label: "CV"
 cta_url: "/files/noblecv.pdf"
 cta_label: "↓ Download PDF"
-record_count: "CV current APR 2026"
+record_count: "CV current JUN 2026"
 ---
 
 <section class="br-cv-section">
@@ -51,14 +51,14 @@ record_count: "CV current APR 2026"
   <div class="br-cv-row">
     <div class="br-cv-year">2026</div>
     <div>
-      <p class="br-cv-title">Are Voters' Preferences Being Ignored in Governor's Agendas?</p>
+      <p class="br-cv-title">Are Voters' Preferences Being Ignored in Governors' Agendas?</p>
       <p class="br-cv-detail">Benjamin S. Noble and Daniel M. Butler. <em>Political Research Quarterly</em>.</p>
     </div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">2026</div>
     <div>
-      <p class="br-cv-title">Presidential Leadership and Legislative Polarization</p>
+      <p class="br-cv-title">Presidential Leadership and Strategic Legislative Polarization</p>
       <p class="br-cv-detail">Benjamin S. Noble and Ian R. Turner. <em>Presidential Studies Quarterly</em>.</p>
     </div>
   </div>
@@ -105,13 +105,13 @@ record_count: "CV current APR 2026"
     <div class="br-cv-year">&mdash;</div>
     <div>
       <p class="br-cv-title">From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda</p>
-      <p class="br-cv-detail">David Ryan Miller, Benjamin S. Noble, and Erin L. Rosstier.</p>
+      <p class="br-cv-detail">David Ryan Miller, Benjamin S. Noble, and Erin L. Rossiter.</p>
     </div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">&mdash;</div>
     <div>
-      <p class="br-cv-title">Rhetorical Cohesion: A Multidimensional Measure of Party Unity in Political Messaging</p>
+      <p class="br-cv-title">A More Coherent Measure of Party Cohesion Using Topic Models and Contextual Embeddings</p>
       <p class="br-cv-detail">Gechun Lin and Benjamin S. Noble.</p>
     </div>
   </div>
@@ -173,7 +173,7 @@ record_count: "CV current APR 2026"
   <div class="br-cv-subhead">Invited Talks & Conferences</div>
   <div class="br-cv-row">
     <div class="br-cv-year">2025&ndash;26</div>
-    <div><p class="br-cv-title">Claremont Graduate University; Presidency and Executive Politics Conference at Stanford University</p></div>
+    <div><p class="br-cv-title">New Directions in American Politics Conference at University of Southern California; Presidency and Executive Politics Conference at Stanford University; Claremont Graduate University</p></div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">2024&ndash;25</div>
@@ -198,7 +198,7 @@ record_count: "CV current APR 2026"
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">Various</div>
-    <div><p class="br-cv-title">MPSA</p><p class="br-cv-detail">2021, 2022, 2023, 2025</p></div>
+    <div><p class="br-cv-title">MPSA</p><p class="br-cv-detail">2021, 2022, 2023, 2025, 2026</p></div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">Various</div>
