@@ -14,7 +14,7 @@ cta_label: "Download syllabus (PDF)"
 |---|---|
 | **Instructor** | Benjamin Noble · [b2noble@ucsd.edu](mailto:b2noble@ucsd.edu) |
 | **Meetings** | Monday and Wednesday, 11:00am to 1:50pm (fully remote; Zoom link on Canvas) |
-| **Office hours** | TBD |
+| **Office hours** | Monday and Wednesday 2:30 to 3:30pm (same link as class) |
 
 You can come to office hours to ask me questions about the course content (especially if you're having trouble). But you can also come to office hours to say hello, ask me about my research, learn what political scientists do, and tell me about your interests (academic or otherwise). I'd love to meet you.
 
@@ -45,7 +45,7 @@ I will also assign readings from the below textbook. This book covers many of th
 
 - [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) (referred to below as "The Effect") by Nick Huntington-Klein (2025). Written for an applied audience, with R, Stata, and Python code throughout.
 
-In-class labs, problem sets, and the final project will require use of the R programming language. We will cover R on the first day of class, and programming knowledge is not required as a prerequisite. To program in R, we will be using [UCSD's DataHub](https://datahub.ucsd.edu/hub/login?next=/hub/), which you can access with your UCSD Student SSO.
+In-class labs, homework, and the final project will require use of the R programming language. We will cover R on the first day of class, and programming knowledge is not required as a prerequisite. To program in R, we will be using [UCSD's DataHub](https://datahub.ucsd.edu/hub/login?next=/hub/), which you can access with your UCSD Student SSO.
 
 ## Course Format
 
@@ -61,7 +61,7 @@ If you experience a technical failure during class (your connection drops, Zoom 
 
 - **Attendance and Participation (15%)** including attending lecture synchronously, turning your camera on, and actively participating in lab activities and discussions.
 - **Lab assignments (25%)** completed in class and submitted at the end of each session, graded for effort and participation.
-- **Problem sets (30%)** to be completed individually, applying key course concepts.
+- **Homework (30%)** to be completed individually, applying key course concepts.
 - **Final group project (30%)** to be completed in class and presented (privately) during the final exam period.
 {: .ruled-list}
 
@@ -83,13 +83,13 @@ Labs are graded for participation and effort. Although these are group assignmen
 
 After lab, we will review solutions together as a class. During this review, you may be called upon to share your screen and walk us through what your group did. I will rotate through students over the course of the quarter, so everyone should expect to be called on at some point. This is a chance to learn from each other's approaches and to make sure each of you is engaging with the material. You will not be penalized if you aren't sure of your answer. This is simply an opportunity to share your work and demonstrate your group's approach.
 
-### Problem Sets (30%)
+### Homework (30%)
 
-You will complete three problem sets over the course of the quarter, each covering material from the lectures and in-class labs. These problem sets will include a mix of conceptual and coding questions.
+You will complete three homeworks over the course of the quarter, each covering material from the lectures and in-class labs. 
 
-When you submit your problem set, you must upload the code (rmd) and html files. Your code should include brief comments explaining what the code is doing. If you cannot arrive at the correct answer, you can still earn many of the possible points provided you make an attempt, show your work, and explain what you are doing. I will provide a template that will help you fulfill these requirements.
+Homework will be assigned and completed on Canvas, and each will include a series of multiple choice questions. To answer these questions, you will need to use the Rmd file I provide. You only need to submit the Canvas quiz, not the rmd file. 
 
-*You must work on problem sets on your own.* You may use our textbooks, notes, the internet, even AI. But you may not consult with other students, tutors, etc. You may discuss your problem sets with me during office hours.
+*You must work on homework on your own.* You may use our textbooks, notes, the internet, even AI. But you may not consult with other students, tutors, etc. You may discuss your homework with me during office hours.
 
 ### Final Project (30%)
 
@@ -115,7 +115,7 @@ Here are some recommendations:
 
 ### Late Submissions
 
-As I post lab submissions after class, labs may not be submitted late. Late problem sets will incur a one letter grade penalty for each 24 hour period they are late. For example, if a problem set is due at 10:59am, a late submission delivered between 11:00am on the due date and 10:59am the following day will automatically lose one letter grade. All solutions will be posted one session after the problem set is due. After solutions have been posted, late problem sets cannot be accepted.
+As I post lab submissions after class, labs may not be submitted late. Late homework will incur a one letter grade penalty for each 24 hour period they are late. For example, if a problem set is due at 10:59am, a late submission delivered between 11:00am on the due date and 10:59am the following day will automatically lose one letter grade. All solutions will be posted one session after the problem set is due. After solutions have been posted, late homework cannot be accepted.
 
 ### Requests for Re-Grades
 
@@ -145,7 +145,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 - Optional:
   - For help with R: [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/) by James Scott, [Chapter 1](https://bookdown.org/jgscott/DSGI/getting-started-in-r.html), [Chapter 2](https://bookdown.org/jgscott/DSGI/lesson_data.html), and [Chapter 4](https://bookdown.org/jgscott/DSGI/plots.html).
 
-- **Problem Set 1 assigned.**
+- **Homework 1 assigned.**
 
 ### July 1 · Potential Outcomes
 
@@ -169,8 +169,8 @@ Based on your learning style, you may find it helpful to complete the readings b
 - Optional:
   - The Effect, [Chapter 19](https://theeffectbook.net/ch-InstrumentalVariables.html).
 
-- **Problem Set 1 due before class, at 10:59am PT.**
-- **Problem Set 2 assigned.**
+- **Homework 1 due before class, at 10:59am PT.**
+- **Homework 2 assigned.**
 
 ### July 15 · Instrumental Variables (II)
 
@@ -183,8 +183,8 @@ Based on your learning style, you may find it helpful to complete the readings b
 - Optional:
   - The Effect, [Chapter 20](https://theeffectbook.net/ch-RegressionDiscontinuity.html).
 
-- **Problem Set 2 due before class, at 10:59am PT.**
-- **Problem Set 3 assigned.**
+- **Homework 2 due before class, at 10:59am PT.**
+- **Homework 3 assigned.**
 
 ### July 22 · Difference-in-Differences
 
@@ -197,7 +197,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 - No readings.
 
-- **Problem Set 3 due before class, at 10:59am PT.**
+- **Homework 3 due before class, at 10:59am PT.**
 
 ### July 29 · Final Project Session
 
