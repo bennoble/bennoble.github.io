@@ -62,7 +62,8 @@ If you experience a technical failure during class (your connection drops, Zoom 
 - **Attendance and Participation (15%)** including attending lecture synchronously, turning your camera on, and actively participating in lab activities and discussions.
 - **Lab assignments (25%)** completed in class and submitted at the end of each session, graded for effort and participation.
 - **Homework (30%)** to be completed individually, applying key course concepts.
-- **Final group project (30%)** to be completed in class and presented (privately) during the final exam period.
+- **Oral exam (25%)** a short one-on-one conversation with me over Zoom in which you reason through a causal question.
+- **Final (5%)** an asynchronous, comprehensive assessment completed individually.
 {: .ruled-list}
 
 ### Attendance and Participation (15%)
@@ -77,25 +78,31 @@ Missing class without prior contact (barring exceptional emergencies) will resul
 
 ### Lab Assignments (25%)
 
-All class sessions include group lab activities, which allow you to practice what we have learned in a low-stakes, group setting. Lab groups will be assigned during the first week of class and will serve as your final project groups as well (described below).
+All class sessions include group lab activities, which allow you to practice what we have learned in a low-stakes, group setting. Lab groups will be assigned during the first week of class.
 
-Labs are graded for participation and effort. Although these are group assignments, each member is responsible for submitting their own code and results. You will submit your `.Rmd` file and knitted `.html` file via Canvas at the end of the class session. We will cover these file types on the first day of class. You do not need to finish the entire lab to receive full credit, and solutions will be posted after class so you can check your work.
+Labs are graded for participation and effort. Although these are group assignments, each member is responsible for submitting their own code and results. You will submit your `.Rmd` file and knitted `.html` file via Canvas at the end of the class session. I'll cover these file types on the first day of class. You do not need to finish the entire lab to receive full credit, and solutions will be posted after class so you can check your work.
 
-After lab, we will review solutions together as a class. During this review, you may be called upon to share your screen and walk us through what your group did. I will rotate through students over the course of the quarter, so everyone should expect to be called on at some point. This is a chance to learn from each other's approaches and to make sure each of you is engaging with the material. You will not be penalized if you aren't sure of your answer. This is simply an opportunity to share your work and demonstrate your group's approach.
+After lab, I'll go over the solutions with the class. During this review, you may be called upon to share your screen and walk the class through what your group did. I will rotate through students over the course of the session, so everyone should expect to be called on at some point. This is a chance to learn from each other's approaches and to make sure each of you is engaging with the material. You will not be penalized if you aren't sure of your answer. This is simply an opportunity to share your work and demonstrate your group's approach.
 
 ### Homework (30%)
 
-You will complete three homeworks over the course of the quarter, each covering material from the lectures and in-class labs. 
+You will complete three homeworks over the course of the session, each covering material from the lectures and in-class labs. 
 
 Homework will be assigned and completed on Canvas, and each will include a series of multiple choice questions. To answer these questions, you will need to use the Rmd file I provide. You only need to submit the Canvas quiz, not the rmd file. 
 
 *You must work on homework on your own.* You may use our textbooks, notes, the internet, even AI. But you may not consult with other students, tutors, etc. You may discuss your homework with me during office hours.
 
-### Final Project (30%)
+### Oral Exam (25%)
 
-This course will conclude with a group final project. Your group will work together to complete a timed data analysis task during the final class session on Wednesday, July 29. You will present your findings (privately, not in front of the whole class) during our final exam period on Friday, July 31.
+During the last two days of class (July 27 and 29), you will meet with me one-on-one over Zoom for a short conversation, roughly eight to ten minutes. You will assign presentation slots in advance.
 
-Your final project grade will be based on three components: the quality of your group's analysis and presentation (the bulk of the grade), a short individual reflection that each group member submits describing their contributions and what they learned, and a confidential peer evaluation completed by each group member, which I may use to adjust individual grades within a group if there is clear evidence of unequal contribution.
+During your slot, I will give you a short scenario related to the material we have covered, and we will work through how you would identify a causal effect in that situation. There is no coding or analysis; the exam is about reasoning, not execution. You will receive practice scenarios ahead of time, and I will say more about the format as we get closer.
+
+### Final (5%)
+
+The course concludes with an asynchronous final exam, available from Friday, July 24 at 12:01 AM through Friday, July 31 at 11:59 PM. You may take it at any point during this window, but you must complete it in one sitting (budget two to three hours). The final resembles the homework, but is longer and more comprehensive, covering all of the course's designs.
+
+You complete the final on your own. It is open book: you may use your notes, the textbooks, the internet, or any other resources you find helpful.
 
 ## Course Policies
 
@@ -107,19 +114,13 @@ I take academic honesty and integrity seriously. You must adhere to the assignme
 
 In this class, I encourage thoughtful use of generative AI tools (such as ChatGPT, Claude, Gemini, TritonGPT, etc). These tools are incredibly powerful and can help you with both the statistical and coding concepts taught in this course. However, over-reliance on these tools poses some risk. They can make you *feel* like you understand something more than you do, and while they are less likely to make explicit errors than in the past, they can mislead you if you do not understand the underlying concepts. It is your responsibility to be a careful consumer of these tools and ensure that you validate anything you learn from them. It is also your responsibility, as a student in this course, to understand the answers they provide.
 
-Here are some recommendations:
-
-- If you are having trouble with coding, you should begin by working with one of these AI tools. They are often very good at answering basic coding questions and providing example code that can help you solve your problem. Often, if you copy/paste your error into the chat window, AI can provide a solution. Try this before asking me questions about coding (not because I don't want to help, but because this is how real data analysts solve problems today). Don't just ask for answers though. Ask the LLM to explain its work.
-- These tools work best for topics and concepts you "mostly" know. If you are working with an LLM on completely new material and it makes a mistake or misleads you, you will not know or have any intuition that it is wrong. As such, I encourage use of these tools in consultation with material from lectures and the textbooks. Go back and forth between them to master these topics, and verify what you learn from the LLM in our other materials.
-- You should be aware that these systems often save your conversation history and may use it to train future models. As such, never put any sensitive or private information into a prompt.
-
 ### Late Submissions
 
-As I post lab submissions after class, labs may not be submitted late. Late homework will incur a one letter grade penalty for each 24 hour period they are late. For example, if a problem set is due at 10:59am, a late submission delivered between 11:00am on the due date and 10:59am the following day will automatically lose one letter grade. All solutions will be posted one session after the problem set is due. After solutions have been posted, late homework cannot be accepted.
+As I post lab submissions after class, labs may not be submitted late. Late homework will incur a one letter grade penalty for each 24 hour period they are late. For example, if a homework is due at 10:59am, a late submission delivered between 11:00am on the due date and 10:59am the following day will automatically lose one letter grade. All solutions will be posted one session after the homework is due. After solutions have been posted, late homework cannot be accepted.
 
 ### Requests for Re-Grades
 
-If you believe an error has been made, you have *one week* following the return of the assignment to request a regrade. After this point, re-grades cannot be requested. To do so, please email Professor Noble with a brief explanation of why you are requesting a re-grade as well as evidence from our course materials justifying the request. I reserve the right to refuse to re-grade, and if we do re-grade, please note it may result in a lower grade.
+If you believe an error has been made, you have *one week* following the return of the assignment to request a regrade. After this point, re-grades cannot be requested. To do so, please email Professor Noble with a brief explanation of why you are requesting a re-grade as well as evidence from our course materials justifying the request. I reserve the right to refuse to re-grade, and if I do re-grade, please note it may result in a lower grade.
 
 ### Communication
 
@@ -129,7 +130,7 @@ Note: if you contact me the night before the homework is due, I will not respond
 
 ### Accommodations
 
-Students needing accommodations for this course due to a disability must provide a current Authorization for Accommodation (AFA) letter issued by the [Office for Students with Disabilities](https://osd.ucsd.edu/). Students are required to discuss accommodation arrangements with instructors, IAs, and OSD liaisons in the department.
+Students needing accommodations for this course due to a disability must provide a current Authorization for Accommodation (AFA) letter issued by the [Office for Students with Disabilities](https://osd.ucsd.edu/). Students are required to discuss accommodation arrangements with instructors and OSD liaisons in the department.
 
 Other resources, including the inclusive classroom statement, advising, and resources to support equity, diversity, and inclusion, and more can be found in the Additional Resources section below the reading list.
 
@@ -139,6 +140,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### June 29 · Introduction and R Skills
 
+- [Slides](/files/slides/p170/p170_1_intro.html)
 - Readings:
   - [Does X cause Y? An in-depth evidence review](https://www.cold-takes.com/does-x-cause-y-an-in-depth-evidence-review/) by Holden Karnofsky.
 
@@ -193,19 +195,17 @@ Based on your learning style, you may find it helpful to complete the readings b
 - Optional:
   - The Effect, [Chapter 18](https://theeffectbook.net/ch-DifferenceinDifference.html).
 
-### July 27 · Buffer / Synthesis
+### July 27 · Oral Exams, Day 1
 
-- No readings.
+- Oral exams begin; you will be assigned a slot in advance.
 
-- **Homework 3 due before class, at 10:59am PT.**
+### July 29 · Oral Exams, Day 2
 
-### July 29 · Final Project Session
+- Oral exams continue.
 
-At the start of class, you will receive a dataset and instructions. You will work in your group to complete the analysis. You will have the full three hours of class to complete this work. You will submit your completed analysis at the end of class.
+### Final Exam · Due Friday, July 31 at 11:59pm
 
-### July 31, 11:30am–2:29pm · Final Project Presentation
-
-Each group will present their final project and answer questions about their analysis (privately, not in front of the class).
+The final is asynchronous and can be taken at any point between Friday July 24 at 12:01 AM and Friday July 31 at 11:59 PM (including the posted final exam period, July 31, 11:30 AM -- 2:29 PM), but you must complete it in one sitting (budget two to three hours). See the Final section above for details.
 
 ## Grading Scale
 
@@ -229,7 +229,7 @@ These additional resources and the language come directly from the UCSD Politica
 
 ### Inclusive Classroom Statement
 
-The IAs and I are fully committed to creating a learning environment that supports diversity of thought, perspectives, experiences, and identities. We urge each of you to contribute your unique perspectives to discussions of course questions, themes, and materials so that we can learn from them, and from each other. If you should ever feel excluded, or unable to fully participate in our class for any reason, please let me know, or please consult the Department's [Report an Issue](https://polisci.ucsd.edu/contact/report-an-issue.html#UC-San-Diego-Principles-of-Comm) page for additional campus resources to support you, and diversity, equity, and inclusion in our classroom, and beyond.
+I am fully committed to creating a learning environment that supports diversity of thought, perspectives, experiences, and identities. I urge each of you to contribute your unique perspectives to discussions of course questions, themes, and materials so that we can learn from them, and from each other. If you should ever feel excluded, or unable to fully participate in our class for any reason, please let me know, or please consult the Department's [Report an Issue](https://polisci.ucsd.edu/contact/report-an-issue.html#UC-San-Diego-Principles-of-Comm) page for additional campus resources to support you, and diversity, equity, and inclusion in our classroom, and beyond.
 
 Additional resources to support equity, diversity, and inclusion in our classroom, and beyond, may be found here:
 
