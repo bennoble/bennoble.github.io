@@ -30,6 +30,12 @@ In a typical class, you can expect:
 - In-class "lab" exercise where you will work in small groups to apply concepts we learned in the lecture.
 - Review solutions to the lab exercise, answer questions.
 
+By the end of this course, you should be able to:
+
+- Distinguish correlation from causation, and understand what a causal design is.
+- Select the right causal design for a given question.
+- Interpret statistical output substantively and correctly.
+
 ## Required Texts and Materials
 
 All textbooks and materials used in this course are available for free online.
