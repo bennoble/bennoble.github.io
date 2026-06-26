@@ -14,7 +14,7 @@ cta_label: "Download syllabus (PDF)"
 |---|---|
 | **Instructor** | Benjamin Noble · [b2noble@ucsd.edu](mailto:b2noble@ucsd.edu) |
 | **Meetings** | Monday and Wednesday, 11:00am to 1:50pm (fully remote; Zoom link on Canvas) |
-| **Office hours** | Monday and Wednesday 2:30 to 3:30pm (same link as class) |
+| **Office hours** | Monday 9:00 to 10:30am and Wednesday 2:30 to 3:30pm (same link as class) |
 
 You can come to office hours to ask me questions about the course content (especially if you're having trouble). But you can also come to office hours to say hello, ask me about my research, learn what political scientists do, and tell me about your interests (academic or otherwise). I'd love to meet you.
 
@@ -212,8 +212,6 @@ Based on your learning style, you may find it helpful to complete the readings b
 ### Final Exam · Due Friday, July 31 at 11:59pm
 
 The final is asynchronous and can be taken at any point between Friday July 24 at 12:01 AM and Friday July 31 at 11:59 PM (including the posted final exam period, July 31, 11:30 AM -- 2:29 PM), but you must complete it in one sitting (budget two to three hours). See the Final section above for details.
-
-- **Final Exam due 7/31 by 11:59pm**
 
 ## Grading Scale
 
