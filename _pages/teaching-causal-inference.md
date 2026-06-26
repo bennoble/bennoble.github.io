@@ -45,7 +45,7 @@ I will also assign readings from the below textbook. This book covers many of th
 
 - [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) (referred to below as "The Effect") by Nick Huntington-Klein (2025). Written for an applied audience, with R, Stata, and Python code throughout.
 
-In-class labs, homework, and the final project will require use of the R programming language. We will cover R on the first day of class, and programming knowledge is not required as a prerequisite. To program in R, we will be using [UCSD's DataHub](https://datahub.ucsd.edu/hub/login?next=/hub/), which you can access with your UCSD Student SSO.
+In-class labs, homework, and the final exam will require use of the R programming language. We will cover R on the first day of class, and programming knowledge is not required as a prerequisite. To program in R, we will be using [UCSD's DataHub](https://datahub.ucsd.edu/hub/login?next=/hub/), which you can access with your UCSD Student SSO.
 
 ## Course Format
 
@@ -96,7 +96,7 @@ Each homework may be attempted up to three times, and only your highest score wi
 
 ### Oral Exam (25%)
 
-During the last two days of class (July 27 and 29), you will meet with me one-on-one over Zoom for a short conversation, roughly eight to ten minutes. You will assign presentation slots in advance.
+During the last two days of class (July 27 and 29), you will meet with me one-on-one over Zoom for a short conversation, roughly eight to ten minutes. You will be assigned a slot in advance.
 
 During your slot, I will give you a short scenario related to the material we have covered, and we will work through how you would identify a causal effect in that situation. There is no coding or analysis; the exam is about reasoning, not execution. You will receive practice scenarios ahead of time, and I will say more about the format as we get closer.
 
@@ -203,7 +203,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 - Oral exams begin; you will be assigned a slot in advance.
 - **Homework 3 due before class, at 10:59am PT. Please note this applies to all students irrespective of your oral exam time.**
-- **Final Exam Open**
+- **Final exam window open** (since Friday, July 24)
 
 ### July 29 · Oral Exams, Day 2
 
