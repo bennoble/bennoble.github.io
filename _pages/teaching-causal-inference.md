@@ -92,6 +92,8 @@ Homework will be assigned and completed on Canvas, and each will include a serie
 
 *You must work on homework on your own.* You may use our textbooks, notes, the internet, even AI. But you may not consult with other students, tutors, etc. You may discuss your homework with me during office hours.
 
+Each homework may be attempted up to three times, and only your highest score will count toward your final grade. The goal is to encourage you to work through the material rather than feel pressure to get every question right on the first try. I encourage you to use each attempt as an opportunity to revisit the lecture notes, textbook, and Rmd file before trying again. Canvas will not reveal the correct answers until after the homework deadline. 
+
 ### Oral Exam (25%)
 
 During the last two days of class (July 27 and 29), you will meet with me one-on-one over Zoom for a short conversation, roughly eight to ten minutes. You will assign presentation slots in advance.
@@ -103,6 +105,8 @@ During your slot, I will give you a short scenario related to the material we ha
 The course concludes with an asynchronous final exam, available from Friday, July 24 at 12:01 AM through Friday, July 31 at 11:59 PM. You may take it at any point during this window, but you must complete it in one sitting (budget two to three hours). The final resembles the homework, but is longer and more comprehensive, covering all of the course's designs.
 
 You complete the final on your own. It is open book: you may use your notes, the textbooks, the internet, or any other resources you find helpful.
+
+Like the homework assignments, you will have three attempts on the final. The answer key will be provided after the July 31 deadline.
 
 ## Course Policies
 
@@ -198,6 +202,8 @@ Based on your learning style, you may find it helpful to complete the readings b
 ### July 27 · Oral Exams, Day 1
 
 - Oral exams begin; you will be assigned a slot in advance.
+- **Homework 3 due before class, at 10:59am PT. Please note this applies to all students irrespective of your oral exam time.**
+- **Final Exam Open**
 
 ### July 29 · Oral Exams, Day 2
 
@@ -206,6 +212,8 @@ Based on your learning style, you may find it helpful to complete the readings b
 ### Final Exam · Due Friday, July 31 at 11:59pm
 
 The final is asynchronous and can be taken at any point between Friday July 24 at 12:01 AM and Friday July 31 at 11:59 PM (including the posted final exam period, July 31, 11:30 AM -- 2:29 PM), but you must complete it in one sitting (budget two to three hours). See the Final section above for details.
+
+- **Final Exam due 7/31 by 11:59pm**
 
 ## Grading Scale
 
