@@ -32,7 +32,7 @@ In a typical class, you can expect:
 
 By the end of this course, you should be able to:
 
-- Distinguish correlation from causation, and understand what a causal design is.
+- Distinguish correlation from causation, and understand how causal designs help us tell them apart.
 - Select the right causal design for a given question.
 - Interpret statistical output substantively and correctly.
 
@@ -43,28 +43,26 @@ All textbooks and materials used in this course are available for free online.
 Our primary textbook is:
 
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (referred to below as "Mixtape") by Scott Cunningham (2021, Yale University Press).
-  - *Note: this textbook includes a good deal of mathematical notation. Because this is an* applied *course, our focus is on gaining a conceptual understanding of the math and implementing it with code and data.*
+  - *Note: this textbook includes a good deal of mathematical notation. Because this is an* applied *course, our focus is on gaining a conceptual understanding of the math and implementing it with code and data. You are not expected to understand every equation on the first read.*
 
-I will also assign readings from the below textbook. This book covers many of the same concepts as our main textbook in a different, less technical way. You may want to reference this book if you get stuck or prefer its approach.
+I will also assign readings from: 
 
-- [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) (referred to below as "The Effect") by Nick Huntington-Klein (2025). Written for an applied audience, with R, Stata, and Python code throughout.
+- [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) (referred to below as "The Effect") by Nick Huntington-Klein (2025, CRC Press).
 
-In-class labs, homework, and the final exam will require use of the R programming language. We will cover R on the first day of class, and programming knowledge is not required as a prerequisite. To program in R, we will be using [UCSD's DataHub](https://datahub.ucsd.edu/hub/login?next=/hub/), which you can access with your UCSD Student SSO.
+This book covers many of the same concepts in a different, less technical way. You may want to reference this book if you get stuck or prefer its approach.
+
+In-class labs, homework, and the final exam will require a basic understanding of the R programming language. We will cover everything you need to know about R on the first day of class. We will be using [DataHub](https://datahub.ucsd.edu/hub/login?next=/hub/), which you can access with your UCSD Student SSO.
 
 ## Course Format
 
-This class is fully remote. All sessions meet over Zoom. The meeting link is available on Canvas.
+This class is fully remote, and all sessions meet over Zoom (link on Canvas). Attendance, including turning your camera on, is required. Lectures will be recorded and posted to Canvas after class if you want to review anything.
 
-Lectures will be recorded and posted to Canvas after class. However, attendance is required.
-
-Please keep your camera on during class sessions. This is a remote class with a lot of group work and discussion. Seeing each other matters.
-
-If you experience a technical failure during class (your connection drops, Zoom crashes, your Wi-Fi goes out), try to reconnect as soon as you can. If you miss a lab because of a tech issue, that counts toward your one excused lab submission described below. If technical problems become a recurring issue for you, get in touch and we will come up with a plan.
+If you experience a technical failure during class (your connection drops, Zoom crashes, your Wi-Fi goes out), try to reconnect as soon as you can. If technical problems are a recurring issue, please get in touch as soon as possible.
 
 ## Assignments
 
 - **Attendance and Participation (15%)** including attending lecture synchronously, turning your camera on, and actively participating in lab activities and discussions.
-- **Lab assignments (25%)** completed in class and submitted at the end of each session, graded for effort and participation.
+- **Lab assignments (25%)** completed in class and submitted on Canvas at the end of each session, graded for completion.
 - **Homework (30%)** to be completed individually, applying key course concepts.
 - **Oral exam (25%)** a short one-on-one conversation with me over Zoom in which you reason through a causal question.
 - **Final (5%)** an asynchronous, comprehensive assessment completed individually.
@@ -74,41 +72,39 @@ If you experience a technical failure during class (your connection drops, Zoom 
 
 You are expected to attend every class session synchronously and have your camera on for the full session.
 
-Because life happens, you will be allowed one excused class absence with no questions asked; the lab from that day will be dropped from your final grade. You do not need to email me to use this policy. It will be applied automatically when I calculate final grades.
+Because life happens, you will be allowed one excused absence with no questions asked. Missing one class will not impact your attendance grade, and the in-class lab from that day will be dropped from your final grade. **You do not need to email me** to take advantage of this policy.
 
-Beyond your one free absence, you must contact me in advance to miss additional classes without penalty, and waiving the penalty is at my discretion. If I grant an excuse, the lab from that day may be dropped or made up, depending on the situation.
+Beyond your one free absence, you must contact me **in advance** if you need to miss additional classes. I may choose to grant you an additional excused absence, but that is at my discretion. If I grant an excuse, the lab from that day may be dropped or made up, depending on the situation.
 
-Missing class without prior contact (barring exceptional emergencies) will result in a zero on that day's lab. Be thoughtful about how you use the free absence policy; I will not grant additional exceptions for routine reasons.
+Beyond your one free absence, missing class without prior contact (barring exceptional emergencies) will result in a zero on that day's attendance and lab grades. Be thoughtful about how you use the free absence policy; I will not grant additional exceptions for routine reasons.
 
 ### Lab Assignments (25%)
 
 All class sessions include group lab activities, which allow you to practice what we have learned in a low-stakes, group setting. Lab groups will be assigned during the first week of class.
 
-Labs are graded for participation and effort. Although these are group assignments, each member is responsible for submitting their own code and results. You will submit your `.Rmd` file and knitted `.html` file via Canvas at the end of the class session. I'll cover these file types on the first day of class. You do not need to finish the entire lab to receive full credit, and solutions will be posted after class so you can check your work.
+Labs are graded for completion, not correctness. Although these are group assignments, each member is responsible for submitting their own lab worksheet on Canvas at the end of the class session. Your separate participation grade (15%) covers attendance, keeping your camera on, and engaging in class, including the solution review below.
 
-After lab, I'll go over the solutions with the class. During this review, you may be called upon to share your screen and walk the class through what your group did. I will rotate through students over the course of the session, so everyone should expect to be called on at some point. This is a chance to learn from each other's approaches and to make sure each of you is engaging with the material. You will not be penalized if you aren't sure of your answer. This is simply an opportunity to share your work and demonstrate your group's approach.
+After lab, I'll go over the solutions with the class. Solutions will also be posted after class so you can check your work. During this review, you may be called on to share or discuss your group's approach. These are opportunities to learn from one another and share the thought process behind the work. These interactions will increase your participation score and cannot negatively impact your grade.
 
 ### Homework (30%)
 
-You will complete three homeworks over the course of the session, each covering material from the lectures and in-class labs. 
+You will complete three homeworks over the course of the session, each covering material from the lectures and in-class labs. These include a series of multiple choice questions and will be completed and submitted on Canvas.
 
-Homework will be assigned and completed on Canvas, and each will include a series of multiple choice questions. To answer these questions, you will need to use the Rmd file I provide. You only need to submit the Canvas quiz, not the rmd file. 
+Each homework is graded for correctness, but it may be attempted up to three times. Only your highest score will count toward your final grade. My hope is that you work through the material and do not feel pressure to get every question right on the first try. I encourage you to use each attempt as an opportunity to revisit the lecture notes, textbook, and labs before trying again. Canvas will not reveal the correct answers until solutions are posted, one session after the deadline. 
 
-*You must work on homework on your own.* You may use our textbooks, notes, the internet, even AI. But you may not consult with other students, tutors, etc. You may discuss your homework with me during office hours.
-
-Each homework may be attempted up to three times, and only your highest score will count toward your final grade. The goal is to encourage you to work through the material rather than feel pressure to get every question right on the first try. I encourage you to use each attempt as an opportunity to revisit the lecture notes, textbook, and Rmd file before trying again. Canvas will not reveal the correct answers until after the homework deadline. 
+*You must work on homework on your own.* You may use our textbooks, notes, the internet, even AI. But you may not consult with other students, tutors, etc. You can also discuss your homework with me during office hours.
 
 ### Oral Exam (25%)
 
-During the last two days of class (July 27 and 29), you will meet with me one-on-one over Zoom for a short conversation, roughly eight to ten minutes. You will be assigned a slot in advance.
+During the last two days of class (July 27 and 29), each student will meet with me one-on-one over Zoom for a short conversation, roughly eight to ten minutes. You will be assigned a slot in advance. On July 27 and 29, you only need to join Zoom for your slot. There is no regular class session.
 
-During your slot, I will give you a short scenario related to the material we have covered, and we will work through how you would identify a causal effect in that situation. There is no coding or analysis; the exam is about reasoning, not execution. You will receive practice scenarios ahead of time, and I will say more about the format as we get closer.
+During your time slot, I will pose a short scenario related to the material we have covered, and we will work through how you would identify a causal effect in that situation. There is no coding or analysis; the exam is about reasoning, not execution. You will receive practice scenarios ahead of time, and I will say more about the format as we get closer to the end of the course.
 
 ### Final (5%)
 
-The course concludes with an asynchronous final exam, available from Friday, July 24 at 12:01 AM through Friday, July 31 at 11:59 PM. You may take it at any point during this window, but you must complete it in one sitting (budget two to three hours). The final resembles the homework, but is longer and more comprehensive, covering all of the course's designs.
+The course concludes with an asynchronous final exam, available from Friday, July 24 at 12:01 AM through Friday, July 31 at 11:59 PM. You may take it at any point during this window; budget two to three hours. The final is fully asynchronous: there is no in-person or synchronous exam, even though the window spans the university-assigned final exam slot. It resembles the homework, but is longer and comprehensive.
 
-You complete the final on your own. It is open book: you may use your notes, the textbooks, the internet, or any other resources you find helpful.
+As with the homeworks, you must complete the final on your own, but it is open book: you may use your notes, the textbooks, the internet, or any other resources you find helpful. 
 
 Like the homework assignments, you will have three attempts on the final. The answer key will be provided after the July 31 deadline.
 
@@ -120,21 +116,27 @@ I take academic honesty and integrity seriously. You must adhere to the assignme
 
 ### Use of AI
 
-In this class, I encourage thoughtful use of generative AI tools (such as ChatGPT, Claude, Gemini, TritonGPT, etc). These tools are incredibly powerful and can help you with both the statistical and coding concepts taught in this course. However, over-reliance on these tools poses some risk. They can make you *feel* like you understand something more than you do, and while they are less likely to make explicit errors than in the past, they can mislead you if you do not understand the underlying concepts. It is your responsibility to be a careful consumer of these tools and ensure that you validate anything you learn from them. It is also your responsibility, as a student in this course, to understand the answers they provide.
+In this class, I encourage thoughtful use of generative AI tools (such as ChatGPT, Claude, Gemini, TritonGPT, etc). These tools are incredibly powerful and can help you with both the statistical and coding concepts taught in this course. However, over-reliance on these tools poses some risk. They can make you *feel* like you understand something more than you do, and while they are less likely to make explicit errors than in the past, they can mislead you if you do not understand the underlying concepts. 
+
+It is your responsibility to be a careful consumer of these tools and ensure that you validate anything you learn from them. It is also your responsibility, as a student in this course, to understand the answers they provide.
+
+For some helpful hints on how to use AI in a thoughtful and responsible way, see my blog post [Talking to AI](https://benjaminnoble.org/blog/talking-to-ai).
 
 ### Late Submissions
 
-As I post lab submissions after class, labs may not be submitted late. Late homework will incur a one letter grade penalty for each 24 hour period they are late. For example, if a homework is due at 10:59am, a late submission delivered between 11:00am on the due date and 10:59am the following day will automatically lose one letter grade. All solutions will be posted one session after the homework is due. After solutions have been posted, late homework cannot be accepted.
+Labs cannot be submitted late. They must be completed and submitted during class.
+
+Late homework will incur a one letter grade penalty for each 24 hour period it is late. For example, if a homework is due at 10:59am, a late submission delivered between 11:00am on the due date and 10:59am the following day will automatically lose one letter grade. All homework solutions will be posted one session after the homework is due. After solutions have been posted, late homework cannot be accepted.
 
 ### Requests for Re-Grades
 
-If you believe an error has been made, you have *one week* following the return of the assignment to request a regrade. After this point, re-grades cannot be requested. To do so, please email Professor Noble with a brief explanation of why you are requesting a re-grade as well as evidence from our course materials justifying the request. I reserve the right to refuse to re-grade, and if I do re-grade, please note it may result in a lower grade.
+If you believe an error has been made, you have *one week* following the return of the assignment to request a regrade. After this point, re-grades cannot be requested. To request a regrade, please email Professor Noble with a brief explanation of why you are requesting a re-grade as well as evidence from our course materials justifying the request. I reserve the right to refuse to re-grade, and if I do re-grade, please note it may result in a lower grade.
 
 ### Communication
 
 For all questions or comments, you may get in touch with me during my office hours listed on this syllabus, or via email. If your email requires a response, you can expect one within 1–2 business days. If you email me over the weekend, the clock begins Monday morning.
 
-Note: if you contact me the night before the homework is due, I will not respond in time to provide any advice before the deadline. Please plan and work ahead.
+*Note: if you contact me the night before an assignment is due, I will not respond in time to provide any advice before the deadline. Please plan and work ahead.*
 
 ### Accommodations
 
@@ -207,7 +209,6 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 - Oral exams begin; you will be assigned a slot in advance.
 - **Homework 3 due before class, at 10:59am PT. Please note this applies to all students irrespective of your oral exam time.**
-- **Final exam window open** (since Friday, July 24)
 
 ### July 29 · Oral Exams, Day 2
 
@@ -215,7 +216,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### Final Exam · Due Friday, July 31 at 11:59pm
 
-The final is asynchronous and can be taken at any point between Friday July 24 at 12:01 AM and Friday July 31 at 11:59 PM (including the posted final exam period, July 31, 11:30 AM -- 2:29 PM), but you must complete it in one sitting (budget two to three hours). See the Final section above for details.
+Fully asynchronous; complete it on Canvas at any point in the July 24–31 window. See the Final section above for details.
 
 ## Grading Scale
 
