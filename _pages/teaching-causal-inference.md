@@ -6,8 +6,6 @@ show_toc: true
 file_no: "170"
 file_label: "POLI 170A · Summer 2026"
 lede: "An applied introduction to causal inference for the social sciences."
-cta_url: /files/poli170a-summer2026-syllabus.pdf
-cta_label: "Download syllabus (PDF)"
 ---
 
 | | |
