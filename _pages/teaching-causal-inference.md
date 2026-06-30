@@ -150,7 +150,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### June 29 · Introduction and R Skills
 
-- [Slides](/files/slides/p170/p170_1_intro.html)
+- [Slides](/files/slides/p170/p170_1_intro_pub.html)
 - Readings:
   - [Does X cause Y? An in-depth evidence review](https://www.cold-takes.com/does-x-cause-y-an-in-depth-evidence-review/) by Holden Karnofsky.
 
@@ -161,6 +161,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### July 1 · Potential Outcomes
 
+- [Slides](/files/slides/p170/p170_2_po_pub.html)
 - Readings:
   - Mixtape, [Chapter 4](https://mixtape.scunning.com/04-potential_outcomes) (stop before "4.2 Randomization Inference").
 
