@@ -167,6 +167,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### July 6 · Extraordinary Least Squares
 
+- [Slides](/files/slides/p170/p170_3_ols_pub.html)
 - Readings:
   - Jared Wilber, September 2022. [Linear Regression](https://mlu-explain.github.io/linear-regression/). *MLU Explain*.
 
