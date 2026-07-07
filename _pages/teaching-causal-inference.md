@@ -173,6 +173,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### July 8 · Potential Outcomes (II)
 
+- [Slides](/files/slides/p170/p170_4_po2_pub.html)
 - Readings:
   - The Effect, [Chapter 10](https://theeffectbook.net/ch-TreatmentEffects.html).
 
