@@ -179,6 +179,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### July 13 · Instrumental Variables
 
+- [Slides](/files/slides/p170/p170_5_iv_pub.html)
 - Readings:
   - Mixtape, [Chapter 7](https://mixtape.scunning.com/07-instrumental_variables), sections 7.1–7.2, 7.3.1, 7.5.
 - Optional:
@@ -189,6 +190,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### July 15 · Instrumental Variables (II)
 
+- [Slides](/files/slides/p170/p170_5_iv_pub.html)
 - No reading.
 
 ### July 20 · Regression Discontinuity
