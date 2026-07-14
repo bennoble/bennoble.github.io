@@ -1,217 +1,34 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>POLI 170A Oral Exam: Description and Study Guide</title>
-  <style>
+---
+layout: single
+title: "Oral Exam: Description and Study Guide"
+permalink: /files/p170/oral-exam.html
+author_profile: false
+show_toc: true
+file_no: "170"
+file_label: "POLI 170A · Summer 2026"
+lede: "Format, grading criteria, and practice scenarios for the POLI 170A oral exam."
+nav_section: teaching
+toc:
+  - id: logistics
+    label: Logistics
+  - id: the-setup
+    label: The setup
+  - id: how-the-exam-will-work
+    label: How the exam will work
+  - id: grading
+    label: Grading
+  - id: how-to-prepare
+    label: How to prepare
+  - id: practice-scenario-1-instrumental-variables
+    label: "Practice scenario 1: Instrumental variables"
+  - id: practice-scenario-2-regression-discontinuity
+    label: "Practice scenario 2: Regression discontinuity"
+  - id: practice-scenario-3-difference-in-differences
+    label: "Practice scenario 3: Difference-in-differences"
+  - id: final-advice
+    label: Final advice
+---
 
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-ul.task-list[class]{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-font-size: inherit;
-width: 0.8em;
-margin: 0 0.8em 0.2em -1.6em;
-vertical-align: middle;
-}
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
-</style>
-  <style type="text/css">:root {
---ink: #20242a;
---muted: #59636e;
---blue: #08589e;
---blue-dark: #073b66;
---blue-light: #edf5fb;
---rule: #d7dee5;
---paper: #ffffff;
---page: #f5f7f9;
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-html {
-background: var(--page);
-}
-body {
-width: min(900px, calc(100% - 32px));
-margin: 32px auto;
-background: var(--paper);
-color: var(--ink);
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-font-size: 18px;
-line-height: 1.65;
-box-shadow: 0 16px 50px rgb(21 39 55 / 8%);
-}
-body > section.level1 > h1 {
-margin: 0;
-color: var(--blue-dark);
-font-size: clamp(2rem, 5vw, 3.25rem);
-line-height: 1.12;
-letter-spacing: -0.025em;
-}
-#TOC {
-padding: 20px 64px 28px;
-background: var(--paper);
-border-bottom: 1px solid var(--rule);
-}
-#TOC::before {
-display: block;
-margin-bottom: 8px;
-color: var(--muted);
-content: "On this page";
-font-size: 0.8rem;
-font-weight: 700;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-}
-#TOC > ul,
-#TOC > ul > li {
-margin: 0;
-padding: 0;
-list-style: none;
-}
-#TOC > ul > li > a {
-display: none;
-}
-#TOC > ul > li > ul {
-display: block;
-columns: 2;
-gap: 40px;
-margin: 0;
-padding-left: 1.2em;
-}
-#TOC li {
-break-inside: avoid;
-margin: 0.25em 0;
-}
-body > section.level1 {
-padding: 48px 64px 72px;
-}
-h2,
-h3,
-h4 {
-color: var(--blue-dark);
-line-height: 1.25;
-}
-h2 {
-margin-top: 2.3em;
-padding-top: 0.35em;
-border-top: 2px solid var(--blue-dark);
-font-size: 1.65rem;
-}
-h2:first-child { margin-top: 0; }
-h3 {
-margin-top: 1.8em;
-font-size: 1.3rem;
-}
-h4 {
-margin-bottom: 0.35em;
-font-size: 1.05rem;
-}
-p,
-ul,
-ol,
-table,
-blockquote {
-margin-top: 0.8em;
-margin-bottom: 1.1em;
-}
-li + li { margin-top: 0.35em; }
-a {
-color: var(--blue);
-text-underline-offset: 0.16em;
-}
-a:hover,
-a:focus-visible {
-color: var(--blue-dark);
-text-decoration-thickness: 2px;
-}
-blockquote {
-margin-inline: 0;
-padding: 0.9em 1.15em;
-background: var(--blue-light);
-border-left: 5px solid var(--blue);
-}
-blockquote p { margin: 0; }
-table {
-display: block;
-width: 100%;
-overflow-x: auto;
-border-collapse: collapse;
-font-size: 0.95rem;
-}
-th,
-td {
-padding: 0.75em 0.9em;
-border: 1px solid var(--rule);
-text-align: left;
-vertical-align: top;
-}
-th {
-background: var(--blue-dark);
-color: white;
-}
-hr {
-margin: 3em 0;
-border: 0;
-border-top: 1px solid var(--rule);
-}
-@media (max-width: 680px) {
-body { font-size: 17px; }
-#TOC,
-body > section.level1 {
-padding-right: 24px;
-padding-left: 24px;
-}
-body > section.level1 { padding-top: 36px; }
-#TOC > ul > li > ul { columns: 1; }
-}
-@media print {
-html { background: white; }
-body {
-width: 100%;
-margin: 0;
-font-size: 11pt;
-box-shadow: none;
-}
-#TOC,
-body > section.level1 {
-padding-right: 0;
-padding-left: 0;
-}
-a { color: inherit; }
-}
-</style>
-</head>
-<body>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#poli-170a-oral-exam-description-and-study-guide" id="toc-poli-170a-oral-exam-description-and-study-guide">POLI 170A Oral
-Exam: Description and Study Guide</a>
-<ul>
-<li><a href="#logistics" id="toc-logistics">Logistics</a></li>
-<li><a href="#the-setup" id="toc-the-setup">The setup</a></li>
-<li><a href="#how-the-exam-will-work" id="toc-how-the-exam-will-work">How the exam will work</a></li>
-<li><a href="#grading" id="toc-grading">Grading</a></li>
-<li><a href="#how-to-prepare" id="toc-how-to-prepare">How to
-prepare</a></li>
-<li><a href="#practice-scenario-1-instrumental-variables" id="toc-practice-scenario-1-instrumental-variables">Practice scenario 1:
-Instrumental variables</a></li>
-<li><a href="#practice-scenario-2-regression-discontinuity" id="toc-practice-scenario-2-regression-discontinuity">Practice scenario
-2: Regression discontinuity</a></li>
-<li><a href="#practice-scenario-3-difference-in-differences" id="toc-practice-scenario-3-difference-in-differences">Practice scenario
-3: Difference-in-differences</a></li>
-<li><a href="#final-advice" id="toc-final-advice">Final advice</a></li>
-</ul></li>
-</ul>
-</nav>
-<section id="poli-170a-oral-exam-description-and-study-guide" class="level1">
-<h1>POLI 170A Oral Exam: Description and Study Guide</h1>
 <p>The oral exam is an approximately 10-minute, one-on-one conversation
 with me over Zoom. During this conversation, I will give you a brief
 real-world scenario and ask you to reason through the causal design and
@@ -242,7 +59,7 @@ second half of the course:</p>
 <li>regression discontinuity (RDD)</li>
 <li>difference-in-differences (DiD)</li>
 </ul>
-<p>I&#39;ve provided three practice scenarios below. The real scenarios will
+<p>I've provided three practice scenarios below. The real scenarios will
 use the same structure. Working through the practice scenarios should
 help prepare you for the exam.</p>
 </section>
@@ -265,15 +82,17 @@ the outcome.</p>
 <p>Explain the comparison before naming the design. I am listening for
 the causal logic, not just whether you recognize a label.</p>
 </section>
-<section id="3-explain-the-logic-behind-the-causal-interpretation-and-identify-key-assumptions" class="level3">
+<section
+id="3-explain-the-logic-behind-the-causal-interpretation-and-identify-key-assumptions"
+class="level3">
 <h3>3. Explain the logic behind the causal interpretation and identify
 key assumptions</h3>
 <p>I will ask why your comparison is able to identify a causal effect.
 How can the design help us learn what would have happened
 counterfactually? What assumption or assumptions are needed to ensure
 the comparison is causal?</p>
-<p>State the assumption in plain language. Saying only &quot;parallel trends&quot;
-or &quot;exclusion restriction&quot; is not enough. Explain what the term means in
+<p>State the assumption in plain language. Saying only "parallel trends"
+or "exclusion restriction" is not enough. Explain what the term means in
 the context of the scenario.</p>
 </section>
 <section id="4-identify-a-concrete-threat" class="level3">
@@ -301,27 +120,27 @@ it worked.</p>
 <table>
 <thead>
 <tr>
-<th>Dimension</th>
-<th>What a strong response looks like</th>
+<th scope="col">Dimension</th>
+<th scope="col">What a strong response looks like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Causal comparison and design</strong></td>
+<th scope="row">Causal comparison and design</th>
 <td>You construct the appropriate comparison and name the design.</td>
 </tr>
 <tr>
-<td><strong>Identifying logic</strong></td>
+<th scope="row">Identifying logic</th>
 <td>You explain each key assumption in plain language and connect it to
 the missing counterfactual.</td>
 </tr>
 <tr>
-<td><strong>Concrete threat</strong></td>
+<th scope="row">Concrete threat</th>
 <td>You identify a relevant threat and explain how it affects the
 comparison.</td>
 </tr>
 <tr>
-<td><strong>Adaptive reasoning and interpretation</strong></td>
+<th scope="row">Adaptive reasoning and interpretation</th>
 <td>You revise the claim when given new information and correctly
 describe whose effect the design estimates.</td>
 </tr>
@@ -355,7 +174,7 @@ explanation contains the same logic.</p>
 <h2>Practice scenario 1: Instrumental variables</h2>
 <blockquote>
 <p>A nonpartisan civic group wants to know whether attending a candidate
-town hall makes voters more knowledgeable about the candidates&#39;
+town hall makes voters more knowledgeable about the candidates'
 positions. The group takes a list of 2,000 registered voters and
 randomly sends half of them text-message reminders about an upcoming
 town hall. After the election, everyone receives a short
@@ -419,7 +238,7 @@ another channel.</li>
 </section>
 <section id="4-concrete-threat" class="level4">
 <h4>4. Concrete threat</h4>
-<p>Suppose the reminder texts summarize each candidate&#39;s positions. The
+<p>Suppose the reminder texts summarize each candidate's positions. The
 texts could then increase political knowledge directly, even among
 voters who never attend. That would violate the exclusion
 restriction.</p>
@@ -441,7 +260,8 @@ voter.</p>
 </section>
 </section>
 </section>
-<section id="practice-scenario-2-regression-discontinuity" class="level2">
+<section id="practice-scenario-2-regression-discontinuity"
+class="level2">
 <h2>Practice scenario 2: Regression discontinuity</h2>
 <blockquote>
 <p>A state gives extra election-administration funding to any city with
@@ -524,13 +344,14 @@ towns or very large cities.</p>
 </section>
 </section>
 </section>
-<section id="practice-scenario-3-difference-in-differences" class="level2">
+<section id="practice-scenario-3-difference-in-differences"
+class="level2">
 <h2>Practice scenario 3: Difference-in-differences</h2>
 <blockquote>
 <p>At the start of 2024, several states adopted independent
 redistricting commissions, taking responsibility for drawing district
 maps away from the state legislature. Other states kept legislative
-control. A researcher has data on how competitive each state&#39;s House
+control. A researcher has data on how competitive each state's House
 races were in 2022, before the reforms, and in 2024, after the reforms.
 The researcher wants to know whether commissions make elections more
 competitive.</p>
@@ -624,6 +445,3 @@ term. During the meeting, say what you are thinking, connect every
 assumption to the scenario, and revise your conclusion when the facts
 require it.</p>
 </section>
-</section>
-</body>
-</html>
