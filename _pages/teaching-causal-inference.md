@@ -100,6 +100,8 @@ During the last two days of class (July 27 and 29), each student will meet with 
 
 During your time slot, I will pose a short scenario related to the material we have covered, and we will work through how you would identify a causal effect in that situation. There is no coding or analysis; the exam is about reasoning, not execution. You will receive practice scenarios ahead of time, and I will say more about the format as we get closer to the end of the course.
 
+Use the [oral exam study guide](/files/p170/oral-exam.html) to review the format, grading criteria, and practice scenarios.
+
 ### Final (5%)
 
 The course concludes with an asynchronous final exam, available from Friday, July 24 at 12:01 AM through Friday, July 31 at 11:59 PM. You may take it at any point during this window; budget two to three hours. The final is fully asynchronous: there is no in-person or synchronous exam, even though the window spans the university-assigned final exam slot. It resembles the homework, but is longer and comprehensive.
