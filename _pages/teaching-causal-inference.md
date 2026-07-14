@@ -100,7 +100,7 @@ During the last two days of class (July 27 and 29), each student will meet with 
 
 During your time slot, I will pose a short scenario related to the material we have covered, and we will work through how you would identify a causal effect in that situation. There is no coding or analysis; the exam is about reasoning, not execution. You will receive practice scenarios ahead of time, and I will say more about the format as we get closer to the end of the course.
 
-Use the [oral exam study guide](/files/p170/oral-exam.html) to review the format, grading criteria, and practice scenarios.
+Review the [full oral exam description and study guide](/files/p170/oral-exam.html) for the format, grading criteria, and practice scenarios.
 
 ### Final (5%)
 
@@ -215,11 +215,13 @@ Based on your learning style, you may find it helpful to complete the readings b
 ### July 27 · Oral Exams, Day 1
 
 - Oral exams begin; you will be assigned a slot in advance.
+- [Oral exam description and study guide](/files/p170/oral-exam.html)
 - **Homework 3 due before class, at 10:59am PT. Please note this applies to all students irrespective of your oral exam time.**
 
 ### July 29 · Oral Exams, Day 2
 
 - Oral exams continue.
+- [Oral exam description and study guide](/files/p170/oral-exam.html)
 
 ### Final Exam · Due Friday, July 31 at 11:59pm
 
