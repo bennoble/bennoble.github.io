@@ -197,6 +197,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### July 20 · Regression Discontinuity
 
+- [Slides](/files/slides/p170/p170_6_rdd_pub.html)
 - Readings:
   - Mixtape, [Chapter 6](https://mixtape.scunning.com/06-regression_discontinuity), sections 6.1–6.2.3, 6.3.
 - Optional:
