@@ -208,6 +208,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 ### July 22 · Difference-in-Differences
 
+- [Slides](/files/slides/p170/p170_7_did_pub.html)
 - Readings:
   - Mixtape, [Chapter 9](https://mixtape.scunning.com/09-difference_in_differences) (stop before "9.5 The Importance of Placebos in DD").
 - Optional:
