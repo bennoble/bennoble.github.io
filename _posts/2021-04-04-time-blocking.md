@@ -12,7 +12,7 @@ output:
 date: 2021-04-04
 permalink: /blog/time-blocking
 nav_section: advice
-nav_order: 5
+nav_order: 9
 excerpt: Stop working in reaction mode. Be more proactive about tackling big, complicated projects by making time for deep work.
 ---
 

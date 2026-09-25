@@ -1,4 +1,6 @@
 ---
+nav_section: advice
+nav_order: 15
 title: How to Get Started with Public Scholarship
 output:
   md_document:

@@ -9,7 +9,7 @@ output:
     variant: gfm+footnotes
 permalink: /blog/reviewing
 nav_section: advice
-nav_order: 10
+nav_order: 16
 title: How to Be a Better Reviewer (JAWS Event Recap)
 header-img: /images/review_header.jpeg
 ---

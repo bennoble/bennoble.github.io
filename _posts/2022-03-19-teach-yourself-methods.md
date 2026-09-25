@@ -1,4 +1,6 @@
 ---
+nav_section: advice
+nav_order: 5
 date: 2022-03-19
 excerpt: My 4-to-N step process for teaching myself statistical methods.
   And you can too.
