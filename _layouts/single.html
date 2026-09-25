@@ -29,7 +29,7 @@ layout: default
             {% if page.read_time %} · {% include read-time.html %}{% endif %}
           </span>
         </div>
-        <h1 class="br-post-title" itemprop="headline">{{ page.title }}</h1>
+        <h1 class="br-post-title" itemprop="headline">{{ site.data.article_titles[page.title] | default: page.title }}</h1>
         {% if page.excerpt %}<p class="br-post-lede">{{ page.excerpt | strip_html }}</p>{% endif %}
       </header>
 

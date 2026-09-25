@@ -1,7 +1,7 @@
 {% assign pubs = site.data.publications %}
 
 {% if pubs.published %}
-<div class="br-section-label">§ Published</div>
+<h2 class="br-section-label" id="published">§ Published</h2>
 {% for item in pubs.published -%}
 <article class="br-list-row br-publication-row">
   <span class="br-row-meta">{{ item.year }}</span>
@@ -23,7 +23,7 @@
 {% endif %}
 
 {% if pubs.working_papers %}
-<div class="br-section-label">§ Working Papers</div>
+<h2 class="br-section-label" id="working-papers">§ Working Papers</h2>
 {% for item in pubs.working_papers -%}
 <article class="br-list-row br-publication-row">
   <span class="br-row-meta">R&amp;R</span>
@@ -44,7 +44,7 @@
 {% endif %}
 
 {% if pubs.other_publications %}
-<div class="br-section-label">§ Other Publications</div>
+<h2 class="br-section-label" id="other-publications">§ Other Publications</h2>
 {% for item in pubs.other_publications -%}
 <article class="br-list-row br-publication-row">
   <span class="br-row-meta">{{ item.year }}</span>

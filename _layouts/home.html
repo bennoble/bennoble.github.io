@@ -7,8 +7,12 @@ layout: default
 <div id="main" role="main" class="home">
   <section class="br-home-hero">
     <div class="br-home-hero__title">
-      <span class="br-label">Benjamin S. Noble · Political Science · UCSD</span>
       <h1 class="br-page-title">Benjamin<br>S. Noble.</h1>
+      <p class="br-home-affiliation">Assistant Professor of Political Science<br>University of California, San Diego</p>
+      <div class="br-home-contact">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ '/vita/' | relative_url }}">CV</a>
+      </div>
     </div>
     <div class="br-home-hero__media">
       <img src="{{ "/images/noble_headshot_26sm.jpg" | relative_url }}" alt="{{ site.author.name }}">
@@ -22,7 +26,7 @@ layout: default
   <section class="br-index" aria-label="Site index">
     <div class="br-index__header">
       <span class="br-label">§ Index</span>
-      <span class="br-label">07 sections</span>
+      <span class="br-label">{{ site.data.home.directory.size | plus: 1 | prepend: "0" | slice: -2, 2 }} sections</span>
     </div>
     {% for item in site.data.home.directory %}
       <a class="br-index__row" href="{{ item.url | relative_url }}">

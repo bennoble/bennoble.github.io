@@ -6,11 +6,13 @@
 
 {% assign nav_section = "" %}
 {% if page.nav_section == "ai-guides" %}
-  {% assign nav_section = "/ai-guides/" %}
+  {% assign nav_section = "/writing/" %}
 {% elsif page.nav_section == "advice" %}
   {% assign nav_section = "/advice-for-students/" %}
 {% elsif page.nav_section == "teaching" %}
   {% assign nav_section = "/teaching/" %}
+{% elsif page.url contains '/blog/' or page.url contains '/ai-guides/' %}
+  {% assign nav_section = "/writing/" %}
 {% endif %}
 
 <header class="br-masthead">
@@ -18,7 +20,6 @@
   <div class="br-masthead__meta">
     <a href="{{ "/" | relative_url }}">BENJAMIN&nbsp;S.&nbsp;NOBLE</a>
     <span>LAST UPDATED {{ site.time | date: "%b %-d, %Y" | upcase }}</span>
-    <span>BENJAMINNOBLE.ORG</span>
     <span>FILE {{ current_file }}{% if page.file_label %} / {{ page.file_label | upcase }}{% endif %}</span>
   </div>
   <nav class="br-nav" aria-label="Primary navigation">
@@ -40,6 +41,5 @@
       <a class="br-nav__link{% if active %} is-active{% endif %}" href="{{ href }}">{{ link.title | replace: "Advice for Students", "Advice" }}</a>
     {% endfor %}
     <span class="br-nav__spacer" aria-hidden="true"></span>
-    <a class="br-nav__index" href="{{ "/" | relative_url }}">↗ FIND IN INDEX</a>
   </nav>
 </header>
