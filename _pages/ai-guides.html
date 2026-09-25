@@ -9,8 +9,6 @@ lede: "Practical guides for using AI in academic work, from first principles to 
 record_count: "03 guides listed"
 ---
 
-<div class="br-section-label">§ Start Here</div>
-
 {% assign guides = site.posts | where: "nav_section", "ai-guides" | sort: "nav_order" %}
 {% for guide in guides %}
   <a class="br-list-row br-advice-row" href="{{ guide.url | relative_url }}">
