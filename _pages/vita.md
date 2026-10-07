@@ -3,8 +3,9 @@ title: "Curriculum Vitae"
 permalink: /vita/
 author_profile: true
 display_title: "CV"
+description: "Curriculum vitae of Benjamin S. Noble, Assistant Professor of Political Science at UC San Diego."
 file_no: "002"
-file_label: "CV"
+file_label: "Curriculum vitae"
 cta_url: "/files/noblecv.pdf"
 cta_label: "↓ Download PDF"
 record_count: "CV current JUN 2026"
@@ -51,14 +52,14 @@ record_count: "CV current JUN 2026"
   <div class="br-cv-row">
     <div class="br-cv-year">2026</div>
     <div>
-      <p class="br-cv-title">Are Voters' Preferences Being Ignored in Governors' Agendas?</p>
+      <p class="br-cv-title">Are Voters' Preferences Being Ignored in Governor's Agendas?</p>
       <p class="br-cv-detail">Benjamin S. Noble and Daniel M. Butler. <em>Political Research Quarterly</em>.</p>
     </div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">2026</div>
     <div>
-      <p class="br-cv-title">Presidential Leadership and Strategic Legislative Polarization</p>
+      <p class="br-cv-title">Presidential Leadership and Legislative Polarization</p>
       <p class="br-cv-detail">Benjamin S. Noble and Ian R. Turner. <em>Presidential Studies Quarterly</em>.</p>
     </div>
   </div>
@@ -72,7 +73,7 @@ record_count: "CV current JUN 2026"
   <div class="br-cv-row">
     <div class="br-cv-year">2025</div>
     <div>
-      <p class="br-cv-title">CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them</p>
+      <p class="br-cv-title">CueAnon: What QAnon Signals about Congressional Candidates and What it Costs Them</p>
       <p class="br-cv-detail">Benjamin S. Noble and Taylor N. Carlson. <em>Political Behavior</em> 47(1): 435&ndash;456.</p>
     </div>
   </div>
@@ -86,7 +87,7 @@ record_count: "CV current JUN 2026"
   <div class="br-cv-row">
     <div class="br-cv-year">2023</div>
     <div>
-      <p class="br-cv-title">Energy Versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability</p>
+      <p class="br-cv-title">Energy versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability</p>
       <p class="br-cv-detail">Benjamin S. Noble. <em>Political Science Research and Methods</em> 11(3): 468&ndash;82.</p>
     </div>
   </div>
@@ -111,7 +112,7 @@ record_count: "CV current JUN 2026"
   <div class="br-cv-row">
     <div class="br-cv-year">&mdash;</div>
     <div>
-      <p class="br-cv-title">A More Coherent Measure of Party Cohesion Using Topic Models and Contextual Embeddings</p>
+      <p class="br-cv-title">Rhetorical Cohesion: Measuring Party Unity in Political Messaging</p>
       <p class="br-cv-detail">Gechun Lin and Benjamin S. Noble.</p>
     </div>
   </div>
@@ -226,7 +227,7 @@ record_count: "CV current JUN 2026"
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">2024</div>
-    <div><p class="br-cv-title">Applied Data Analysis/Causal Inference</p><p class="br-cv-detail">Undergraduate, University of California, San Diego</p></div>
+    <div><p class="br-cv-title">Applied Data Analysis &amp; Causal Inference</p><p class="br-cv-detail">Undergraduate, University of California, San Diego</p></div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">2024</div>
@@ -262,18 +263,18 @@ record_count: "CV current JUN 2026"
   <div class="br-label br-cv-section__label">Students</div>
   <div class="br-cv-row">
     <div class="br-cv-year">2024&ndash;</div>
-    <div><p class="br-cv-title">Rachel Yu</p><p class="br-cv-detail">UC San Diego, Dissertation Committee Member</p></div>
+    <div><p class="br-cv-title">Dissertation Committee Member</p><p class="br-cv-detail">UC San Diego</p></div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">2025&ndash;26</div>
-    <div><p class="br-cv-title">Undergraduate Honors Advising</p><p class="br-cv-detail">Lillian Theis; Thomas Bestelmeyer; Addyson Karle</p></div>
+    <div><p class="br-cv-title">Undergraduate Honors Advising</p><p class="br-cv-detail">UC San Diego</p></div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">2024&ndash;25</div>
-    <div><p class="br-cv-title">Undergraduate Honors Advising</p><p class="br-cv-detail">Taylor White</p></div>
+    <div><p class="br-cv-title">Undergraduate Honors Advising</p><p class="br-cv-detail">UC San Diego</p></div>
   </div>
   <div class="br-cv-row">
     <div class="br-cv-year">Various</div>
-    <div><p class="br-cv-title">HBCU STARS Summer Program</p><p class="br-cv-detail">Boimah Jallah (Spelman), Taylor-Faith Mckie (Spelman)</p></div>
+    <div><p class="br-cv-title">HBCU STARS Summer Program</p><p class="br-cv-detail">Spelman College students, mentored at UC San Diego</p></div>
   </div>
 </section>

@@ -155,7 +155,7 @@ Even with an excellent prompt and well-managed context, the model probably won't
 
 ### Your reaction is data
 
-When the model gives you something that's a little off, you have a some internal reaction. Maybe it's too long. Maybe the tone is off. Maybe two of the four criteria are good but the others need work. 
+When the model gives you something that's a little off, you have some internal reaction. Maybe it's too long. Maybe the tone is off. Maybe two of the four criteria are good but the others need work. 
 
 At this point, people bounce off of the tool. They see a flawed output and conclude that the model just isn't up to the task. But that reaction is valuable data, and it can help you steer the model on the next conversational turn. Rather than bouncing off, just tell the model what was wrong. What you want instead. "Cut this in half." "Be more direct." "Keep the first two criteria, drop the third, and add one for engagement with primary sources." The model won't get defensive. It won't sigh. It'll probably say "you're absolutely right" and produce another draft that's closer to (though probably still not exactly) what you wanted. Then you iterate again.
 

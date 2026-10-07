@@ -17,7 +17,7 @@ Although I had always thought about applying to graduate school, the 2016 electi
 
 Unfortunately, the public will not learn about your research without some extra effort. Academic work is produced for other specialists, published in journals that are difficult to access, and written in language that is difficult to parse. You can make this material digestible to your students, but again, they are a small and unrepresentative sample of the general public.
 
-Fortunately, the internet allows you to engage with the public in a way that just wasn’t possible 20 or 30 years ago. To that end, the Junior Americanist Workshop Series ([JAWS](https://jawspolisci.network/)) hosted an event with [Julia Azari](https://www.marquette.edu/political-science/directory/julia-azari.php), [Hakeem Jefferson](https://www.hakeemjefferson.com/), and [Matt Yglasias](https://www.slowboring.com/) about getting started with public scholarship. Below, I paraphrase a few of the panelist’s comments and supplement with my own interpretation and reflections. Do note that anything outside of the block quotes is not directly attributable to the panelists. So come at me, not them.
+Fortunately, the internet allows you to engage with the public in a way that just wasn’t possible 20 or 30 years ago. To that end, the Junior Americanist Workshop Series ([JAWS](https://jawspolisci.network/)) hosted an event with [Julia Azari](https://www.marquette.edu/political-science/directory/julia-azari.php), [Hakeem Jefferson](https://www.hakeemjefferson.com/), and [Matt Yglesias](https://www.slowboring.com/) about getting started with public scholarship. Below, I paraphrase a few of the panelist’s comments and supplement with my own interpretation and reflections. Do note that anything outside of the block quotes is not directly attributable to the panelists. So come at me, not them.
 
 Defining Public Scholarship
 ---------------------------
@@ -36,7 +36,7 @@ Julia emphasized that this latter mode of public scholarship requires a particul
 
 In an academic article, the focus is on your own contribution. The literature is there to ground and support your own theory. Yet, when engaging with a public audience, the literature review on its own can add a lot of value. Most people haven’t read any of the academic literature in your field. They don’t know what is already known nor how the existing work speaks to current developments. If you can add some context to current events by tying an ongoing development to what others have written or, alternatively, if you can quickly pull together some basic data analysis,[^2] that is a significant contribution.
 
-[^2]: Sarah Binder does quick data analysis well: see [here](https://twitter.com/bindersab/status/1367906770010701832) and [here](https://twitter.com/bindersab/status/1347331961979809794).
+[^2]: Sarah Binder does quick data analysis well: see [this thread](https://twitter.com/bindersab/status/1367906770010701832) and [this one](https://twitter.com/bindersab/status/1347331961979809794).
 
 Getting Published
 -----------------
@@ -54,7 +54,7 @@ Exercise Good Judgment
 
 > Hakeem: Be conservative in the claims you make.
 
-Your public scholarship won’t be peer reviewed by other academics, but that does not give you license to wildly speculate or overstate your findings. In fact, engaging with the public should *increase* your caution. Non-specialists probably do not have the skills to go read your regression tables and verify or contextualize your claims. It is your responsibly as a trusted expert not to misinform or mislead.
+Your public scholarship won’t be peer reviewed by other academics, but that does not give you license to wildly speculate or overstate your findings. In fact, engaging with the public should *increase* your caution. Non-specialists probably do not have the skills to go read your regression tables and verify or contextualize your claims. It is your responsibility as a trusted expert not to misinform or mislead.
 
 > Hakeem: Writing too often, you can get yourself in trouble.
 

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Benjamin Noble"
 title_separator          : "-"
 name                     : &name "Benjamin Noble"
-description              : &description "personal description"
+description              : &description "Benjamin S. Noble is an Assistant Professor of Political Science at UC San Diego who studies presidential and congressional rhetoric."
 url                      : https://benjaminnoble.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bennoble/bennoble.github.io"
@@ -39,7 +39,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : noble_headshot_26sm.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -100,6 +100,16 @@ include:
   - _pages
   - files
 exclude:
+  - CLAUDE.md
+  - AGENTS.md
+  - CONTRIBUTING.md
+  - files/papers/war_rhetoric.pdf
+  - files/papers/pres-neg-part.pdf
+  - files/slides/p170/p170_1_intro.html
+  - files/syl/ug_causal_syl.pdf
+  - personal-notes/gcc_instructions.md
+  - personal-notes/tech-docs.md
+  - personal-notes/tech-tutorials.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

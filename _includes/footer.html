@@ -1,9 +1,7 @@
 {% include base_path %}
-{% assign current_file = page.file_no | default: "023" %}
-{% if page.url == "/" or page.url == "/index.html" %}
-  {% assign current_file = "000" %}
-{% endif %}
 <div class="br-footer">
-  <span>{% if page.record_count %}{{ page.record_count }}{% else %}{{ site.author.email | upcase }}{% endif %}</span>
-  <a href="#top">↑ TOP</a>
+  <span>{% if page.footer_note %}{{ page.footer_note }}{% elsif page.url == "/" or page.url == "/research/" %}Last updated {{ site.time | date: "%b %-d, %Y" }}{% endif %}</span>
+  <a href="#top">↑ Top</a>
 </div>
+
+{% include analytics.html %}

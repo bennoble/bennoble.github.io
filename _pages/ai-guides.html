@@ -2,6 +2,7 @@
 layout: single
 permalink: /ai-guides/
 title: "AI Guides"
+display_title: "AI for academic work"
 author_profile: false
 file_no: "005"
 file_label: "AI Guides"
@@ -10,13 +11,14 @@ record_count: "03 guides listed"
 ---
 
 {% assign guides = site.posts | where: "nav_section", "ai-guides" | sort: "nav_order" %}
+<h2 class="br-section-label">Guides</h2>
 {% for guide in guides %}
-  <a class="br-list-row br-advice-row" href="{{ guide.url | relative_url }}">
+  <a class="br-list-row" href="{{ guide.url | relative_url }}">
     <span class="br-row-meta">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
     <span>
       <span class="br-row-title">{{ guide.title }}</span>
       <span class="br-row-subtitle">{{ guide.excerpt | strip_html }}</span>
+      <span class="br-tags"><span class="br-row-action">Read</span></span>
     </span>
-    <span class="br-row-action">↗ Read</span>
   </a>
 {% endfor %}

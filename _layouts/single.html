@@ -13,38 +13,37 @@ layout: default
 
     {% if page.id %}
       {% assign filed_under = "Notes" %}
-      {% assign kicker_label = "Note" %}
+      {% assign category_url = "" %}
       {% if page.nav_section == "ai-guides" %}
         {% assign filed_under = "AI Guides" %}
-        {% assign kicker_label = "AI Guide" %}
+        {% assign category_url = "/ai-guides/" %}
       {% elsif page.nav_section == "advice" %}
         {% assign filed_under = "Advice" %}
-        {% assign kicker_label = "Advice" %}
+        {% assign category_url = "/advice-for-students/" %}
       {% endif %}
+      {% include post-position.html %}
+      {% assign words = page.content | number_of_words %}
+      {% assign minutes = words | plus: 159 | divided_by: site.words_per_minute %}
       <header class="br-post-hero">
-        <div class="br-post-kicker">
-          <span class="br-label">File {{ page.file_no | default: "023" }} · {{ kicker_label }}</span>
-          <span class="br-label">
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-            {% if page.read_time %} · {% include read-time.html %}{% endif %}
-          </span>
+        <div class="br-label">
+          {% if category_url != "" %}<a href="{{ category_url | relative_url }}">{{ filed_under }}</a>{% else %}{{ filed_under }}{% endif %}{% if post_pos > 0 %} / {{ post_pos | prepend: "0" | slice: -2, 2 }}{% endif %}
         </div>
         <h1 class="br-post-title" itemprop="headline">{{ site.data.article_titles[page.title] | default: page.title }}</h1>
         {% if page.excerpt %}<p class="br-post-lede">{{ page.excerpt | strip_html }}</p>{% endif %}
+        {% if page.written_note %}<p class="br-post-note">{{ page.written_note }}</p>{% endif %}
+        <dl class="br-meta br-meta--wide">
+          <div><dt>Author</dt><dd>Benjamin S. Noble</dd></div>
+          <div><dt>Published</dt><dd><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></dd></div>
+          <div><dt>Reading time</dt><dd>{{ minutes }} min</dd></div>
+          <div><dt>Filed under</dt><dd>{{ filed_under }}</dd></div>
+        </dl>
       </header>
-
-      <div class="br-record-strip">
-        <div class="br-record-strip__cell">
-          <span class="br-label">Filed under</span>
-          <div class="br-record-strip__value">{{ filed_under }}</div>
-        </div>
-      </div>
 
       {% include toc-grid.html %}
     {% else %}
       <header class="br-page-header">
         <div>
-          <span class="br-label">File {{ page.file_no | default: "999" }} · {{ page.file_label | default: page.title }}</span>
+          <span class="br-label">{{ page.file_label | default: page.title }}</span>
           {% if page.title %}<h1 class="br-page-title" itemprop="headline">{{ page.display_title | default: page.title }}</h1>{% endif %}
           {% if page.lede %}<p class="br-page-header__lede">{{ page.lede }}</p>{% endif %}
         </div>

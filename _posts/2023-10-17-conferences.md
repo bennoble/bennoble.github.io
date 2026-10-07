@@ -15,7 +15,7 @@ header-img: https://images.unsplash.com/photo-1560439514-4e9645039924?auto=forma
 ---
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1560439514-4e9645039924?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470" alt="alt text">
+  <img src="https://images.unsplash.com/photo-1560439514-4e9645039924?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470" alt="Crowd of conference attendees mingling in a large hall">
     <figcaption align = "center" style="font-family: inherit; color: inherit;"><p>(Photo via Product School on Unsplash)</p></figcaption>
 </p>
 

@@ -1,5 +1,5 @@
 ---
-title: "Applied Data Analysis"
+title: "Applied Data Analysis & Causal Inference"
 permalink: /teaching/causal-inference/
 author_profile: false
 show_toc: true
@@ -165,7 +165,7 @@ Based on your learning style, you may find it helpful to complete the readings b
 
 - [Slides](/files/slides/p170/p170_2_po_pub.html)
 - Readings:
-  - Mixtape, [Chapter 4](https://mixtape.scunning.com/04-potential_outcomes) (stop before "4.2 Randomization Inference").
+  - Mixtape, Chapter 4 (stop before "4.2 Randomization Inference").
 
 ### July 6 · Extraordinary Least Squares
 
@@ -263,7 +263,7 @@ Additional resources to support equity, diversity, and inclusion in our classroo
 
 - Library Help, eReserves and research tools: <https://library.ucsd.edu/ask-us/triton-ed.html>
 - Writing Hub: <https://commons.ucsd.edu/students/writing/index.html>
-- Supplemental Instruction: <https://aah.ucsd.edu/supplemental-instruction-study-group/index.html>
+- Supplemental Instruction
 - Tutoring: <https://aah.ucsd.edu/content-tutoring/index.html>
 - Mental Health Services: <https://caps.ucsd.edu>
 - Community Centers: learn about the different ways UC San Diego explores, supports, and celebrates the many cultures that make up our diverse community: <https://students.ucsd.edu/student-life/diversity/index.html>
@@ -282,7 +282,7 @@ Students who have academic advising questions related to the Political Science m
 
 ### UCSD's Principles of Community
 
-To foster the best possible working and learning environment, UC San Diego strives to maintain a climate of fairness, cooperation, and professionalism. These principles of community are vital to the success of the University and the well being of its constituents. UC San Diego faculty, staff, and students are expected to practice these basic principles as individuals and in groups. The [Principles of Community](https://ucsd.edu/about/principles.html) and the [Student Code of Conduct](https://students.ucsd.edu/_files/student-conduct/ucsandiego-student-conduct-code_interim-revisions1-16-18.pdf) support equity, diversity, and inclusion in our classroom.
+To foster the best possible working and learning environment, UC San Diego strives to maintain a climate of fairness, cooperation, and professionalism. These principles of community are vital to the success of the University and the well being of its constituents. UC San Diego faculty, staff, and students are expected to practice these basic principles as individuals and in groups. The [Principles of Community](https://ucsd.edu/about/principles.html) and the Student Code of Conduct support equity, diversity, and inclusion in our classroom.
 
 ## Acknowledgements
 

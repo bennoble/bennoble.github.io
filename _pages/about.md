@@ -1,10 +1,13 @@
 ---
 permalink: /
-title: "About"
+title: "Benjamin S. Noble, Assistant Professor of Political Science, UC San Diego"
+seo_title_plain: true
 layout: home
 author_profile: false
 file_no: "000"
 file_label: "Home"
+role: "Assistant Professor"
+department: "Political Science, UC San Diego"
 redirect_from:
   - /me/
   - /about/

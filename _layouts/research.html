@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{% assign pubs = site.data.publications %}
+{% assign total = pubs.published.size | plus: pubs.working_papers.size | plus: pubs.other_publications.size %}
+
+<div id="main" role="main">
+  <div class="br-rail-grid">
+    <aside class="br-rail" aria-label="Contents">
+      <div>
+        <div class="br-rail__title">Contents</div>
+        <nav aria-label="Research sections">
+          <a class="br-rail__row br-rail__row--count" href="#published"><span>§1 Published</span><span class="br-rail__leader" aria-hidden="true"></span><span>{{ pubs.published.size | prepend: "0" | slice: -2, 2 }}</span></a>
+          <a class="br-rail__row br-rail__row--count" href="#working-papers"><span>§2 Working papers</span><span class="br-rail__leader" aria-hidden="true"></span><span>{{ pubs.working_papers.size | prepend: "0" | slice: -2, 2 }}</span></a>
+          <a class="br-rail__row br-rail__row--count" href="#other-publications"><span>§3 Other</span><span class="br-rail__leader" aria-hidden="true"></span><span>{{ pubs.other_publications.size | prepend: "0" | slice: -2, 2 }}</span></a>
+        </nav>
+        <div class="br-rail__total">{{ total }} records</div>
+      </div>
+    </aside>
+
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      <header>
+        <span class="br-label">{{ page.file_label | default: page.title }}</span>
+        <h1 class="br-page-title" itemprop="headline">{{ page.display_title | default: page.title }}</h1>
+        {% if page.lede %}<p class="br-page-header__lede">{{ page.lede }}</p>{% endif %}
+      </header>
+      <section itemprop="text">
+        {{ content }}
+      </section>
+    </article>
+  </div>
+</div>

@@ -1,19 +1,15 @@
 directory:
-  - title: "Research"
-    url: "/research/"
-    description: "Publications and working papers."
-  - title: "CV"
-    url: "/vita/"
-    description: "Full academic CV."
-  - title: "Teaching"
-    url: "/teaching/"
-    description: "Courses, syllabi, and teaching materials."
-  - title: "Advice for Students"
-    url: "/advice-for-students/"
-    description: "Practical guidance on writing, research, and academic life."
-  - title: "AI Guides"
-    url: "/ai-guides/"
-    description: "Practical guides for using AI in academic work."
+  - label: "Research"
+    links:
+      - { title: "Publications", url: "/research/" }
+      - { title: "Working papers", url: "/research/#working-papers" }
+      - { title: "Curriculum vitae", url: "/vita/" }
+  - label: "Teaching"
+    links:
+      - { title: "Courses & syllabi", url: "/teaching/" }
+      - { title: "Advice for students", url: "/advice-for-students/" }
+      - { title: "AI guides", url: "/ai-guides/" }
+      - { title: "Am. Politics textbook", url: "https://understandingamericanpolitics.substack.com", external: true }
 highlights:
   - title: "Research overview"
     url: "/research/"

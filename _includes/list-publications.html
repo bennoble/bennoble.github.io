@@ -1,7 +1,7 @@
 {% assign pubs = site.data.publications %}
 
 {% if pubs.published %}
-<h2 class="br-section-label" id="published">§ Published</h2>
+<h2 class="br-section-label" id="published">§1&nbsp;&nbsp;Published</h2>
 {% for item in pubs.published -%}
 <article class="br-list-row br-publication-row">
   <span class="br-row-meta">{{ item.year }}</span>
@@ -9,57 +9,58 @@
     <h3 class="br-row-title">{{ item.title }}</h3>
     <p class="br-row-subtitle">{{ item.authors }}{% if item.venue %} · <em>{{ item.venue }}</em>{% endif %}</p>
     {% if item.award %}<p class="br-row-award">★ {{ item.award }}</p>{% endif %}
+    {% if item.figure %}<figure class="br-row-figure"><img src="{{ item.figure.src | relative_url }}" alt="{{ item.figure.alt }}"></figure>{% endif %}
+    {% if item.links %}
+      <div class="br-tags">
+        {% for link in item.links -%}
+          {% assign tag = link.label | replace: "Publisher Site (Open Access)", "Open Access" | replace: "Publisher Site", "Publisher" | replace: "Paper (Ungated)", "PDF" | replace: "Paper", "PDF" | replace: "Data/Code", "Data" %}
+          <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
+        {%- endfor %}
+      </div>
+    {% endif %}
   </div>
-  {% if item.links %}
-    <div class="br-tags">
-      {% for link in item.links -%}
-        {% assign tag = link.label | replace: "Publisher Site (Open Access)", "Open Access" | replace: "Publisher Site", "Publisher" | replace: "Paper (Ungated)", "PDF" | replace: "Paper", "PDF" | replace: "Data/Code", "Data" %}
-        <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
-      {%- endfor %}
-    </div>
-  {% endif %}
 </article>
 {%- endfor %}
 {% endif %}
 
 {% if pubs.working_papers %}
-<h2 class="br-section-label" id="working-papers">§ Working Papers</h2>
+<h2 class="br-section-label" id="working-papers">§2&nbsp;&nbsp;Working papers</h2>
 {% for item in pubs.working_papers -%}
 <article class="br-list-row br-publication-row">
-  <span class="br-row-meta">R&amp;R</span>
+  <span class="br-row-meta br-row-meta--status">{{ item.status }}</span>
   <div>
     <h3 class="br-row-title">{{ item.title }}</h3>
     <p class="br-row-subtitle">{{ item.authors }}</p>
+    {% if item.links %}
+      <div class="br-tags">
+        {% for link in item.links -%}
+          {% assign tag = link.label | replace: "Paper", "PDF" %}
+          <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
+        {%- endfor %}
+      </div>
+    {% endif %}
   </div>
-  {% if item.links %}
-    <div class="br-tags">
-      {% for link in item.links -%}
-        {% assign tag = link.label | replace: "Paper", "PDF" %}
-        <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
-      {%- endfor %}
-    </div>
-  {% endif %}
 </article>
 {%- endfor %}
 {% endif %}
 
 {% if pubs.other_publications %}
-<h2 class="br-section-label" id="other-publications">§ Other Publications</h2>
+<h2 class="br-section-label" id="other-publications">§3&nbsp;&nbsp;Other</h2>
 {% for item in pubs.other_publications -%}
 <article class="br-list-row br-publication-row">
   <span class="br-row-meta">{{ item.year }}</span>
   <div>
     <h3 class="br-row-title">{{ item.title }}</h3>
     <p class="br-row-subtitle">{{ item.authors }}{% if item.venue %} · <em>{{ item.venue }}</em>{% endif %}</p>
+    {% if item.links %}
+      <div class="br-tags">
+        {% for link in item.links -%}
+          {% assign tag = link.label | replace: "Publisher Site", "Publisher" %}
+          <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
+        {%- endfor %}
+      </div>
+    {% endif %}
   </div>
-  {% if item.links %}
-    <div class="br-tags">
-      {% for link in item.links -%}
-        {% assign tag = link.label | replace: "Publisher Site", "Publisher" %}
-        <a class="br-tag" href="{{ link.url }}">{{ tag }}</a>
-      {%- endfor %}
-    </div>
-  {% endif %}
 </article>
 {%- endfor %}
 {% endif %}

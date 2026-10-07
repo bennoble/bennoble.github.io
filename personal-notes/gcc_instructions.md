@@ -64,14 +64,14 @@ To get started, we’re going to activate our free trial, which gives you
 
 On the blue welcome banner, click “TRY FOR FREE.”[^2]
 
-> <kbd><img src="/images/gcc_scrape/start-trial.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/start-trial.png" width="800" alt="Google Cloud welcome banner with the Try for free button"> </kbd>
 
 As foreshadowed, you’ll need to go through a quick, three-step process
 and enter your credit card information. Per Google, you shouldn’t be
 charged until either you run out of the \\$300 credit or 90 days elapses,
 whichever comes first.
 
-> <kbd><img src="/images/gcc_scrape/trial-1.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/trial-1.png" width="800" alt="Google Cloud free trial sign-up page"> </kbd>
 
 Enter your country, “personal project” for your organization, and accept
 the terms of service. On step 2, confirm your phone number. Finally, on
@@ -83,22 +83,22 @@ card information.
 Now, you’re ready to get started. Click on the three bars in the upper
 right, and navigate to “Compute Engine” \> “VM Instances”.
 
-> <kbd><img src="/images/gcc_scrape/vm1.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/vm1.png" width="800" alt="Google Cloud console menu open to Compute Engine and VM instances"> </kbd>
 
 You may be asked to create a project at this point. You’ll need to make
 up a name for your project (like python scraping), but it can be
 anything—this is basically just a folder.
 
-> <kbd><img src="/images/gcc_scrape/make-proj.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/make-proj.png" width="800" alt="Google Cloud new project form"> </kbd>
 
 Now, you should automatically be taken the Compute Engine API page.
 You’ll need to click the blue “ENABLE” button.
 
-> <kbd><img src="/images/gcc_scrape/enable.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/enable.png" width="800" alt="Compute Engine API page with the blue Enable button"> </kbd>
 
 Once the API is enabled, you should be taken the VM instances page.[^3]
 
-> <kbd><img src="/images/gcc_scrape/create-page.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/create-page.png" width="800" alt="Compute Engine VM instances page after the API is enabled"> </kbd>
 
 ## Create a virtual machine
 
@@ -126,7 +126,7 @@ Click on the “Create Instance” button in the middle of the page and:
 -   Under machine configuration, leave the series as E2. For machine
     type, select e2-micro.[^4]
 
-> <kbd><img src="/images/gcc_scrape/vm2.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/vm2.png" width="800" alt="Create instance form with machine type e2-micro selected"> </kbd>
 
 -   Under Boot disk, click change. The important thing to change is the
     boot disk type. The default is balanced persistent disk (which is
@@ -134,7 +134,7 @@ Click on the “Create Instance” button in the middle of the page and:
     (which I believe is free). I believe you can also get up to 30GB for free, but
     10GB has always been sufficient for me. For the operating system, stick with the default—Debian: Debian GNU/Linux 10 (Buster).
 
-> <kbd><img src="/images/gcc_scrape/vm3.png" width="800"> </kbd>
+> <kbd><img src="/images/gcc_scrape/vm3.png" width="800" alt="Create instance form showing disk size and Debian operating system"> </kbd>
 
 -   Click create and your machine will be created.
 
@@ -156,7 +156,7 @@ sudo apt-get install python3-pip
 At this point, you can install any modules you’ll need for your scraping
 script (like bs4) the usual way.
 
-You could run your your script now, however, by default, if you close
+You could run your script now, however, by default, if you close
 the command line window, your script will terminate. That is not what we
 want! To fix that, you’ll need install tmux, which allows you to open
 multiple sessions that run even when the browser is closed. Install tmux
@@ -257,7 +257,7 @@ sudo apt install zip
 
 and then zip the file with the following syntax: `zip outputname.zip inputname.zip` and then trying downloading that file (see more [here](https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/)).
 
-Another option is to try splitting the file into pieces first. A linux command called `split` can help you do that. Here's an example: `split -b 1G filename.zip filename.csv`. To break that down, `split` calls the command, `-b` stands for bytes I believe, `1G` is telling linux to break the file into 1 GB chunks (but you can easily change the size). Then you need to name the output as a zip file and call the original file you're trying to split. You should then be able to download the resuling zipfile (see more [here](https://www.howtoforge.com/tutorial/how-to-split-a-large-tar-file-into-multiple-small-files-using-split-command-in-linux/)).
+Another option is to try splitting the file into pieces first. A linux command called `split` can help you do that. Here's an example: `split -b 1G filename.zip filename.csv`. To break that down, `split` calls the command, `-b` stands for bytes I believe, `1G` is telling linux to break the file into 1 GB chunks (but you can easily change the size). Then you need to name the output as a zip file and call the original file you're trying to split. You should then be able to download the resulting zipfile (see more [here](https://www.howtoforge.com/tutorial/how-to-split-a-large-tar-file-into-multiple-small-files-using-split-command-in-linux/)).
 
 ## Stopping or Deleting the instance
 

@@ -9,7 +9,7 @@ file_label: "UCSD Faculty AI Symposium"
 lede: "An inverted AI workflow where the model interviews the instructor to elicit tacit knowledge, identify gaps, and produce a structured outline for lecture development."
 ---
 
-<div class="br-section-label prompt-section-label">§ About this page</div>
+<div class="br-section-label prompt-section-label">About this page</div>
 
 <p class="prompt-intro">Thanks for coming to my talk at the <strong>UCSD Faculty AI Symposium</strong> on May 29, 2026. I'm <a href="/">Benjamin Noble</a>, an assistant professor of political science at UC San Diego. The prompt I demoed is below, ready to copy into the AI chatbot of your choice.</p>
 
@@ -30,7 +30,7 @@ lede: "An inverted AI workflow where the model interviews the instructor to elic
   <span class="br-row-action">↗ Read</span>
 </a>
 
-<div class="br-section-label prompt-section-label">§ How to use</div>
+<div class="br-section-label prompt-section-label">How to use</div>
 
 <p class="prompt-intro">Click <strong>Copy prompt</strong> below, then paste it into a new chat with the model of your choice.</p>
 

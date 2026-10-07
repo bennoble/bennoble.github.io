@@ -1,7 +1,7 @@
 {% assign teaching = site.data.teaching %}
 
 {% for section in teaching -%}
-<div class="br-section-label">§ {{ section.institution }}</div>
+<h2 class="br-section-label">{{ section.institution }}</h2>
 {% for course in section.courses -%}
 {% assign course_org = course.code | default: section.institution %}
 {% assign course_org = course_org | replace: "University of California, San Diego", "UCSD" | replace: "Washington University in St. Louis", "WUSTL" | replace: "Institute for Qualitative and Multi-Method Research", "IQMR" %}

@@ -35,7 +35,7 @@ published:
       - label: "Summary"
         url: "https://x.com/benjaminsnoble/status/1958194728471859497"
 
-  - title: "CueAnon: What QAnon Endorsement Signals about Congressional Candidates and What it Costs Them"
+  - title: "CueAnon: What QAnon Signals about Congressional Candidates and What it Costs Them"
     authors: "Benjamin S. Noble and Taylor N. Carlson"
     year: 2025
     venue: "Political Behavior"
@@ -50,7 +50,7 @@ published:
         url: "https://doi.org/10.7910/DVN/UVVSIR"
       - label: "Summary"
         url: "https://twitter.com/benjaminsnoble/status/1810335036883059197"
-    award: "Awarded best paper published in Political Behavior (2024)"
+    award: "Best paper, Political Behavior 2024"
 
   - title: "Presidential Cues and the Nationalization of Congressional Rhetoric, 1973-2016"
     authors: "Benjamin S. Noble"
@@ -98,13 +98,15 @@ published:
 
 working_papers:
   - title: "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda"
-    authors: "David Ryan Miller, Benjamin S. Noble, and Erin L. Rosstier"
+    authors: "David Ryan Miller, Benjamin S. Noble, and Erin L. Rossiter"
+    status: "R&R"
     links:
       - label: "Paper"
         url: "/files/papers/presidents_pressbriefings.pdf"
 
-  - title: "Rhetorical Cohesion: A Multidimensional Measure of Party Unity in Political Messaging"
+  - title: "Rhetorical Cohesion: Measuring Party Unity in Political Messaging"
     authors: "Gechun Lin and Benjamin S. Noble"
+    status: "Under review"
     links:
       - label: "Paper"
         url: "/files/papers/cohesion.pdf"

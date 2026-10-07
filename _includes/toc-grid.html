@@ -3,28 +3,54 @@
   {% assign toc_headings = content | split: '<h2 id="' %}
 {% endunless %}
 {% if page.toc.first or toc_headings.size > 1 %}
-  <div class="br-post-grid">
-    <aside class="br-toc">
-      <div class="br-label br-toc__title">Table of contents</div>
-      {% if page.toc.first %}
-        {% for item in page.toc %}
-          <a href="#{{ item.id }}"><span>{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span><span>{{ item.label }}</span></a>
-        {% endfor %}
-      {% else %}
-        {% for heading in toc_headings offset:1 %}
-          {% assign heading_id = heading | split: '"' | first %}
-          {% assign heading_label = heading | split: '</h2>' | first | remove_first: heading_id | remove_first: '">' | strip_html %}
-          <a href="#{{ heading_id }}"><span>{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span><span>{{ heading_label }}</span></a>
-        {% endfor %}
+  {% assign section_count = page.toc.size %}
+  {% unless page.toc.first %}{% assign section_count = toc_headings.size | minus: 1 %}{% endunless %}
+  <div class="br-body-grid">
+    <aside class="br-rail" aria-label="Contents">
+      <div>
+        <div class="br-rail__title">Contents</div>
+        <nav aria-label="Contents">
+          {% if page.toc.first %}
+            {% for item in page.toc %}
+              <a class="br-rail__row" href="#{{ item.id }}"><span>§{{ forloop.index }}</span><span>{{ item.label }}</span></a>
+            {% endfor %}
+          {% else %}
+            {% for heading in toc_headings offset:1 %}
+              {% assign heading_id = heading | split: '"' | first %}
+              {% assign heading_label = heading | split: '</h2>' | first | remove_first: heading_id | remove_first: '">' | strip_html %}
+              <a class="br-rail__row" href="#{{ heading_id }}"><span>§{{ forloop.index }}</span><span>{{ heading_label }}</span></a>
+            {% endfor %}
+          {% endif %}
+        </nav>
+      </div>
+      {% if page.id %}
+        <div data-reading data-section-count="{{ section_count }}">
+          <div class="br-rail__title">Reading</div>
+          <div class="br-progress" aria-hidden="true" data-progress-bar>────────────────────</div>
+          <div class="br-progress__meta" aria-hidden="true"><span data-progress-section>§1 of {{ section_count }}</span><span data-progress-pct>0%</span></div>
+        </div>
+        <div class="br-rail__share">
+          <div class="br-rail__title">Share</div>
+          <a href="mailto:?subject={{ page.title | uri_escape }}&amp;body={{ page.url | absolute_url | uri_escape }}">Email</a>
+          <button type="button" data-copy-url>Copy URL</button>
+        </div>
       {% endif %}
     </aside>
 
-    <section class="page__content br-post-content" itemprop="text">
-      {{ content }}
-    </section>
+    <div>
+      <section class="page__content br-post-content" itemprop="text">
+        {{ content }}
+      </section>
+      {% include post-nav.html %}
+    </div>
   </div>
 {% else %}
-  <section class="page__content br-post-content" itemprop="text">
-    {{ content }}
-  </section>
+  <div class="br-body-grid br-body-grid--single">
+    <div>
+      <section class="page__content br-post-content" itemprop="text">
+        {{ content }}
+      </section>
+      {% include post-nav.html %}
+    </div>
+  </div>
 {% endif %}

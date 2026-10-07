@@ -6,41 +6,48 @@ layout: default
 
 <div id="main" role="main" class="home">
   <section class="br-home-hero">
-    <div class="br-home-hero__title">
-      <h1 class="br-page-title">Benjamin<br>S. Noble.</h1>
-      <p class="br-home-affiliation">Assistant Professor of Political Science<br>University of California, San Diego</p>
-      <div class="br-home-contact">
-        <a href="mailto:{{ site.author.email }}">Email</a>
-        <a href="{{ '/vita/' | relative_url }}">CV</a>
+    <div>
+      <span class="br-label">About</span>
+      <h1 class="br-home-title">Benjamin S. Noble</h1>
+      <dl class="br-meta">
+        <div><dt>Role</dt><dd>{{ page.role }}</dd></div>
+        <div><dt>Department</dt><dd>{{ page.department }}</dd></div>
+      </dl>
+      <div class="br-home-bio">
+        {{ content }}
       </div>
     </div>
-    <div class="br-home-hero__media">
-      <img src="{{ "/images/noble_headshot_26sm.jpg" | relative_url }}" alt="{{ site.author.name }}">
-    </div>
+    <figure class="br-home-hero__media">
+      <img src="{{ "/images/noble_headshot_26sm.jpg" | relative_url }}" alt="Benjamin S. Noble">
+    </figure>
   </section>
 
-  <section class="br-home-intro">
-    {{ content }}
-  </section>
-
-  <section class="br-index" aria-label="Site index">
-    <div class="br-index__header">
-      <span class="br-label">§ Index</span>
-      <span class="br-label">{{ site.data.home.directory.size | plus: 1 | prepend: "0" | slice: -2, 2 }} sections</span>
+  <section class="br-directory" aria-labelledby="directory-label">
+    <h2 class="br-directory__label" id="directory-label">Directory</h2>
+    <div class="br-directory__grid">
+      {% for group in site.data.home.directory %}
+        <div class="br-directory__col">
+          <h3 class="br-directory__head">{{ group.label }}</h3>
+          <ul class="br-directory__links">
+            {% for link in group.links %}
+              {% if link.external %}
+                <li><a href="{{ link.url }}">{{ link.title }}<span class="br-ext" aria-hidden="true">EXT</span><span class="screen-reader-text"> (external link)</span></a></li>
+              {% else %}
+                <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+      <div class="br-directory__col">
+        <h3 class="br-directory__head">Elsewhere</h3>
+        <ul class="br-directory__links">
+          <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><a href="{{ site.author.googlescholar }}">Google Scholar<span class="br-ext" aria-hidden="true">EXT</span><span class="screen-reader-text"> (external link)</span></a></li>
+          <li><a href="https://x.com/{{ site.author.twitter }}">Twitter / X<span class="br-ext" aria-hidden="true">EXT</span><span class="screen-reader-text"> (external link)</span></a></li>
+          <li><a href="https://github.com/{{ site.author.github }}">GitHub<span class="br-ext" aria-hidden="true">EXT</span><span class="screen-reader-text"> (external link)</span></a></li>
+        </ul>
+      </div>
     </div>
-    {% for item in site.data.home.directory %}
-      <a class="br-index__row" href="{{ item.url | relative_url }}">
-        <span class="br-index__num">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
-        <span class="br-index__title">{{ item.title | replace: "Advice for Students", "Advice" }}</span>
-        <span class="br-index__desc">{{ item.description }}</span>
-        <span class="br-index__arrow">↗</span>
-      </a>
-    {% endfor %}
-    <a class="br-index__row" href="https://understandingamericanpolitics.substack.com">
-      <span class="br-index__num">{{ site.data.home.directory.size | plus: 1 | prepend: "0" | slice: -2, 2 }}</span>
-      <span class="br-index__title">Textbook</span>
-      <span class="br-index__desc">Understanding American Politics — my free, online text for Intro to American Politics courses.</span>
-      <span class="br-index__arrow">↗</span>
-    </a>
   </section>
 </div>

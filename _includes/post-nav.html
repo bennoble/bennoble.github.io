@@ -1,0 +1,37 @@
+{% if page.id and page.nav_section %}
+  {% include post-position.html %}
+  {% assign index_url = "/advice-for-students/" %}
+  {% assign index_label = "All advice" %}
+  {% if page.nav_section == "ai-guides" %}
+    {% assign index_url = "/ai-guides/" %}
+    {% assign index_label = "All guides" %}
+  {% endif %}
+  {% assign here = post_pos | minus: 1 %}
+  {% assign before = here | minus: 1 %}
+  {% assign after = here | plus: 1 %}
+  {% assign neighbor = nil %}
+  {% assign neighbor_label = "Previous" %}
+  {% assign neighbor_arrow_before = "← " %}
+  {% assign neighbor_arrow_after = "" %}
+  {% if here > 0 %}
+    {% assign neighbor = siblings[before] %}
+    {% assign neighbor_pos = before | plus: 1 %}
+  {% elsif here >= 0 and after < siblings.size %}
+    {% assign neighbor = siblings[after] %}
+    {% assign neighbor_pos = after | plus: 1 %}
+    {% assign neighbor_label = "Next" %}
+    {% assign neighbor_arrow_before = "" %}
+    {% assign neighbor_arrow_after = " →" %}
+  {% endif %}
+  {% if neighbor %}
+    <nav class="br-post-nav" aria-label="More in {{ page.nav_section }}">
+      <a href="{{ neighbor.url | relative_url }}">
+        <span class="br-post-nav__label">{{ neighbor_arrow_before }}{{ neighbor_label }} / {{ neighbor_pos | prepend: "0" | slice: -2, 2 }}{{ neighbor_arrow_after }}</span>
+        <span class="br-post-nav__title">{{ site.data.article_titles[neighbor.title] | default: neighbor.title }}</span>
+      </a>
+      <a href="{{ index_url | relative_url }}">
+        <span class="br-post-nav__label">{{ index_label }} →</span>
+      </a>
+    </nav>
+  {% endif %}
+{% endif %}

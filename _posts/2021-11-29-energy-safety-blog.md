@@ -26,7 +26,7 @@ Of course, what you think about a president going over the heads of legislators 
 
 Given the narrowness of presidential elections (to say nothing of the normative implications), how do we appropriately balance the desire for presidential action with the demands of democratic deliberation and control? Would it be better to further empower the president to enact policies in the national interest? Or is it better to play it safe, accepting some measure of legislative gridlock to prevent overly partisan or potentially damaging policies from taking effect when someone we oppose takes office?
 
-To help understand these tradeoffs and consider the consequences of expanding presidential power, I develop a game-theoretic model in my 2021 article “[Energy Versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/abs/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284136CE4F14),” which I summarize below (with no Greek letters!).
+To help understand these tradeoffs and consider the consequences of expanding presidential power, I develop a game-theoretic model in my 2021 article “[Energy Versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/abs/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284A36CE4FA4),” which I summarize below (with no Greek letters!).
 
 ## Setting It Up
 
@@ -66,6 +66,6 @@ Americans are both skeptical of executive power and desirous of a strong leader 
 
 ------------------------------------------------------------------------
 
-*This blog post is based on my 2021 article “[Energy Versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/abs/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284136CE4F14)” in* Political Science Research and Methods*.*
+*This blog post is based on my 2021 article “[Energy Versus Safety: Unilateral Action, Voter Welfare, and Executive Accountability](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/abs/energy-versus-safety-unilateral-action-voter-welfare-and-executive-accountability/83154F276FCBB0FC7745284A36CE4FA4)” in* Political Science Research and Methods*.*
 
 [^1]: This cost captures the bureaucratic resources needed to create an executive order as well as the potential for reversal by a future executive.
