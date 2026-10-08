@@ -13,21 +13,21 @@ lede: "An inverted AI workflow where the model interviews the instructor to elic
 
 <p class="prompt-intro">Thanks for coming to my talk at the <strong>UCSD Faculty AI Symposium</strong> on May 29, 2026. I'm <a href="/">Benjamin Noble</a>, an assistant professor of political science at UC San Diego. The prompt I demoed is below, ready to copy into the AI chatbot of your choice.</p>
 
-<a class="br-list-row br-advice-row" href="mailto:b2noble@ucsd.edu?subject=Inverted%20AI%20Interview%20Prompt">
+<a class="br-list-row" href="mailto:b2noble@ucsd.edu?subject=Inverted%20AI%20Interview%20Prompt">
   <span class="br-row-meta">01</span>
   <span>
     <span class="br-row-title">Email me</span>
     <span class="br-row-subtitle">Questions, reactions, or want to share how you used it?</span>
+    <span class="br-tags"><span class="br-row-action">Write</span></span>
   </span>
-  <span class="br-row-action">↗ Write</span>
 </a>
-<a class="br-list-row br-advice-row" href="/ai-guides/">
+<a class="br-list-row" href="/ai-guides/">
   <span class="br-row-meta">02</span>
   <span>
     <span class="br-row-title">AI Guides</span>
     <span class="br-row-subtitle">More on how I use AI in teaching and research.</span>
+    <span class="br-tags"><span class="br-row-action">Read</span></span>
   </span>
-  <span class="br-row-action">↗ Read</span>
 </a>
 
 <div class="br-section-label prompt-section-label">How to use</div>

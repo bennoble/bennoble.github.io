@@ -17,13 +17,13 @@ redirect_from:
 
 {% assign advice_posts = site.posts | where: "nav_section", "advice" | where_exp: "post", "post.archived != true" | sort: "nav_order" %}
 {% for post in advice_posts %}
-  <a class="br-list-row br-advice-row" href="{{ post.url | relative_url }}">
+  <a class="br-list-row" href="{{ post.url | relative_url }}">
     <span class="br-row-meta">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
     <span>
       <span class="br-row-title">{{ post.title }}</span>
       <span class="br-row-subtitle">{{ post.excerpt | strip_html }}</span>
+      <span class="br-tags"><span class="br-row-action">Read</span></span>
     </span>
-    <span class="br-row-action">↗ Read</span>
   </a>
 {% endfor %}
 
