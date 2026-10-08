@@ -114,4 +114,4 @@ If you have other questions, feel free to [email me](mailto:b2noble@ucsd.edu) an
 
 –
 
-Although I have always tried to set aside time for deep work, this year [with the pandemic](/blog/pandemic-productivity), I’ve gotten more intentional about time blocking. It probably won’t work for everyone, but if it sounds appealing, try it out for a month. It will be difficult at first, but stick with it. I bet it will pay off.
+Although I have always tried to set aside time for deep work, this year with the pandemic, I’ve gotten more intentional about time blocking. It probably won’t work for everyone, but if it sounds appealing, try it out for a month. It will be difficult at first, but stick with it. I bet it will pay off.
