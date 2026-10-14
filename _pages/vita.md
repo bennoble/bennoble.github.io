@@ -64,10 +64,10 @@ record_count: "CV current JUN 2026"
     </div>
   </div>
   <div class="br-cv-row">
-    <div class="br-cv-year">2025</div>
+    <div class="br-cv-year">2026</div>
     <div>
       <p class="br-cv-title">Presidential Negative Partisanship</p>
-      <p class="br-cv-detail">Benjamin S. Noble. <em>Political Science Research and Methods</em>.</p>
+      <p class="br-cv-detail">Benjamin S. Noble. <em>Political Science Research and Methods</em> 14(4): 1051&ndash;70.</p>
     </div>
   </div>
   <div class="br-cv-row">
