@@ -116,6 +116,13 @@ record_count: "CV current JUN 2026"
       <p class="br-cv-detail">Gechun Lin and Benjamin S. Noble.</p>
     </div>
   </div>
+  <div class="br-cv-row">
+    <div class="br-cv-year">&mdash;</div>
+    <div>
+      <p class="br-cv-title">Picturing Representation: The Electoral Logic of Congressional Self-Presentation</p>
+      <p class="br-cv-detail">Pamela Ban and Benjamin S. Noble.</p>
+    </div>
+  </div>
 </section>
 
 <section class="br-cv-section">

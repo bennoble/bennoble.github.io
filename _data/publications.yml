@@ -99,17 +99,21 @@ published:
 working_papers:
   - title: "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda"
     authors: "David Ryan Miller, Benjamin S. Noble, and Erin L. Rossiter"
-    status: "R&R"
     links:
       - label: "Paper"
         url: "/files/papers/presidents_pressbriefings.pdf"
 
   - title: "Rhetorical Cohesion: Measuring Party Unity in Political Messaging"
     authors: "Gechun Lin and Benjamin S. Noble"
-    status: "Under review"
     links:
       - label: "Paper"
         url: "/files/papers/cohesion.pdf"
+
+  - title: "Picturing Representation: The Electoral Logic of Congressional Self-Presentation"
+    authors: "Pamela Ban and Benjamin S. Noble"
+    links:
+      - label: "Paper"
+        url: "/files/papers/cong-images.pdf"
 
 other_publications:
   - title: "Public Opinion and Public Support in Crisis Management"
